@@ -778,29 +778,29 @@ ItemDisplay[(NMAG !(CL5 OR WP11 OR WP12 OR WP13) ((ILVL=12 CLVL>6) OR (ILVL=20 C
 /⃓̲ Hidden: Regular non-class items with little or no runeword useability
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
 /⃓̲    2-socket											90
-/⃓̲    2-socket			elite light body armor within 2% max def, superior		80
+/⃓̲    2-socket			elite light body armor within 2% max def or higher		80
 /⃓̲    2-socket			light armor							70
-/⃓̲    0/2-socket non-elite	Tiara, Ornate, 2 sockets: Grim Helm, Mage Plate, Grim Shield	60
+/⃓̲    0/2-socket non-elite	Grim Helm, Mage Plate, Grim Shield, Tiara, eth Ornate Armor	60
 /⃓̲    1-socket											15
 /⃓̲    0-socket armor		Tiara, Ornate, Mage Plate, elite/+ED: socket-capable armor	15
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>89)]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>79) !(ELT EQ2 ITEMSTAT67=0 (ED>0 OR ((uui DEF>458) OR (uea DEF>461) OR (ula DEF>465) OR (utu DEF>471) OR (urs DEF>490) OR (utp DEF>511))))]:
-ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>69) (WEAPON OR ITEMSTAT67>99)]:
-ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((NMAG (SOCK=2 OR SOCK=0) CLVL>59) (NORM OR (EXC !(((xh9 OR xtp OR xsh) SOCK>1) OR (WP8 ETH) OR ci2))))]:
+ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>69) (WEAPON OR ITEMSTAT67>999)]:
+ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((NMAG (SOCK=2 OR SOCK=0) CLVL>59) (NORM OR (EXC !(xh9 OR xtp OR xsh OR ci2 OR (xar ETH)))))]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=1 NMAG) CLVL>14)]:
-ItemDisplay[NMAG CLVL>14 (ARMOR SOCK=0 !(((EQ1 OR EQ2 OR EQ3) (ELT OR ED>0)) OR CL1 OR CL2 OR ci2 OR xar OR xtp))]:
+ItemDisplay[NMAG CLVL>14 (ARMOR SOCK=0 !(CL1 OR CL2 OR ((EQ1 OR EQ2 OR EQ3) (ELT OR ED>0)) OR ci2 OR xar OR xtp))]:
 
 /⃓̲ Hidden: Regular body armor
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
-/⃓̲    body armor			elite, eth Ornate Armor, 2+ sockets: Mage Plate (until 90)	70
-/⃓̲    2+ socket elite (light)	within 2% of max defense, superior				90
-/⃓̲    0-socket elite		light within 1% of max defense, superior			90
+/⃓̲    body armor			elite, eth Ornate Armor, 2+ socket Mage Plate			70
+/⃓̲    2+ socket (light)		elite & Mage Plate: within 2% of max defense or higher		90
+/⃓̲    0-socket elite		light within 1% of max defense or higher			90
 /⃓̲    elite			450+ defense							85
-/⃓̲    elite			medium/heavy within 1% max def, non-inferior light		80
+/⃓̲    elite			non-inferior: light, medium/heavy within 1% max def or higher	80
 /⃓̲    eth			0-socket 700+ defense, socketed 650+ defense			90
 /⃓̲    eth			0-socket 650+ defense, socketed 600+ defense			80
-ItemDisplay[EQ2 NMAG CLVL>69 (NORM OR (EXC !((xtp CLVL<90) OR (xar ETH))))]:
-ItemDisplay[EQ2 NMAG CLVL>89 SOCK>1 ((uui DEF<459) OR (uea DEF<462) OR (ula DEF<466) OR (utu DEF<472) OR (urs DEF<491) OR (utp DEF<512))]:
+ItemDisplay[EQ2 NMAG CLVL>69 (NORM OR (EXC !((xtp SOCK>1 !ETH) OR (xar ETH))))]:
+ItemDisplay[EQ2 NMAG CLVL>89 SOCK>1 ((uui DEF<459) OR (uea DEF<462) OR (ula DEF<466) OR (utu DEF<472) OR (urs DEF<491) OR (utp DEF<512) OR (xtp DEF<257))]:
 ItemDisplay[EQ2 NMAG CLVL>89 SOCK=0 ((ITEMSTAT67>999 !ETH) OR (uui DEF<464) OR (uea DEF<467) OR (ula DEF<471) OR (utu DEF<477) OR (urs DEF<497) OR (utp DEF<519))]:
 ItemDisplay[EQ2 NMAG CLVL>84 (ELT DEF<450)]:
 ItemDisplay[EQ2 NMAG CLVL>79 ELT (INF OR (ung DEF<485) OR (ucl DEF<492) OR (uhn DEF<501) OR (upl DEF<513) OR (uld DEF<519) OR (ult DEF<526) OR (uth DEF<537) OR (uul DEF<553) OR (uar DEF<595))]:
@@ -809,12 +809,12 @@ ItemDisplay[EQ2 NMAG CLVL>79 (ETH ((DEF<650 SOCK=0) OR (DEF<600 SOCK>1)))]:
 
 /⃓̲ Hidden: Regular shields
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
-/⃓̲    0-socket shields		within 1% of max def: Monarch, Hyperion, Troll Nest		90
+/⃓̲    0-socket shields		within 1% of max def or higher: Monarch, Hyperion, Troll Nest	90
 /⃓̲    elite shields		4s, 0s Monarch, 3s high def, 3s/high def Hyperion		70
-/⃓̲    shields			non-eth: Grim Shield, 3+ socket-capable elite			50
+/⃓̲    shields			non-eth: Grim Shield, 3+ socket-capable elite, eth Monarch	50
 ItemDisplay[NMAG CLVL>89 EQ3 SOCK=0 !((uit DEF>146) OR (urg DEF>133) OR (ush DEF>171))]:
 ItemDisplay[NMAG CLVL>69 EQ3 ELT !(SOCK>3 OR (uit SOCK=0) OR (SOCK>2 DEF>157) OR (urg (SOCK>2 OR DEF>133)))]:
-ItemDisplay[NMAG CLVL>49 EQ3 !(((ELT !(uuc OR uml)) OR xsh) !ETH)]:
+ItemDisplay[NMAG CLVL>49 EQ3 !(((ELT !(uuc OR uml)) OR xsh) (!ETH OR uit))]:
 
 /⃓̲ Hidden: Regular helms
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
@@ -839,7 +839,7 @@ ItemDisplay[NMAG WP8 CLVL>29 NORM !(SOCK=4 OR ETH)]:
 /⃓̲    spears			+ED eth elite, 0/3/6s eth: Mancatcher, Ghost Spear, War Pike	30
 /⃓̲    daggers/throwables		3-socket/+ED Fanged Knife					20
 ItemDisplay[!CL7 NMAG CLVL>29 ((WP7 !WP6) !((ELT ETH ED>0) OR ((7br OR 7st OR 7p7) ETH (SOCK>5 OR SOCK=0 OR SOCK=3))))]:
-ItemDisplay[!CL7 NMAG CLVL>19 ((WP4 OR WP5) !(7kr (SOCK>2 OR ED>0)))]:
+ItemDisplay[!CL7 NMAG CLVL>19 ((WP4 OR WP5) !(7kr (SOCK>2 OR (ED>0 SOCK=0))))]:
 
 /⃓̲ Hidden: Regular Bows & Crossbows  (non-class)
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
@@ -857,12 +857,12 @@ ItemDisplay[!CL7 NMAG WP9 CLVL>29 !((SOCK>2 SOCK<5) OR ELT OR ED>0)]:
 /⃓̲    eth		   0	Legend Sword, Colossus Sword, Colossus Blade, Berserker Axe, Glorious Axe, Thunder Maul, any elite*
 /⃓̲    eth		   3	any elite sword, Dimensional Blade
 /⃓̲    eth		   3+	any elite 2-handed sword, any elite*
-/⃓̲    eth		   4+	Scourge, Berserker Axe, Ettin Axe, Glorious Axe, Champion Axe, 5s Silver-Edged Axe, 6s Thunder Maul
+/⃓̲    eth		   4+	4-5s Crystal Sword, Flail, 5s Double Axe, Scourge, Berserker Axe, Ettin Axe, Glorious Axe, Champion Axe, 5s Silver-Edged Axe, 6s Thunder Maul
 /⃓̲    non-eth		   0	any elite*
 /⃓̲    non-eth		   3+	Phase Blade, Berserker Axe, Scourge, Colossus Blade, any elite*
-/⃓̲    non-eth		   4+	4-5s Crystal Sword, Broad Sword, Flail;  until level 70: any normal 4-6s sword, any normal one-handed 5s axe
+/⃓̲    non-eth		   4+	4-5s Crystal Sword, Broad Sword, Flail, 5s Double Axe;  until level 70: any normal 4-6s sword, any normal one-handed 5s axe
 /⃓̲    non-eth		   5	Double Axe, Dimensional Blade
-ItemDisplay[NMAG ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK=0 (72h OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm)) OR ((9cr OR (WP3 ELT)) SOCK=3) OR (WP3 ELT SOCK>2 !7bs !7ls) OR ((7fl OR 7wa OR 72a OR 7gi OR 7ga) SOCK>3) OR (7ba SOCK>4) OR (7gm SOCK>5)))]:
+ItemDisplay[NMAG ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK=0 (72h OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm)) OR ((9cr OR (WP3 ELT)) SOCK=3) OR (WP3 ELT SOCK>2 !7bs !7ls) OR ((fla OR (crs SOCK<6) OR 7fl OR 7wa OR 72a OR 7gi OR 7ga) SOCK>3) OR ((2ax OR 7ba) SOCK>4) OR (7gm SOCK>5)))]:
 ItemDisplay[NMAG !ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK>2 (7cr OR 7wa OR 7fl OR 7gd)) OR (SOCK>3 (((bsd OR crs) SOCK<6) OR fla OR (((WP3 NORM) OR ((mpi OR wax) SOCK=5)) CLVL<70))) OR ((2ax OR 9cr) SOCK=5)))]:
 
 /⃓̲ Modification: Emphasize nearly-superior elite socketable armor - level 40 until 90
