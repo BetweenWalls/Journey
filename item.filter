@@ -1,17 +1,11 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo
-/		Date Updated:	21 DEC 2019
+/		Date Updated:	30 DEC 2019
 /		Info:		https://github.com/BetweenWalls/Journey#Journey
 /
-/		Download:	https://drive.google.com/uc?id=10NTOWXQWXSHK6F0xdvl-3QC6fikZd1HW
+/		Download:	https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9
 /		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-/ Installation:
-/	1. Ensure this file is named item.filter
-/	2. Copy this file to your Path of Diablo directory  (C:\...\Diablo II\Path of Diablo)
-/	     - this can also be done via the Launcher by using the direct URL or the file's location  (C:\...\Downloads\item.filter)
-/	3. Enable custom filters from the in-game Settings menu
-/
 / Notes:
 /	All hidden items are preceded by "hidden" and a short description
 /	The "/⃓̲" symbol functions the same as "/" and is used to distinguish filtration rules from everything else
@@ -388,7 +382,7 @@ ItemDisplay[r26]:	       %NAME%       				// Vex	 worth about the same or slight
 ItemDisplay[	r32]:	        %NAME%        				// Cham	 always worth 1/2 of Zod
 ItemDisplay[r27]:	         %NAME%         			// Ohm	 always worth 1/2 of Lo
 ItemDisplay[	r29]:	           %NAME%           			// Sur	 the benchmark rune, worth 1 "HR"
-ItemDisplay[	r33]:	            %NAME%            			// Zod	 valued between Sur and Lo, typically 1 "HR"
+ItemDisplay[	r33]:	            %NAME%            			// Zod	 typically worth about the same or slightly more than Sur, up to 1.2 "HR"
 ItemDisplay[r28]:	               %NAME%               		// Lo	 valued between Sur and Ber, but not more than 1.5 "HR"
 ItemDisplay[r30]:	                 %NAME%                 	// Ber	 always worth 2x Sur, or 2 "HR"
 ItemDisplay[r31]:	                    %NAME%                    	// Jah	 typically worth about the same or slightly more than Ber, up to 2.5 "HR"
@@ -526,9 +520,7 @@ ItemDisplay[ID !(NMAG OR MAG OR RARE) ILVL>69]: %GRAY%[L%ILVL%] %ORANGE%%NAME%%D
 /⃓̲ ┌──────────────────────────────────────┐
 /⃓̲═╡ Crafting Ingredients  (unidentified) ╞══════════════════════════════════════════════════════════════════════════════
 /⃓̲ └──────────────────────────────────────┘
-/⃓̲ Notes:
-/⃓̲    Crafting recipes use 4 components: jewel, magic item, perfect gem, rune
-/⃓̲    Identified crafting ingredients are in a separate category at the end of the filter
+/⃓̲ Notes:  Crafting recipes use 4 components: jewel, magic item, perfect gem, rune
 
 /⃓̲ Popular Recipes, ordered by the limiting component: runes
 /⃓̲    INGREDIENT		GEM USED	RUNE USED	NOTABLE AFFIXES
@@ -861,9 +853,8 @@ ItemDisplay[!CL7 NMAG WP9 CLVL>29 !((SOCK>2 SOCK<5) OR ELT OR ED>0)]:
 /⃓̲    non-eth		   0	any elite*
 /⃓̲    non-eth		   3+	Phase Blade, Berserker Axe, Scourge, Colossus Blade, any elite*
 /⃓̲    non-eth		   4+	4-5s Crystal Sword, Broad Sword, Flail, 5s Double Axe;  until level 70: any normal 4-6s sword, any normal one-handed 5s axe
-/⃓̲    non-eth		   5	Double Axe, Dimensional Blade
 ItemDisplay[NMAG ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK=0 (72h OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm)) OR ((9cr OR (WP3 ELT)) SOCK=3) OR (WP3 ELT SOCK>2 !7bs !7ls) OR ((fla OR (crs SOCK<6) OR 7fl OR 7wa OR 72a OR 7gi OR 7ga) SOCK>3) OR ((2ax OR 7ba) SOCK>4) OR (7gm SOCK>5)))]:
-ItemDisplay[NMAG !ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK>2 (7cr OR 7wa OR 7fl OR 7gd)) OR (SOCK>3 (((bsd OR crs) SOCK<6) OR fla OR (((WP3 NORM) OR ((mpi OR wax) SOCK=5)) CLVL<70))) OR ((2ax OR 9cr) SOCK=5)))]:
+ItemDisplay[NMAG !ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK>2 (7cr OR 7wa OR 7fl OR 7gd)) OR (SOCK>3 (((bsd OR crs) SOCK<6) OR fla OR (((WP3 NORM) OR ((mpi OR wax) SOCK=5)) CLVL<70))) OR (2ax SOCK=5)))]:
 
 /⃓̲ Modification: Emphasize nearly-superior elite socketable armor - level 40 until 90
 ItemDisplay[NMAG (CLVL>39 CLVL<90) (ELT (EQ1 OR EQ2 OR EQ3) !(SUP OR ETH)) ((uap DEF>139) OR (uhm DEF>151) OR (urn DEF>154) OR (usk DEF>156) OR (uh9 DEF>162) OR (uit DEF>146) OR (ush DEF>171) OR (urg DEF>133) OR (upk DEF>161) OR (uow DEF>159) OR (uts DEF>168) OR (uui DEF>458) OR (uea DEF>461) OR (ula DEF>465) OR (utu DEF>471) OR (urs DEF>490) OR (utp DEF>511) OR (ung DEF>484) OR (ucl DEF>491) OR (uhn DEF>500) OR (upl DEF>512) OR (uld DEF>518) OR (ult DEF>525) OR (uth DEF>536) OR (uul DEF>552) OR (uar DEF>594))]: %NAME% +%CONTINUE%
@@ -1293,8 +1284,8 @@ ItemDisplay[(NMAG (WP11 OR CL6)) (SK36>2 OR SK37>2 OR SK38>2 OR SK39>2 OR SK40>2
 /⃓̲═╡ Regular: Low-Precedence ╞═══════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └─────────────────────────┘
 /⃓̲ Obscured/Hidden: Regular Skill-Capable Merchant Items - levels 7, 15
-ItemDisplay[NMAG ((ILVL=12 CLVL>6) OR (ILVL=20 CLVL>14))]:%GRAY%
-/⃓̲ Hidden: Regular skill-capable items with poor traits for selling  (ilvl 10+)
+ItemDisplay[NMAG ((ILVL=12 CLVL>6) OR (ILVL=20 CLVL>14)) (WP11 OR WP12 OR WP13)]:%GRAY%
+/⃓̲ Hidden: Regular skill-capable items with poor traits for selling: eth or more than 4 inventory spaces  (ilvl 10+)
 ItemDisplay[NMAG ILVL>9 (ETH OR wsp OR 9ws OR 7ws OR wst OR 8ws OR 6ws)]:
 
 /⃓̲ Regular Class-Related Sale Items  (shown when below 100,000 g)
@@ -1371,7 +1362,7 @@ ItemDisplay[MAG EQ4 ((TABSK0>2 OR TABSK2>2) IAS>10)]: %NAME%%ORANGE%
 ItemDisplay[MAG EQ4 ((TABSK0>2 OR TABSK2>2) OR ((TABSK0>1 OR TABSK1>2 OR TABSK2>1) IAS>0) OR ((TABSK0>0 OR TABSK1>1 OR TABSK2>0) IAS>10))]: %NAME%%TAN%
 /⃓̲    Gloves:  Assassin
 ItemDisplay[MAG EQ4 (TABSK50>2 IAS>10)]: %NAME%%ORANGE%
-ItemDisplay[MAG EQ4 (TABSK50>2 OR (TABSK50>1 IAS>0) OR (TABSK50>0 IAS>10))]: %NAME%%TAN%
+/ItemDisplay[MAG EQ4 (TABSK50>2 OR (TABSK50>1 IAS>0) OR (TABSK50>0 IAS>10))]: %NAME%%TAN%
 /⃓̲    Weapons:  Barbarian
 ItemDisplay[(MAG (WEAPON !(WP8 OR (WP7 !WP6))) TABSK34>2)]: %NAME%%ORANGE%
 /⃓̲    Clubs:  Druid
