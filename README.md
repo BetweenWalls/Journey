@@ -40,7 +40,7 @@ Equipment Items that are always displayed:
 ## Installation
 Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL listed at the top of the filter.
 
-Alternatively, [download **item.filter**](https://drive.google.com/uc?id=10NTOWXQWXSHK6F0xdvl-3QC6fikZd1HW) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu. Any changes made to the filter can be seen by refreshing the same option.
+Alternatively, [download **item.filter**](https://drive.google.com/uc?id=10NTOWXQWXSHK6F0xdvl-3QC6fikZd1HW) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu. Any changes made to the filter can be seen by refreshing the same option. See the wiki for a [list of item codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes).
 
 ## Images
 ![_](/images/miscellaneous_items.png)
