@@ -41,4 +41,6 @@ Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-M
 ![_](/images/unidentified_items.png)
 ![_](/images/uniques_special_properties.png)
 ![_](/images/runes.png)
+![_](/images/regular_items.png)
+![_](/images/regular_class_items.png)
 ![_](/images/gems.png)
