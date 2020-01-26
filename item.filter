@@ -425,8 +425,11 @@ ItemDisplay[jew RARE ILVL<31]: %NAME% %GRAY%[L%ILVL%]%DGREEN%			// ilvl 16-30 sh
 /⃓̲ Modification: Charms
 ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %PURPLE%%NAME%%CONTINUE%
 
+/⃓̲ Highlighting
+ItemDisplay[(cm1 OR cm3) MAG !ID (ILVL>90 OR (cm1 (ILVL=47 OR (ILVL>56 ILVL<63))))]:	  %NAME%  %DGREEN%
+ItemDisplay[((cm1 ILVL>46) OR (cm3 ILVL>49)) MAG !ID]:					 %NAME% %DGREEN%
+
 /⃓̲ Show ilvl for rerolling
-ItemDisplay[(cm1 OR cm3) MAG !ID (ILVL>90 OR (cm1 (ILVL=47 OR (ILVL>56 ILVL<63))))]:	 %NAME% %DGREEN%
 ItemDisplay[(cm1 OR cm3) MAG (ILVL>90 OR (cm1 (ILVL=47 OR (ILVL>56 ILVL<63))))]: %NAME% %TAN%[L%ILVL%]%DGREEN%				// Tan ilvl = best for rerolling
 ItemDisplay[((cm1 ((ILVL>46 ILVL<64) OR (ILVL>87 !ILVL=90))) OR (cm3 ((ILVL>49 ILVL<55) OR ILVL>76))) MAG ID]: %NAME% %WHITE%[L%ILVL%]%DGREEN%	// White ilvl = good for rerolling
 ItemDisplay[((cm1 ILVL>46) OR (cm3 ILVL>49)) MAG]: %NAME% %GRAY%[L%ILVL%]%DGREEN%								// Gray ilvl = okay for rerolling
