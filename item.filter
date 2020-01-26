@@ -1,6 +1,6 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo
-/		Date Updated:	25 JAN 2019
+/		Date Updated:	26 JAN 2019
 /		Info:		https://github.com/BetweenWalls/Journey#Journey
 /
 /		Download:	https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9
@@ -1043,21 +1043,18 @@ ItemDisplay[CL2 NMAG !SOCK=1 SK151>0]: %NAME% %ORANGE%Whirlwind%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 SK147>0]: %NAME% %ORANGE%Frenzy%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 (SK154>1 SK149>1)]: %NAME% %TAN%War Cry & Battle Orders%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 (SK138>1 SK149>1)]: %NAME% %TAN%Battle Orders & Shout%DGREEN%
+ItemDisplay[CL2 NMAG !SOCK=1 (SK136>0 (SK138>2 OR SK149>1 OR SK150>2 OR SK127>2 OR SK129>2))]: %NAME% %TAN%1H Mastery%DGREEN%	// Legacy 1-Hand Weapon Mastery - only obtainable via primal helms
 ItemDisplay[CL2 NMAG !SOCK=1 SK149>2]: %NAME% %TAN%Battle Orders%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 SK154>2]: %NAME% %TAN%War Cry%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 SK138>2]: %NAME% %TAN%Shout%DGREEN%
-ItemDisplay[CL2 NMAG !SOCK=1 (SK136>1 (SK149>1 OR SK138>1 OR SK150>1 OR SK152>2))]: %NAME% %TAN%One-Handed Mastery +%DGREEN%
 
 /⃓̲ Levelling & SSF Rules
 ItemDisplay[CL2 NMAG !SOCK=1 SK150>2 CLVL<90]: %NAME% %TAN%Grim Ward%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 SK142>2 CLVL<90]: %NAME% %TAN%Find Item%DGREEN%
-ItemDisplay[CL2 NMAG !SOCK=1 (((SK127>0 OR SK128>0 OR SK129>0) (SK134>1 OR SK136>1)) OR (SK128>0 (SK135>1 OR SK133>1 OR SK140>1)))]: %NAME% %TAN%Mastery +%DGREEN%
 ItemDisplay[CL2 NMAG !SOCK=1 SK133>2]: %NAME% %TAN%Ethereal Throw%DGREEN%
-ItemDisplay[CL2 NMAG !SOCK=1 SK134>2]: %NAME% %TAN%Two-Handed Mastery%DGREEN%
-ItemDisplay[CL2 NMAG !SOCK=1 SK135>2]: %NAME% %TAN%Throwing Mastery%DGREEN%
 /ItemDisplay[NMAG SK153>1 ILVL<60]: %NAME% %TAN%Natural Resistance%DGREEN%
 /ItemDisplay[NMAG SK138>1 ILVL<30]: %NAME% %TAN%Shout%DGREEN%
-ItemDisplay[CL2 NMAG !SOCK=1 (SK127>2 OR SK128>2 OR SK129>2)]: %NAME% %TAN%Mastery%DGREEN%	// Axe/Mace/Sword Mastery - only obtainable via primal helms
+ItemDisplay[CL2 NMAG !SOCK=1 SK134>2]: %NAME% %TAN%2H Mastery%DGREEN%	// Legacy 2-Hand Weapon Mastery - only obtainable via primal helms
 
 /⃓̲ Any +3 Skill unobtainable after Normal difficulty
 /ItemDisplay[(NMAG CL2) (SK126>2 OR SK127>2 OR SK128>2 OR SK129>2 OR SK130>2 OR SK131>2 OR SK132>2 OR SK133>2 OR SK134>2 OR SK135>2)]: %NAME% %GRAY%«%DGREEN%
