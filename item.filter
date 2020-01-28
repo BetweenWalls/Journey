@@ -169,8 +169,9 @@ ItemDisplay[opm OR ops OR gpm OR gps]:
 /ItemDisplay[ice]: %NAME%					// Malah's Potion
 /ItemDisplay[tr2]: %NAME%					// Scroll of Resistance
 
-/⃓̲ Quest Equipment Items
+/⃓̲ Collective Rules
 ItemDisplay[(hdm OR msf OR vip OR hst OR g33 OR qf1 OR qf2 OR hfh) SOCK=0]: %NAME%
+/ItemDisplay[(bks OR bkd OR box OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2)]: %NAME%
 
 
 /⃓̲ ┌─────────┐
@@ -202,6 +203,11 @@ ItemDisplay[ma5 ID]: %TAN%%NAME% %GRAY%[T2]%RED%		// Frigid Plateau
 ItemDisplay[ma6 ID]: %TAN%%NAME% %GRAY%[T3]%RED%		// Ruined Citadel
 ItemDisplay[ma2 ID]: %TAN%%NAME% %GRAY%[T4]%RED%		// Forgotten Desert
 ItemDisplay[ma4 OR ma5 OR ma6 OR ma2 OR maz]: %TAN%%NAME%%RED%
+/⃓̲ Legacy Items
+/ItemDisplay[cm4]:	  Horadrim Sigil  			// Horadrim Sigil
+/ItemDisplay[cx8]:	  %DGREEN%%NAME%  			// Orb of Enchantment
+
+/ItemDisplay[(toa OR dhn OR bey OR mbr OR cx6 OR cm4 OR cx8)]: %NAME%
 
 
 /⃓̲ ┌───────────────┐
@@ -257,6 +263,8 @@ ItemDisplay[ear]: %GRAY%%NAME%%RED%				// Player Ear
 /ItemDisplay[(tbk OR ibk) ITEMSTAT70=18]: %NAME% %GRAY%(18)%DGREEN%
 /ItemDisplay[(tbk OR ibk) ITEMSTAT70=19]: %NAME% %GRAY%(19)%DGREEN%
 /ItemDisplay[(tbk OR ibk) ITEMSTAT70=20]: %NAME% %GRAY%(20)%DGREEN%
+
+/ItemDisplay[(tbk OR ibk OR std)]: %NAME%%DGREEN%
 
 
 /⃓̲ ┌──────┐
@@ -404,6 +412,12 @@ ItemDisplay[((cm1 ILVL>46) OR (cm3 ILVL>49)) MAG]: %NAME% %GRAY%[L%ILVL%]%DGREEN
 /⃓̲ ┌───────────────────┐
 /⃓̲═╡ General Equipment ╞═════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └───────────────────┘
+
+/⃓̲ Catchall - Non-Equipment  (explicit, show code for new items)
+/ItemDisplay[(bks OR bkd OR box OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2)]: %NAME%
+/ItemDisplay[(toa OR dhn OR bey OR mbr OR cx6 OR tbk OR ibk OR std OR ((jew OR cm1 OR cm2 OR cm3) !UNI) OR cm4 OR cx8)]: %NAME%%DGREEN%
+/ItemDisplay[!(ARMOR OR WEAPON OR rin OR amu OR aq2 OR cq2 OR aqv OR cqv OR (UNI (jew OR cm3 OR cm2 OR cm1)))]: %NAME% %RED%{%CODE%}
+
 /⃓̲ Catchall - Non-Equipment
 ItemDisplay[!(ARMOR OR WEAPON OR rin OR amu OR aq2 OR cq2 OR aqv OR cqv OR (UNI (jew OR cm3 OR cm2 OR cm1)))]: %NAME%%DGREEN%
 
