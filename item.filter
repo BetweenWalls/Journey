@@ -2269,12 +2269,12 @@ ItemDisplay[UNI obf]:		%GOLD%         %NAME% %DGREEN%Death's Fathom         	// 
 /ItemDisplay[rin SET]:		%GREEN%%NAME%%DGREEN%					// Ring
 
 /⃓̲ Shared Bases  (only one result possible)
-ItemDisplay[SET (vbt !((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%DGREEN%Sander's %GREEN%%NAME%	// Heavy Boots		Sander's Riprap
-ItemDisplay[SET cap ILVL<20]:	%DGREEN%Infernal %GREEN%%NAME%				// Cap			Infernal Cranium
-ItemDisplay[SET tbl ILVL<21]:	%DGREEN%Infernal %GREEN%%NAME%				// Heavy Belt		Infernal Sign
-ItemDisplay[SET crn ILVL<23]:	%DGREEN%Iratha's %GREEN%%NAME%				// Crown		Iratha's Coil
-ItemDisplay[SET tgl ILVL<21]:	%DGREEN%Arctic %GREEN%%NAME%				// Light Gauntlets	Arctic Mitts
-ItemDisplay[SET mbl ILVL<28]:	%DGREEN%Hsarus' %GREEN%%NAME%				// Belt			Hsarus' Iron Stay
+/ItemDisplay[SET (vbt !((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%DGREEN%Sander's %GREEN%%NAME%	// Heavy Boots		Sander's Riprap
+/ItemDisplay[SET cap ILVL<20]:	%DGREEN%Infernal %GREEN%%NAME%				// Cap			Infernal Cranium
+/ItemDisplay[SET tbl ILVL<21]:	%DGREEN%Infernal %GREEN%%NAME%				// Heavy Belt		Infernal Sign
+/ItemDisplay[SET crn ILVL<23]:	%DGREEN%Iratha's %GREEN%%NAME%				// Crown		Iratha's Coil
+/ItemDisplay[SET tgl ILVL<21]:	%DGREEN%Arctic %GREEN%%NAME%				// Light Gauntlets	Arctic Mitts
+/ItemDisplay[SET mbl ILVL<28]:	%DGREEN%Hsarus' %GREEN%%NAME%				// Belt			Hsarus' Iron Stay
 
 
 /⃓̲ Angelic Raiment
