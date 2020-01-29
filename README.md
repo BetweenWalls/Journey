@@ -21,8 +21,8 @@ Most items are shown at level 1; junk items are gradually hidden as your charact
 * identified relics show their tier
 
 ### Examples of optional features:
-* individual names for unidentified unique/set items
-* all individual skills shown
+* [individual names for unidentified unique/set items](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names)
+* [all individual skills shown](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills)
 * unwanted merchant items hidden to assist with 'shopping'
 * all crafting ingredients with more descriptive recipes
 * item quality (normal, exceptional, elite) for uniques/rares
