@@ -2292,7 +2292,7 @@ ItemDisplay[UNI obf]:		%GOLD%         %NAME% %DGREEN%Death's Fathom         	// 
 /⃓̲ Arctic Gear
 /ItemDisplay[SET qui]:	%GREEN%%NAME% %DGREEN%Arctic Furs				// Quilted Armor	Arctic Furs
 /ItemDisplay[SET vbl]:	%GREEN%%NAME% %DGREEN%Arctic Binding				// Light Belt		Arctic Binding
-ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's Cuff %WHITE%<%GREEN%][%WHITE%> %DGREEN%Arctic Mitts			// Light Gauntlets	Arctic Mitts  (shared base)
+/ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's Cuff %WHITE%<%GREEN%][%WHITE%> %DGREEN%Arctic Mitts			// Light Gauntlets	Arctic Mitts  (shared base)
 /ItemDisplay[SET swb]:	%GREEN%%NAME% %DGREEN%Arctic Horn				// Short War Bow	Arctic Horn
 
 /⃓̲ Berserker's Arsenal
@@ -2325,17 +2325,17 @@ ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's Cuff %WHITE%<%GREEN%][%WHIT
 /⃓̲ Hsarus' Defense
 /ItemDisplay[SET buc]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Fist				// Buckler		Hsarus' Iron Fist
 /ItemDisplay[SET mbt]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Heel				// Chain Boots		Hsarus' Iron Heel
-ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Stay %WHITE%<%GREEN%][%WHITE%> %DGREEN%Hwanin's Blessing		// Belt			Hsarus' Iron Stay  (shared base)
+/ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Stay %WHITE%<%GREEN%][%WHITE%> %DGREEN%Hwanin's Blessing		// Belt			Hsarus' Iron Stay  (shared base)
 
 /⃓̲ Infernal Tools
-ItemDisplay[SET cap]:	%GREEN%%NAME% %DGREEN%Sander's Paragon %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Cranium		// Cap			Infernal Cranium  (shared base)
-ItemDisplay[SET tbl]:	%GREEN%%NAME% %DGREEN%Iratha's Cord %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Sign			// Heavy Belt		Infernal Sign  (shared base)
+/ItemDisplay[SET cap]:	%GREEN%%NAME% %DGREEN%Sander's Paragon %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Cranium		// Cap			Infernal Cranium  (shared base)
+/ItemDisplay[SET tbl]:	%GREEN%%NAME% %DGREEN%Iratha's Cord %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Sign			// Heavy Belt		Infernal Sign  (shared base)
 /ItemDisplay[SET gwn]:	%GREEN%%NAME% %DGREEN%Infernal Torch				// Grim Wand		Infernal Torch
 
 /⃓̲ Iratha's Finery
-ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's Coil %WHITE%<%GREEN%][%WHITE%> %DGREEN%Milabrega's Diadem		// Crown		Iratha's Coil  (shared base; not Mithril Coil)
-ItemDisplay[SET tbl]:	%GREEN%%NAME% %DGREEN%Iratha's Cord %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Sign			// Heavy Belt		Iratha's Cord  (shared base)
-ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's Cuff %WHITE%<%GREEN%][%WHITE%> %DGREEN%Arctic Mitts			// Light Gauntlets	Iratha's Cuff  (shared base)
+/ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's Coil %WHITE%<%GREEN%][%WHITE%> %DGREEN%Milabrega's Diadem		// Crown		Iratha's Coil  (shared base; not Mithril Coil)
+/ItemDisplay[SET tbl]:	%GREEN%%NAME% %DGREEN%Iratha's Cord %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Sign			// Heavy Belt		Iratha's Cord  (shared base)
+/ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's Cuff %WHITE%<%GREEN%][%WHITE%> %DGREEN%Arctic Mitts			// Light Gauntlets	Iratha's Cuff  (shared base)
 /⃓̲	amulet:				      Iratha's Collar
 
 /⃓̲ Isenhart's Armory
@@ -2345,7 +2345,7 @@ ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's Cuff %WHITE%<%GREEN%][%WHIT
 /ItemDisplay[SET gts]:	%GREEN%%NAME% %DGREEN%Isenhart's Parry				// Gothic Shield	Isenhart's Parry
 
 /⃓̲ Milabrega's Regalia
-ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's Coil %WHITE%<%GREEN%][%WHITE%> %DGREEN%Milabrega's Diadem		// Crown		Milabrega's Diadem  (shared base; not Diadem)
+/ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's Coil %WHITE%<%GREEN%][%WHITE%> %DGREEN%Milabrega's Diadem		// Crown		Milabrega's Diadem  (shared base; not Diadem)
 /ItemDisplay[SET aar]:	%GREEN%%NAME% %DGREEN%Milabrega's Robe				// Ancient Armor	Milabrega's Robe
 /ItemDisplay[SET kit]:	%GREEN%%NAME% %DGREEN%Milabrega's Orb				// Kite Shield		Milabrega's Orb  (not an orb)
 /ItemDisplay[SET wsp]:	%GREEN%%NAME% %DGREEN%Milabrega's Rod				// War Scepter		Milabrega's Rod
@@ -2381,13 +2381,13 @@ ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's Coil %WHITE%<%GREEN%][%WHIT
 /⃓̲ Cow King's Leathers  (only drops from Cow Levels)
 /ItemDisplay[SET xap]:	%GREEN% %NAME% %DGREEN%Cow King's Horns 			// War Hat		Cow King's Horns
 /ItemDisplay[SET stu]:	%GREEN% %NAME% %DGREEN%Cow King's Hide 				// Studded Leather	Cow King's Hide
-ItemDisplay[SET (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%GREEN%  %NAME% %DGREEN%Sander's Riprap %WHITE%<%GREEN%][%WHITE%> %DGREEN%Cow King's Hooves  	// Heavy Boots		Cow King's Hooves  (shared base)
+/ItemDisplay[SET (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%GREEN%  %NAME% %DGREEN%Sander's Riprap %WHITE%<%GREEN%][%WHITE%> %DGREEN%Cow King's Hooves  	// Heavy Boots		Cow King's Hooves  (shared base)
 
 /⃓̲ Hwanin's Majesty
 /ItemDisplay[SET xrn]:	%GREEN%%NAME% %DGREEN%Hwanin's Splendor				// Grand Crown		Hwanin's Splendor
 /ItemDisplay[SET 9vo]:	%GREEN%%NAME% %DGREEN%Hwanin's Justice				// Bill			Hwanin's Justice
 /ItemDisplay[SET xcl]:	%GREEN%%NAME% %DGREEN%Hwanin's Refuge				// Tigulated Mail	Hwanin's Refuge
-ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Stay %WHITE%<%GREEN%][%WHITE%> %DGREEN%Hwanin's Blessing		// Belt		Hwanin's Blessing  (shared base)
+/ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Stay %WHITE%<%GREEN%][%WHITE%> %DGREEN%Hwanin's Blessing		// Belt		Hwanin's Blessing  (shared base)
 
 /⃓̲ Sazabi's Grand Tribute
 /ItemDisplay[SET xhl]:	%GREEN% %NAME% %DGREEN%Sazabi's Mental Sheath 			// Basinet		Sazabi's Mental Sheath
@@ -2568,6 +2568,13 @@ ItemDisplay[SET (ci3 OR amc OR uld OR xtg OR zvb)]:		%DGREEN%M'avina's %GREEN%%N
 ItemDisplay[SET (xh9 OR 7qr OR ucl OR xmb)]:			%DGREEN%Natalya's %GREEN%%NAME%%CONTINUE%
 ItemDisplay[SET (oba OR xsk OR uth OR zmb)]:			%DGREEN%Tal Rasha's %GREEN%%NAME%%CONTINUE%
 ItemDisplay[SET (uh9 OR xul OR ne9 OR utc OR xmg)]:		%DGREEN%Trang-Oul's %GREEN%%NAME%%CONTINUE%
+/⃓̲    Shared Bases
+ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Arctic
+ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' %WHITE%<%GREEN%][%WHITE%> %DGREEN%Hwanin's
+ItemDisplay[SET cap]:	%GREEN%%NAME% %DGREEN%Sander's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal
+ItemDisplay[SET tbl]:	%GREEN%%NAME% %DGREEN%Iratha's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal
+ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Milabrega's
+ItemDisplay[SET (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%GREEN%  %NAME% %DGREEN%Sander's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Cow King's  	
 
 /⃓̲ Changed in Path of Diablo
 /⃓̲	Uniques
