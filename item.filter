@@ -970,8 +970,8 @@ ItemDisplay[NMAG ((SK280>0 (SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 
 /⃓̲═╡ Amazon ╞════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └────────┘
 /⃓̲ Notes:
-/⃓̲    Amazon weapons have skill automods instead of pointmods
 /⃓̲    Automods - Bows: +1-3 to Bow and Crossbow Skills;  Javelins/Spears: +1-3 to Javelin and Spear Skills
+/⃓̲    Amazon weapons have skill automods instead of pointmods
 
 /⃓̲ Highlighting: 4-socket +3 elite bows
 ItemDisplay[NMAG CL7 ELT TABSK0>2 SOCK=4]:	 %NAME% %TAN%+3 %DGREEN%
@@ -988,6 +988,7 @@ ItemDisplay[NMAG CL7]: %NAME%%DGREEN%
 /⃓̲ Notes:
 /⃓̲    Pointmods can't appear on: All normal katars, Quhab, Wrist Spike, Fascia  (hidden above)
 /⃓̲    Tier 1 and 2 skills (SK251-SK260) don't appear on katars
+/⃓̲    Mind Barrier doesn't appear on katars
 
 /⃓̲ Katars  (3-socket-capable only)
 /⃓̲    Any +3 trap skill with two of: Blades of Ice, Dragon Flight, Shadow Warrior/Master
@@ -1015,6 +1016,36 @@ ItemDisplay[NMAG ((CL5 (ELT !(7xf OR 7cs))) (SOCK>2 OR SOCK=0) (SK270>2 (SK275>0
 ItemDisplay[NMAG (CL5 !(9cs OR 7xf OR 7cs)) (SOCK>2 OR SOCK=0) (SK261>2 OR SK262>1 OR SK266>1 OR SK267>1 OR SK271>1 OR SK272>1 OR SK276>2 OR SK277>1 OR SK278>1 OR SK273>1)]: %NAME%%DGREEN%
 ItemDisplay[NMAG (CL5 ELT !(7xf OR 7cs)) (SOCK>2 OR SOCK=0) (ETH OR ED>0)]: %NAME%%DGREEN%
 
+/⃓̲ Any +3 Skill
+/ItemDisplay[NMAG (CL5 (SK261>2 OR SK262>2 OR SK266>2 OR SK271>2 OR SK272>2 OR SK276>2 OR SK277>2))]: %NAME% %TAN%(Traps)%DGREEN%
+/ItemDisplay[NMAG (CL5 (SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2))]: %NAME% %TAN%(Shadow Disciplines)%DGREEN%
+/ItemDisplay[NMAG (CL5 (SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2))]: %NAME% %TAN%(Martial Arts)%DGREEN%
+
+/⃓̲ Exhaustive Skill Display
+/ItemDisplay[(SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0)]: %NAME% %GRAY%%CONTINUE%
+/ItemDisplay[(NMAG SK261>0)]: %NAME%(%DGREEN%Bolt Sentry%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK262>0)]: %NAME%(%DGREEN%Wake of Fire%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK263>0)]: %NAME%(%DGREEN%Weapon Block%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK264>0)]: %NAME%(%DGREEN%Cloak of Shadows%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK265>0)]: %NAME%(%DGREEN%Fists of Ice%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK266>0)]: %NAME%(%DGREEN%Blade Fury%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK267>0)]: %NAME%(%DGREEN%Fade%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK268>0)]: %NAME%(%DGREEN%Shadow Warrior%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK269>0)]: %NAME%(%DGREEN%Emberstorm%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK270>0)]: %NAME%(%DGREEN%Dragon Tail%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK271>0)]: %NAME%(%DGREEN%Lightning Sentry%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK272>0)]: %NAME%(%DGREEN%Wake of Inferno%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK273>0)]: %NAME%(%DGREEN%Mind Blast%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK274>0)]: %NAME%(%DGREEN%Blades of Ice%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK275>0)]: %NAME%(%DGREEN%Dragon Flight%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK276>0)]: %NAME%(%DGREEN%Death Sentry%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK277>0)]: %NAME%(%DGREEN%Blade Shield%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK278>0)]: %NAME%(%DGREEN%Venom%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK279>0)]: %NAME%(%DGREEN%Shadow Master%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK280>0)]: %NAME%(%DGREEN%Static Strike%GRAY%)%CONTINUE%
+/ItemDisplay[NMAG ((CL5 !(9cs OR 7xf OR 7cs)) (SOCK>2 OR SOCK=0) (SK278>2 OR SK277>2 OR SK272>2 OR SK271>2 OR SK262>2 OR SK261>2 OR SK276>2 OR SK266>2 OR SK267>2 OR SK273>2))]:	  %NAME%  %DGREEN%
+/ItemDisplay[(NMAG CL5)]: %NAME%%DGREEN%
+
 
 /⃓̲ ┌───────────┐
 /⃓̲═╡ Barbarian ╞═════════════════════════════════════════════════════════════════════════════════════════════════════════
@@ -1040,11 +1071,51 @@ ItemDisplay[CL2 NMAG !SOCK=1 SK134>2]: %NAME% %TAN%2H Mastery%DGREEN%	// Legacy 
 
 /⃓̲ Any +3 Skill unobtainable after Normal difficulty
 /ItemDisplay[(NMAG CL2) (SK126>2 OR SK127>2 OR SK128>2 OR SK129>2 OR SK130>2 OR SK131>2 OR SK132>2 OR SK133>2 OR SK134>2 OR SK135>2)]: %NAME% %GRAY%«%DGREEN%
+/⃓̲ Any +3 Skill
+/ItemDisplay[NMAG (CL2 (SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2	OR SK126>2 OR SK132>2 OR SK133>2))]: %NAME% %TAN%(Combat)%DGREEN%
+/ItemDisplay[NMAG (CL2 (SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2	OR SK130>2 OR SK131>2))]: %NAME% %TAN%(Warcries)%DGREEN%
+/ItemDisplay[NMAG (CL2 (SK136>2 OR SK141>2 OR SK145>2 OR SK148>2 OR SK153>2	OR SK127>2 OR SK128>2 OR SK129>2 OR SK134>2 OR SK135>2))]: %NAME% %TAN%(Masteries)%DGREEN%
+
+/⃓̲ Exhaustive Skill Display
+/ItemDisplay[(SK126>0 OR SK127>0 OR SK128>0 OR SK129>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK134>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0)]: %NAME% %GRAY%%CONTINUE%
+/ItemDisplay[(NMAG SK126>0)]: %NAME%(%DGREEN%Bash%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK127>0)]: %NAME%(%DGREEN%Edge Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK128>0)]: %NAME%(%DGREEN%Pole Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK129>0)]: %NAME%(%DGREEN%Blunt Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK130>0)]: %NAME%(%DGREEN%Howl%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK131>0)]: %NAME%(%DGREEN%Find Potion%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK132>0)]: %NAME%(%DGREEN%Leap%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK133>0)]: %NAME%(%DGREEN%Ethereal Throw%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK134>0)]: %NAME%(%DGREEN%2-Hand Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK135>0)]: %NAME%(%DGREEN%Range Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK136>0)]: %NAME%(%DGREEN%1-Hand Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK137>0)]: %NAME%(%DGREEN%Taunt%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK138>0)]: %NAME%(%DGREEN%Shout%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK139>0)]: %NAME%(%DGREEN%Stun%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK140>0)]: %NAME%(%DGREEN%Power Throw%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK141>0)]: %NAME%(%DGREEN%Stamina%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK142>0)]: %NAME%(%DGREEN%Find Item%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK143>0)]: %NAME%(%DGREEN%Leap Attack%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK144>0)]: %NAME%(%DGREEN%Concentrate%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK145>0)]: %NAME%(%DGREEN%Iron Skin%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK146>0)]: %NAME%(%DGREEN%Battle Cry%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK147>0)]: %NAME%(%DGREEN%Frenzy%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK148>0)]: %NAME%(%DGREEN%Speed%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK149>0)]: %NAME%(%DGREEN%Battle Orders%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK150>0)]: %NAME%(%DGREEN%Grim Ward%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK151>0)]: %NAME%(%DGREEN%Whirlwind%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK152>0)]: %NAME%(%DGREEN%Cleave%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK153>0)]: %NAME%(%DGREEN%Resistance%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK154>0)]: %NAME%(%DGREEN%War Cry%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK155>0)]: %NAME%(%DGREEN%Battle Command%GRAY%)%CONTINUE%
+/ItemDisplay[NMAG (CL2 !SOCK=1 (SK151>0 OR SK147>0 OR SK149>2 OR SK154>2))]:	  %NAME%  %DGREEN%
+/ItemDisplay[(NMAG CL2)]: %NAME%%DGREEN%
 
 
 /⃓̲ ┌───────┐
 /⃓̲═╡ Druid ╞═════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └───────┘
+/⃓̲ Note:  Flame Dash doesn't appear on pelts
 
 /⃓̲ Pelts
 ItemDisplay[CL1 NMAG !SOCK=1 (SK237>1 SK247>1)]: %NAME% %TAN%Wolf & Grizzly%DGREEN%
@@ -1079,12 +1150,53 @@ ItemDisplay[NMAG SK221>2]: %NAME% %TAN%Raven%DGREEN%
 
 /⃓̲ Any +3 Skill unobtainable after Normal difficulty
 ItemDisplay[(NMAG CL1) (SK221>2 OR SK222>2 OR SK223>2 OR SK224>2 OR SK225>2 OR SK226>2 OR SK227>2 OR SK228>2 OR SK229>2 OR SK230>2)]: %NAME% %GRAY%«%DGREEN%
+/⃓̲ Any +3 Skill
+/ItemDisplay[NMAG (CL1 (SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2	OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2))]: %NAME% %TAN%(Summoning)%DGREEN%
+/ItemDisplay[NMAG (CL1 (SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2	OR SK223>2 OR SK224>2 OR SK228>2))]: %NAME% %TAN%(Shapeshifting)%DGREEN%
+/ItemDisplay[NMAG (CL1 (SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK249>2 OR SK250>2	OR SK225>2 OR SK229>2 OR SK230>2))]: %NAME% %TAN%(Elemental)%DGREEN%
+
+/⃓̲ Exhaustive Skill Display
+/ItemDisplay[(SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0)]: %NAME% %GRAY%%CONTINUE%
+/ItemDisplay[(NMAG SK221>0)]: %NAME%(%DGREEN%Raven%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK222>0)]: %NAME%(%DGREEN%Poison Creeper%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK223>0)]: %NAME%(%DGREEN%Werewolf%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK224>0)]: %NAME%(%DGREEN%Lycanthropy%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK225>0)]: %NAME%(%DGREEN%Firestorm%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK226>0)]: %NAME%(%DGREEN%Oak Sage%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK227>0)]: %NAME%(%DGREEN%Spirit Wolf%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK228>0)]: %NAME%(%DGREEN%Werebear%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK229>0)]: %NAME%(%DGREEN%Molten Boulder%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK230>0)]: %NAME%(%DGREEN%Arctic Blast%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK231>0)]: %NAME%(%DGREEN%Carrion Vine%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK232>0)]: %NAME%(%DGREEN%Feral Rage%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK233>0)]: %NAME%(%DGREEN%Maul%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK234>0)]: %NAME%(%DGREEN%Fissure%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK235>0)]: %NAME%(%DGREEN%Cyclone Armor%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK236>0)]: %NAME%(%DGREEN%Heart of Wolverine%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK237>0)]: %NAME%(%DGREEN%Dire Wolf%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK238>0)]: %NAME%(%DGREEN%Rabies%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK239>0)]: %NAME%(%DGREEN%Fire Claws%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK240>0)]: %NAME%(%DGREEN%Twister%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK241>0)]: %NAME%(%DGREEN%Solar Creeper%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK242>0)]: %NAME%(%DGREEN%Hunger%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK243>0)]: %NAME%(%DGREEN%Shock Wave%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK244>0)]: %NAME%(%DGREEN%Volcano%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK245>0)]: %NAME%(%DGREEN%Tornado%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK246>0)]: %NAME%(%DGREEN%Spirit of Barbs%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK247>0)]: %NAME%(%DGREEN%Grizzly%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK248>0)]: %NAME%(%DGREEN%Fury%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK249>0)]: %NAME%(%DGREEN%Armageddon%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK250>0)]: %NAME%(%DGREEN%Hurricane%GRAY%)%CONTINUE%
+/ItemDisplay[NMAG (CL1 !SOCK=1 (SK247>2 OR SK237>2 OR SK236>2 OR SK250>2 OR SK245>2 OR SK240>2 OR SK249>2 OR SK244>2 OR SK226>2 OR SK227>2))]:	  %NAME%  %DGREEN%
+/ItemDisplay[(NMAG CL1)]: %NAME%%DGREEN%
 
 
 /⃓̲ ┌─────────────┐
 /⃓̲═╡ Necromancer ╞═══════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └─────────────┘
-/⃓̲ Automods - Totems: 2-7 to 20-50 Poison Damage over 3-4 seconds
+/⃓̲ Notes:
+/⃓̲    Automods - Totems: 2-7 to 20-50 Poison Damage over 3-4 seconds
+/⃓̲    Hemorrhage doesn't appear on wands/totems
 
 /⃓̲ Wands & Totems  (2-socket-capable only)
 ItemDisplay[NMAG !SOCK=1 (CL4 OR (WP12 !(wnd OR ywn OR 9wn))) (SK84>2 (SK66>1 OR SK67>1 OR SK68>0 OR SK69>1 OR SK70>1 OR SK79>0 OR SK80>1 OR SK83>0 OR SK85>0 OR SK87>0 OR SK88>0 OR SK91>0 OR SK95>0))]: %NAME% %TAN%Bone Spear +%DGREEN%
@@ -1108,12 +1220,53 @@ ItemDisplay[NMAG SK79>1 CLVL<40]: %NAME% %TAN%Convocation%DGREEN%
 
 /⃓̲ Any +3 Skill unobtainable after Normal difficulty
 ItemDisplay[(NMAG (CL4 OR WP12)) (SK66>2 OR SK67>2 OR SK68>2 OR SK69>2 OR SK70>2 OR SK71>2 OR SK72>2 OR SK73>2 OR SK74>2 OR SK75>2)]: %NAME% %GRAY%«%DGREEN%
+/⃓̲ Any +3 Skill
+/ItemDisplay[NMAG ((CL4 OR WP12) (SK79>2 OR SK80>2 OR SK85>2 OR SK88>2 OR SK89>2 OR SK90>2 OR SK94>2 OR SK95>2	OR SK69>2 OR SK70>2 OR SK75>2))]: %NAME% %TAN%(Summoning)%DGREEN%
+/ItemDisplay[NMAG ((CL4 OR WP12) (SK78>2 OR SK83>2 OR SK84>2 OR SK92>2 OR SK93>2	OR SK67>2 OR SK68>2 OR SK73>2 OR SK74>2))]: %NAME% %TAN%(Poison & Bone)%DGREEN%
+/ItemDisplay[NMAG ((CL4 OR WP12) (SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2	OR SK66>2 OR SK71>2 OR SK72>2))]: %NAME% %TAN%(Curses)%DGREEN%
+
+/⃓̲ Exhaustive Skill Display
+/ItemDisplay[(SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %GRAY%%CONTINUE%
+/ItemDisplay[(NMAG SK66>0)]: %NAME%(%DGREEN%Amplify Damage%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK67>0)]: %NAME%(%DGREEN%Teeth%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK68>0)]: %NAME%(%DGREEN%Bone Armor%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK69>0)]: %NAME%(%DGREEN%Summon Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK70>0)]: %NAME%(%DGREEN%Skeleton Warrior%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK71>0)]: %NAME%(%DGREEN%Dim Vision%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK72>0)]: %NAME%(%DGREEN%Weaken%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK73>0)]: %NAME%(%DGREEN%Deadly Poison%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK74>0)]: %NAME%(%DGREEN%Corpse Explosion%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK75>0)]: %NAME%(%DGREEN%Clay Golem%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK76>0)]: %NAME%(%DGREEN%Iron Maiden%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK77>0)]: %NAME%(%DGREEN%Terror%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK78>0)]: %NAME%(%DGREEN%Bone Wall%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK79>0)]: %NAME%(%DGREEN%Convocation%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK80>0)]: %NAME%(%DGREEN%Skeletal Mage%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK81>0)]: %NAME%(%DGREEN%Confuse%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK82>0)]: %NAME%(%DGREEN%Life Tap%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK83>0)]: %NAME%(%DGREEN%Desecrate%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK84>0)]: %NAME%(%DGREEN%Bone Spear%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK85>0)]: %NAME%(%DGREEN%Blood Golem%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK86>0)]: %NAME%(%DGREEN%Attract%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK87>0)]: %NAME%(%DGREEN%Decrepify%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK88>0)]: %NAME%(%DGREEN%Flesh Offering%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK89>0)]: %NAME%(%DGREEN%Bone Offering%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK90>0)]: %NAME%(%DGREEN%Iron Golem%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK91>0)]: %NAME%(%DGREEN%Lower Resist%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK92>0)]: %NAME%(%DGREEN%Poison Nova%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK93>0)]: %NAME%(%DGREEN%Bone Spirit%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK94>0)]: %NAME%(%DGREEN%Fire Golem%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK95>0)]: %NAME%(%DGREEN%Revive%GRAY%)%CONTINUE%
+/ItemDisplay[NMAG !SOCK=1 (CL4 OR (WP12 !(wnd OR ywn OR 9wn))) (SK84>2 OR SK92>2 OR SK83>2 OR SK69>2 OR SK79>2 OR SK73>2 OR SK67>2)]:	  %NAME%  %DGREEN%
+/ItemDisplay[(NMAG (CL4 OR WP12))]: %NAME%%DGREEN%
 
 
 /⃓̲ ┌─────────┐
 /⃓̲═╡ Paladin ╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └─────────┘
-/⃓̲ Automods - Paladin Shields: All Resistances +5-45% or +15-121 to Attack Rating, +10-65% Enhanced Damage
+/⃓̲ Notes:
+/⃓̲    Automods - Paladin Shields: All Resistances +5-45% or +15-121 to Attack Rating, +10-65% Enhanced Damage
+/⃓̲    Dashing Strike doesn't appear on scepters
 
 /⃓̲ Scepters  (3+ socket-capable only)
 /⃓̲    Holy Shield  (uncommon)
@@ -1149,6 +1302,45 @@ ItemDisplay[NMAG (WP13 (SOCK>3 !ETH))]: %NAME%%DGREEN%
 
 /⃓̲ Any +3 Skill unobtainable after Normal difficulty
 ItemDisplay[(NMAG WP13) (SK96>2 OR SK97>2 OR SK98>2 OR SK99>2 OR SK100>2 OR SK101>2 OR SK102>2 OR SK103>2 OR SK104>2 OR SK105>2)]: %NAME% %GRAY%«%DGREEN%
+/⃓̲ Any +3 Skill
+/ItemDisplay[NMAG (WP13 (SK106>2 OR SK107>2 OR SK111>2 OR SK112>2 OR SK116>2 OR SK117>2 OR SK121>2	OR SK96>2 OR SK97>2 OR SK101>2))]: %NAME% %TAN%(Combat)%DGREEN%
+/ItemDisplay[NMAG (WP13 (SK108>2 OR SK113>2 OR SK114>2 OR SK118>2 OR SK119>2 OR SK122>2 OR SK123>2	OR SK98>2 OR SK102>2 OR SK103>2))]: %NAME% %TAN%(Offensive Auras)%DGREEN%
+/ItemDisplay[NMAG (WP13 (SK109>2 OR SK110>2 OR SK115>2 OR SK120>2 OR SK124>2 OR SK125>2		OR SK99>2 OR SK100>2 OR SK104>2 OR SK105>2))]: %NAME% %TAN%(Defensive Auras)%DGREEN%
+
+/⃓̲ Exhaustive Skill Display
+/ItemDisplay[(SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0)]: %NAME% %GRAY%%CONTINUE%
+/ItemDisplay[(NMAG SK96>0)]: %NAME%(%DGREEN%Sacrifice%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK97>0)]: %NAME%(%DGREEN%Smite%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK98>0)]: %NAME%(%DGREEN%Might%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK99>0)]: %NAME%(%DGREEN%Prayer%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK100>0)]: %NAME%(%DGREEN%Resist Fire%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK101>0)]: %NAME%(%DGREEN%Holy Bolt%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK102>0)]: %NAME%(%DGREEN%Holy Fire%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK103>0)]: %NAME%(%DGREEN%Precision%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK104>0)]: %NAME%(%DGREEN%Defiance%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK105>0)]: %NAME%(%DGREEN%Resist Cold%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK106>0)]: %NAME%(%DGREEN%Zeal%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK107>0)]: %NAME%(%DGREEN%Charge%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK108>0)]: %NAME%(%DGREEN%Blessed Aim%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK109>0)]: %NAME%(%DGREEN%Cleansing%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK110>0)]: %NAME%(%DGREEN%Resist Lightning%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK111>0)]: %NAME%(%DGREEN%Vengeance%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK112>0)]: %NAME%(%DGREEN%Blessed Hammer%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK113>0)]: %NAME%(%DGREEN%Concentration%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK114>0)]: %NAME%(%DGREEN%Holy Freeze%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK115>0)]: %NAME%(%DGREEN%Vigor%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK116>0)]: %NAME%(%DGREEN%Conversion%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK117>0)]: %NAME%(%DGREEN%Holy Shield%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK118>0)]: %NAME%(%DGREEN%Holy Shock%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK119>0)]: %NAME%(%DGREEN%Sanctuary%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK120>0)]: %NAME%(%DGREEN%Meditation%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK121>0)]: %NAME%(%DGREEN%Fist of the Heavens%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK122>0)]: %NAME%(%DGREEN%Fanaticism%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK123>0)]: %NAME%(%DGREEN%Conviction%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK124>0)]: %NAME%(%DGREEN%Redemption%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK125>0)]: %NAME%(%DGREEN%Salvation%GRAY%)%CONTINUE%
+/ItemDisplay[NMAG (WP13 (SOCK>2 OR (SOCK=0 !(scp OR 9sc OR 7sc)))) (SK117>0 OR SK121>2 OR SK112>2 OR (SOCK=4 (SK118>2 OR (ELT (SK123>2 OR SK125>2 OR SK106>2 OR SK107>2)))))]:	  %NAME%  %DGREEN%
+/ItemDisplay[(NMAG WP13)]: %NAME%%DGREEN%
 
 
 /⃓̲ Paladin Shields  (no pointmods)
@@ -1190,7 +1382,9 @@ ItemDisplay[NMAG (CL3 RES>4)]: %NAME% %BLUE%5+ Res%DGREEN%
 /⃓̲ ┌───────────┐
 /⃓̲═╡ Sorceress ╞═════════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └───────────┘
-/⃓̲ Automods - Orbs: +1-60 to Life or +1-80 to Mana
+/⃓̲ Notes:
+/⃓̲    Automods - Orbs: +1-60 to Life or +1-80 to Mana
+/⃓̲    Thunder Storm and Freezing Pulse don't appear on orbs/staves
 
 /⃓̲ Orbs  (3-socket-capable only)
 ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK46>2)]: %NAME% %ORANGE%Immolate%DGREEN%
@@ -1245,6 +1439,47 @@ ItemDisplay[NMAG ILVL<25 CLVL<30 (WP11 SOCK=2)]: %NAME%%DGREEN%
 
 /⃓̲ Any +3 Skill unobtainable after Normal difficulty
 ItemDisplay[(NMAG (WP11 OR CL6)) (SK36>2 OR SK37>2 OR SK38>2 OR SK39>2 OR SK40>2 OR SK41>2 OR SK42>2 OR SK43>2 OR SK44>2 OR SK45>2)]: %NAME% %GRAY%«%DGREEN%
+/⃓̲ Any +3 Skill
+/ItemDisplay[NMAG ((CL6 OR WP11) (SK46>2 OR SK47>2 OR SK51>2 OR SK52>2 OR SK56>2 OR SK61>2 OR SK62>2	OR SK36>2 OR SK37>2 OR SK41>2))]: %NAME% %TAN%(Fire)%DGREEN%
+/ItemDisplay[NMAG ((CL6 OR WP11) (SK48>2 OR SK49>2 OR SK53>2 OR SK54>2 OR SK57>2 OR SK58>2 OR SK63>2	OR SK38>2 OR SK42>2 OR SK43>2))]: %NAME% %TAN%(Lightning)%DGREEN%
+/ItemDisplay[NMAG ((CL6 OR WP11) (SK50>2 OR SK55>2 OR SK59>2 OR SK60>2 OR SK64>2 OR SK65>2	OR SK39>2 OR SK40>2 OR SK44>2 OR SK45>2))]: %NAME% %TAN%(Cold)%DGREEN%
+
+/⃓̲ Exhaustive Skill Display
+/ItemDisplay[(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0)]: %NAME% %GRAY%%CONTINUE%
+/ItemDisplay[(NMAG SK36>0)]: %NAME%(%DGREEN%Fire Bolt%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK37>0)]: %NAME%(%DGREEN%Warmth%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK38>0)]: %NAME%(%DGREEN%Charged Bolt%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK39>0)]: %NAME%(%DGREEN%Ice Bolt%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK40>0)]: %NAME%(%DGREEN%Frigerate%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK41>0)]: %NAME%(%DGREEN%Blaze%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK42>0)]: %NAME%(%DGREEN%Static Field%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK43>0)]: %NAME%(%DGREEN%Telekinesis%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK44>0)]: %NAME%(%DGREEN%Frost Nova%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK45>0)]: %NAME%(%DGREEN%Ice Blast%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK46>0)]: %NAME%(%DGREEN%Immolate%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK47>0)]: %NAME%(%DGREEN%Fire Ball%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK48>0)]: %NAME%(%DGREEN%Nova%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK49>0)]: %NAME%(%DGREEN%Lightning Surge%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK50>0)]: %NAME%(%DGREEN%Shiver Armor%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK51>0)]: %NAME%(%DGREEN%Fire Wall%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK52>0)]: %NAME%(%DGREEN%Enflame%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK53>0)]: %NAME%(%DGREEN%Teleport%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK54>0)]: %NAME%(%DGREEN%Chain Lightning%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK55>0)]: %NAME%(%DGREEN%Glacial Spike%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK56>0)]: %NAME%(%DGREEN%Meteor%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK57>0)]: %NAME%(%DGREEN%Discharge%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK58>0)]: %NAME%(%DGREEN%Energy Shield%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK59>0)]: %NAME%(%DGREEN%Blizzard%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK60>0)]: %NAME%(%DGREEN%Chilling Armor%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK61>0)]: %NAME%(%DGREEN%Fire Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK62>0)]: %NAME%(%DGREEN%Hydra%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK63>0)]: %NAME%(%DGREEN%Lightning Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK64>0)]: %NAME%(%DGREEN%Frozen Orb%GRAY%)%CONTINUE%
+/ItemDisplay[(NMAG SK65>0)]: %NAME%(%DGREEN%Cold Mastery%GRAY%)%CONTINUE%
+/ItemDisplay[NMAG CL6 ((SOCK>2 OR (SOCK=0 (ob5 OR oba OR obf))) (SK46>2 OR SK48>2 OR SK44>2 OR SK54>2 OR SK64>2 OR SK62>2 OR SK38>2 OR SK50>2 OR SK41>2))]:	  %NAME%  %DGREEN%
+/ItemDisplay[NMAG (WP11 (SOCK=4 OR ((cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs) SOCK=0)) (SK58>2 OR (SK58>1 (SK49>1 OR SK50>0 OR SK60>0))))]:	  %NAME%  %DGREEN%
+/ItemDisplay[NMAG ((WP11 (SOCK=2 OR (SOCK=0 (sst OR 8ss)))) (SK41>2 OR SK52>2 OR (SK61>0 (SK46>2 OR SK47>2 OR SK52>1))))]:	  %NAME%  %DGREEN%
+/ItemDisplay[NMAG (CL6 OR WP11)]: %NAME%%DGREEN%
 
 
 /⃓̲ ┌─────────────────────────┐
