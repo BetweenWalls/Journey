@@ -2265,10 +2265,10 @@ ItemDisplay[UNI obf]:		%GOLD%         %NAME% %DGREEN%Death's Fathom         	// 
 /⃓̲    Amulets
 /ItemDisplay[amu SET ILVL>25]:	%GREEN%    %NAME%    %DGREEN%				// Amulet
 /ItemDisplay[amu SET ILVL>16]:	%GREEN% %NAME% %DGREEN%					// Amulet
-ItemDisplay[amu SET ILVL<15]:	%GREEN%%NAME% %DGREEN%Civerb's Icon			// Amulet		Civerb's Icon
+/ItemDisplay[amu SET ILVL<15]:	%GREEN%%NAME% %DGREEN%Civerb's Icon			// Amulet		Civerb's Icon
 /ItemDisplay[amu SET]:		%GREEN%%NAME%%DGREEN%					// Amulet
 /⃓̲    Rings
-ItemDisplay[rin SET ILVL<17]:	%GREEN%%NAME% %DGREEN%Cathan's Seal			// Ring			Cathan's Seal
+/ItemDisplay[rin SET ILVL<17]:	%GREEN%%NAME% %DGREEN%Cathan's Seal			// Ring			Cathan's Seal
 /ItemDisplay[rin SET]:		%GREEN%%NAME%%DGREEN%					// Ring
 
 /⃓̲ Shared Bases  (only one result possible)
