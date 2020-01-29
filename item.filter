@@ -2572,6 +2572,13 @@ ItemDisplay[SET (xap OR stu)]:					%DGREEN%Cow King's %GREEN%%NAME%%CONTINUE%
 /ItemDisplay[SET (xh9 OR 7qr OR ucl OR xmb)]:			%DGREEN%Natalya's %GREEN%%NAME%%CONTINUE%
 /ItemDisplay[SET (oba OR xsk OR uth OR zmb)]:			%DGREEN%Tal Rasha's %GREEN%%NAME%%CONTINUE%
 /ItemDisplay[SET (uh9 OR xul OR ne9 OR utc OR xmg)]:		%DGREEN%Trang-Oul's %GREEN%%NAME%%CONTINUE%
+/⃓̲    Shared Bases
+/ItemDisplay[SET tgl]:	%GREEN%%NAME% %DGREEN%Iratha's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Arctic
+/ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' %WHITE%<%GREEN%][%WHITE%> %DGREEN%Hwanin's
+/ItemDisplay[SET cap]:	%GREEN%%NAME% %DGREEN%Sander's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal
+/ItemDisplay[SET tbl]:	%GREEN%%NAME% %DGREEN%Iratha's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal
+/ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Milabrega's
+/ItemDisplay[SET (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%GREEN%  %NAME% %DGREEN%Sander's %WHITE%<%GREEN%][%WHITE%> %DGREEN%Cow King's  	
 
 /⃓̲ Changed in Path of Diablo
 /⃓̲	Uniques
