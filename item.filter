@@ -679,7 +679,7 @@ ItemDisplay[MAG !ID]: %NAME%%DGREEN%
 /⃓̲    body armor & non-class shields: normal, exceptional, some elite - levels 40, 60, 80
 /⃓̲    helms incapable of 3 sockets: normal, exceptional - levels 40, 60
 /⃓̲    belts without 16 potion slots (unless ilvl 71+) - level 40
-ItemDisplay[RARE !ID (EQ2 OR EQ3) ((NORM CLVL>39) OR (EXC CLVL>59) OR (ELT CLVL>79 (ITEMSTAT67=0 OR ETH OR uar) !(uuc OR uml)))]:
+ItemDisplay[RARE !ID (EQ2 OR EQ3) ((NORM CLVL>39) OR (EXC CLVL>59) OR (ELT CLVL>79 !((ITEMSTAT67=0 OR ETH OR uar) !(uuc OR uml))))]:
 ItemDisplay[RARE !ID (EQ1 (((cap OR skp OR hlm OR fhl) CLVL>39) OR ((xap OR xkp OR xlm OR xhl) CLVL>59)))]:
 ItemDisplay[RARE !ID (EQ6 ILVL<71 (lbl OR vbl OR mbl OR tbl) CLVL>39)]:
 
@@ -696,8 +696,8 @@ ItemDisplay[RARE !ID (WP1 (((NORM !(mpi OR wax OR gax OR gix)) CLVL>39) OR ((EXC
 ItemDisplay[RARE !ID (WP2 (((mac OR mst) CLVL>39) OR ((9ma OR 9mt) CLVL>59) OR ((7ma OR 7mt) CLVL>79)))]:
 ItemDisplay[RARE !ID (((ssd OR scm OR sbr OR flc OR wsd OR 2hs) CLVL>49) OR ((9ss OR 9sm OR 9sb OR 9fc 9wd OR 92h) CLVL>79) OR ((7ss OR 7sm OR 7sb OR 7fc) CLVL>79))]:
 ItemDisplay[RARE !ID !ETH (((spr OR tri OR bar OR vou) CLVL>39) OR ((9sr OR 9tr OR 9b7 OR 9vo) CLVL>59) OR ((7sr OR 7o7) CLVL>79))]:
-ItemDisplay[RARE !ID ((WP9 !CL7) ((NORM !(hbw OR lbb OR lwb OR hxb OR rxb) CLVL>39) OR (EXC !(8hb OR 8l8 OR 8lw OR 8hx OR 8rx) CLVL>59) OR (ELT !(6hb OR 6l7 OR 6lw OR 6hx OR 6rx) CLVL>79)))]:
-ItemDisplay[RARE !ID (((WP5 !CL7) (NORM OR 9b8)) OR (WP4 !WP5 !ELT)) CLVL>49]:
+ItemDisplay[RARE !ID ((!CL7 WP9) ((NORM !(hbw OR lbb OR lwb OR hxb OR rxb) CLVL>39) OR (EXC !(8hb OR 8l8 OR 8lw OR 8hx OR 8rx) CLVL>59) OR (ELT !(6hb OR 6l7 OR 6lw OR 6hx OR 6rx) CLVL>79)))]:
+ItemDisplay[RARE !ID (((!CL7 WP5) (NORM OR 9b8)) OR (WP4 !WP5 !ELT)) CLVL>49]:
 
 /⃓̲ Modification: Ethereal
 ItemDisplay[RARE !ID ETH]: %GRAY%eth %YELLOW%%NAME%%CONTINUE%
