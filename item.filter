@@ -1611,7 +1611,7 @@ ItemDisplay[UNI xui ETH]:	%GOLD%%NAME% %DGREEN%The Spirit Shroud
 ItemDisplay[UNI xui]:		%GOLD% %NAME% %DGREEN%The Spirit Shroud 		// Ghost Armor
 ItemDisplay[UNI xea ETH]:	%GOLD% %NAME% %DGREEN%Skin of the Vipermagi 
 ItemDisplay[UNI xea]:		%GOLD%         %NAME% %DGREEN%Skin of the Vipermagi         	// Serpentskin Armor
-ItemDisplay[UNI xla ETH]:	%GOLD%%NAME% %PURPLE%>> %DGREEN%Skin of the Flayed One	// Demonhide Armor (eth & auto-repair)
+ItemDisplay[UNI xla ETH]:	%GOLD%%NAME% %GRAY%>> %DGREEN%Skin of the Flayed One	// Demonhide Armor (eth & auto-repair)
 ItemDisplay[UNI xla]:		%GOLD%%NAME% %DGREEN%Skin of the Flayed One		// Demonhide Armor
 /ItemDisplay[UNI xtu ETH]:	%GOLD%%NAME% %DGREEN%Iron Pelt
 ItemDisplay[UNI xtu]:		%GOLD%%NAME% %DGREEN%Iron Pelt				// Trellised Armor
@@ -1623,7 +1623,7 @@ ItemDisplay[UNI xhn ETH]:	%GOLD%    %NAME% %DGREEN%Shaftstop
 ItemDisplay[UNI xhn]:		%GOLD%         %NAME% %DGREEN%Shaftstop         	// Mesh Armor
 ItemDisplay[UNI xrs ETH]:	%GOLD%   %NAME% %DGREEN%Duriel's Shell   
 ItemDisplay[UNI xrs]:		%GOLD%    %NAME% %DGREEN%Duriel's Shell    		// Cuirass
-ItemDisplay[UNI xpl ETH]:	%GOLD%  %NAME% %PURPLE%>> %DGREEN%Skullder's Ire  	// Russet Armor (eth & auto-repair)
+ItemDisplay[UNI xpl ETH]:	%GOLD%  %NAME% %GRAY%>> %DGREEN%Skullder's Ire  	// Russet Armor (eth & auto-repair)
 ItemDisplay[UNI xpl]:		%GOLD%   %NAME% %DGREEN%Skullder's Ire   		// Russet Armor
 ItemDisplay[UNI xlt ETH]:	%GOLD%    %NAME% %DGREEN%Guardian Angel    
 ItemDisplay[UNI xlt]:		%GOLD%     %NAME% %DGREEN%Guardian Angel     		// Templar Coat
@@ -1645,7 +1645,7 @@ ItemDisplay[UNI utu]:		%GOLD%   %NAME% %DGREEN%The Gladiator's Bane   		// Wire 
 ItemDisplay[UNI upl ETH]:	%GOLD% %NAME% %DGREEN%Arkaine's Valor 
 ItemDisplay[UNI upl]:		%GOLD%    %NAME% %DGREEN%Arkaine's Valor    		// Balrog Skin
 ItemDisplay[UNI uld]:		%GOLD%     %NAME% %DGREEN%Leviathan     		// Kraken Shell (always non-eth)
-ItemDisplay[UNI uul ETH]:	%GOLD%%NAME% %PURPLE%>> %DGREEN%Steel Carapace		// Shadow Plate (eth & auto-repair)
+ItemDisplay[UNI uul ETH]:	%GOLD%%NAME% %GRAY%>> %DGREEN%Steel Carapace		// Shadow Plate (eth & auto-repair)
 ItemDisplay[UNI uul]:		%GOLD%%NAME% %DGREEN%Steel Carapace			// Shadow Plate
 ItemDisplay[UNI uar]:		%GOLD%         %NAME% %DGREEN%Templar's Might %WHITE%<%GOLD%][%WHITE%> %DGREEN%Tyrael's Might         	// Sacred Armor (Tyrael's Might: always non-eth)
 
@@ -1766,7 +1766,7 @@ ItemDisplay[UNI xtb]:		%GOLD%       %NAME% %DGREEN%War Traveler       		// Battl
 ItemDisplay[UNI xhb ETH]:	%GOLD% %NAME% %DGREEN%Gore Rider 
 ItemDisplay[UNI xhb]:		%GOLD%       %NAME% %DGREEN%Gore Rider       		// War Boots
 /⃓̲	Elite
-ItemDisplay[UNI uvb ETH]:	%GOLD%   %NAME% %PURPLE%>> %DGREEN%Sandstorm Trek   	// Scarabshell Boots (eth & auto-repair)
+ItemDisplay[UNI uvb ETH]:	%GOLD%   %NAME% %GRAY%>> %DGREEN%Sandstorm Trek   	// Scarabshell Boots (eth & auto-repair)
 ItemDisplay[UNI uvb]:		%GOLD%   %NAME% %DGREEN%Sandstorm Trek   		// Scarabshell Boots
 ItemDisplay[UNI umb ETH]:	%GOLD% %NAME% %DGREEN%Marrowwalk 
 ItemDisplay[UNI umb]:		%GOLD%  %NAME% %DGREEN%Marrowwalk  			// Boneweave Boots
@@ -1836,7 +1836,7 @@ ItemDisplay[UNI 9mp ETH]:	%GOLD%%NAME% %DGREEN%Pompeii's Wrath
 ItemDisplay[UNI 9mp]:		%GOLD%  %NAME% %DGREEN%Pompeii's Wrath  		// Crowbill
 /ItemDisplay[UNI 9wa ETH]:	%GOLD%%NAME% %DGREEN%Guardian Naga
 ItemDisplay[UNI 9wa]:		%GOLD%%NAME% %DGREEN%Guardian Naga			// Naga
-ItemDisplay[UNI 9la ETH]:	%GOLD%%NAME% %PURPLE%>> %DGREEN%Warlord's Trust		// Military Axe (eth & auto-repair)
+ItemDisplay[UNI 9la ETH]:	%GOLD%%NAME% %GRAY%>> %DGREEN%Warlord's Trust		// Military Axe (eth & auto-repair)
 ItemDisplay[UNI 9la]:		%GOLD%%NAME% %DGREEN%Warlord's Trust			// Military Axe
 /ItemDisplay[UNI 9ba ETH]:	%GOLD%%NAME% %DGREEN%Spellsteel
 ItemDisplay[UNI 9ba]:		%GOLD%%NAME% %DGREEN%Spellsteel				// Bearded Axe
@@ -1855,7 +1855,7 @@ ItemDisplay[UNI 7mp ETH]:	%GOLD%%NAME% %DGREEN%Cranebeak
 ItemDisplay[UNI 7mp]:		%GOLD% %NAME% %DGREEN%Cranebeak 			// War Spike
 ItemDisplay[UNI 7wa ETH]:	%GOLD%  %NAME% %DGREEN%Death Cleaver  
 ItemDisplay[UNI 7wa]:		%GOLD%       %NAME% %DGREEN%Death Cleaver       	// Berserker Axe
-ItemDisplay[UNI 7ba]:		%GOLD%%NAME% %PURPLE%>> %DGREEN%Ethereal Edge		// Silver-Edged Axe  (always eth & indestructible)
+ItemDisplay[UNI 7ba]:		%GOLD%%NAME% %GRAY%>> %DGREEN%Ethereal Edge		// Silver-Edged Axe  (always eth & indestructible)
 ItemDisplay[UNI 7bt ETH]:	%GOLD%%NAME% %DGREEN%Hellslayer
 ItemDisplay[UNI 7bt]:		%GOLD% %NAME% %DGREEN%Hellslayer 			// Decapitator
 ItemDisplay[UNI 7ga ETH]:	%GOLD%%NAME% %DGREEN%Messerschmidt's Reaver
@@ -1900,7 +1900,7 @@ ItemDisplay[UNI 9gm]:		%GOLD% %NAME% %DGREEN%The Gavel of Pain 		// Martel de Fe
 /⃓̲	Elite
 /ItemDisplay[UNI 7cl ETH]:	%GOLD%%NAME% %DGREEN%Nord's Tenderizer
 ItemDisplay[UNI 7cl]:		%GOLD%%NAME% %DGREEN%Nord's Tenderizer			// Truncheon
-ItemDisplay[UNI 7sp ETH]:	%GOLD% %NAME% %PURPLE%>> %DGREEN%Demon Limb 		// Tyrant Club (eth & auto-repair)
+ItemDisplay[UNI 7sp ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%Demon Limb 		// Tyrant Club (eth & auto-repair)
 ItemDisplay[UNI 7sp]:		%GOLD% %NAME% %DGREEN%Demon Limb 			// Tyrant Club
 /ItemDisplay[UNI 7mt ETH]:	%GOLD%%NAME% %DGREEN%Baranar's Star
 ItemDisplay[UNI 7mt]:		%GOLD%%NAME% %DGREEN%Baranar's Star			// Devil Star
@@ -1969,7 +1969,7 @@ ItemDisplay[UNI 9sb ETH]:	%GOLD%%NAME% %DGREEN%Hexfire
 ItemDisplay[UNI 9sb]:		%GOLD% %NAME% %DGREEN%Hexfire 				// Shamshir
 /ItemDisplay[UNI 9fc ETH]:	%GOLD%  %NAME% %DGREEN%Blade of Ali Baba %GRAY%[2]  %DGREEN%
 ItemDisplay[UNI 9fc]:		%GOLD%  %NAME% %DGREEN%Blade of Ali Baba %GRAY%[2]  %DGREEN%	// Tulwar
-ItemDisplay[UNI 9cr ETH]:	%GOLD% %NAME% %PURPLE%>> %DGREEN%Ginther's Rift 	// Dimensional Blade (eth & auto-repair)
+ItemDisplay[UNI 9cr ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%Ginther's Rift 		// Dimensional Blade (eth & auto-repair)
 ItemDisplay[UNI 9cr]:		%GOLD%  %NAME% %DGREEN%Ginther's Rift  			// Dimensional Blade
 ItemDisplay[UNI 9bs ETH]:	%GOLD% %NAME% %DGREEN%Headstriker 
 ItemDisplay[UNI 9bs]:		%GOLD%  %NAME% %DGREEN%Headstriker  			// Battle Sword
@@ -2025,7 +2025,7 @@ ItemDisplay[UNI 9bl]:		%GOLD%%NAME% %DGREEN%Stormspike				// Stilleto
 ItemDisplay[UNI 7dg]:		%GOLD% %NAME% %DGREEN%Wizardspike 			// Bone Knife (always non-eth)
 ItemDisplay[UNI 7kr ETH]:	%GOLD% %NAME% %DGREEN%Fleshripper 
 ItemDisplay[UNI 7kr]:		%GOLD%    %NAME% %DGREEN%Fleshripper    		// Fanged Knife
-ItemDisplay[UNI 7bl]:		%GOLD%%NAME% %PURPLE%>> %DGREEN%Ghostflame		// Legend Spike (always eth & indestructible)
+ItemDisplay[UNI 7bl]:		%GOLD%%NAME% %GRAY%>> %DGREEN%Ghostflame		// Legend Spike (always eth & indestructible)
 
 /⃓̲ Polearms
 /⃓̲	Normal
@@ -2082,7 +2082,7 @@ ItemDisplay[UNI 9sr]:		%GOLD%%NAME% %DGREEN%The Impaler			// War Spear
 ItemDisplay[UNI 9tr]:		%GOLD%%NAME% %DGREEN%Kelpie Snare			// Fuscina
 /ItemDisplay[UNI 9br ETH]:	%GOLD%%NAME% %DGREEN%Soulfeast Time
 ItemDisplay[UNI 9br]:		%GOLD%%NAME% %DGREEN%Soulfeast Time			// War Fork
-ItemDisplay[UNI 9st ETH]:	%GOLD% %NAME% %PURPLE%>> %DGREEN%Hone Sundan %GRAY%[3] %DGREEN%	// Yari (eth & auto-repair)
+ItemDisplay[UNI 9st ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%Hone Sundan %GRAY%[3] %DGREEN%	// Yari (eth & auto-repair)
 ItemDisplay[UNI 9st]:		%GOLD%%NAME% %DGREEN%Hone Sundan %GRAY%[3]%DGREEN%		// Yari  -  unique translation: "Bone Cutter" (Japanese)
 /ItemDisplay[UNI 9p9 ETH]:	%GOLD%%NAME% %DGREEN%Spire of Honor
 ItemDisplay[UNI 9p9]:		%GOLD%%NAME% %DGREEN%Spire of Honor			// Lance
@@ -2100,29 +2100,29 @@ ItemDisplay[UNI amd]:		%GOLD%%NAME% %DGREEN%Stoneraven				// Matriarchal Spear
 
 /⃓̲ Javelins
 /⃓̲	All Classes
-ItemDisplay[UNI 7s7 ETH]:	%GOLD% %NAME% %PURPLE%>> %DGREEN%Demon's Arch 		// Balrog Spear (eth & auto-replenish)
+ItemDisplay[UNI 7s7 ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%Demon's Arch 		// Balrog Spear (eth & auto-replenish)
 ItemDisplay[UNI 7s7]:		%GOLD%%NAME% %DGREEN%Demon's Arch			// Balrog Spear
-ItemDisplay[UNI 7gl]:		%GOLD%%NAME% %PURPLE%>> %DGREEN%Wraith Flight		// Ghost Glaive (always eth & auto-replenish)
-ItemDisplay[UNI 7ts ETH]:	%GOLD%%NAME% %PURPLE%>> %DGREEN%Gargoyle's Bite		// Winged Harpoon (eth & auto-replenish)
+ItemDisplay[UNI 7gl]:		%GOLD%%NAME% %GRAY%>> %DGREEN%Wraith Flight		// Ghost Glaive (always eth & auto-replenish)
+ItemDisplay[UNI 7ts ETH]:	%GOLD%%NAME% %GRAY%>> %DGREEN%Gargoyle's Bite		// Winged Harpoon (eth & auto-replenish)
 ItemDisplay[UNI 7ts]:		%GOLD%%NAME% %DGREEN%Gargoyle's Bite			// Winged Harpoon
 /⃓̲	Amazon Javelins
-ItemDisplay[UNI ama ETH]:	%GOLD%     %NAME% %PURPLE%>> %DGREEN%Titan's Revenge     	// Ceremonial Javelin (eth & auto-replenish)
+ItemDisplay[UNI ama ETH]:	%GOLD%     %NAME% %GRAY%>> %DGREEN%Titan's Revenge     	// Ceremonial Javelin (eth & auto-replenish)
 ItemDisplay[UNI ama]:		%GOLD%     %NAME% %DGREEN%Titan's Revenge     			// Ceremonial Javelin
 ItemDisplay[UNI amf ETH]:	%GOLD%%NAME% %DGREEN%Thunderstroke
 ItemDisplay[UNI amf]:		%GOLD%   %NAME% %DGREEN%Thunderstroke   		// Matriarchal Javelin
 
 /⃓̲ Throwing Weapons
 /⃓̲	Exceptional
-ItemDisplay[UNI 9ta ETH]:	%GOLD% %NAME% %PURPLE%>> %DGREEN%The Scalper 		// Francisca (eth & auto-replenish)
+ItemDisplay[UNI 9ta ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%The Scalper 		// Francisca (eth & auto-replenish)
 ItemDisplay[UNI 9ta]:		%GOLD%%NAME% %DGREEN%The Scalper			// Francisca
-ItemDisplay[UNI 9tk ETH]:	%GOLD% %NAME% %PURPLE%>> %DGREEN%Deathbit 		// Battle Dart (eth & auto-replenish)
+ItemDisplay[UNI 9tk ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%Deathbit 		// Battle Dart (eth & auto-replenish)
 ItemDisplay[UNI 9tk]:		%GOLD%%NAME% %DGREEN%Deathbit				// Battle Dart
 /⃓̲	Elite
 /ItemDisplay[UNI 7ta ETH]:	%GOLD%%NAME% %DGREEN%Gimmershred
 ItemDisplay[UNI 7ta]:		%GOLD%%NAME% %DGREEN%Gimmershred			// Flying Axe
-ItemDisplay[UNI 7bk ETH]:	%GOLD%   %NAME% %PURPLE%>> %DGREEN%Warshrike   		// Winged Knife (eth & auto-replenish)
+ItemDisplay[UNI 7bk ETH]:	%GOLD%   %NAME% %GRAY%>> %DGREEN%Warshrike   		// Winged Knife (eth & auto-replenish)
 ItemDisplay[UNI 7bk]:		%GOLD%   %NAME% %DGREEN%Warshrike   			// Winged Knife
-ItemDisplay[UNI 7b8 ETH]:	%GOLD%   %NAME% %PURPLE%>> %DGREEN%Lacerator   		// Winged Axe (eth & auto-replenish)
+ItemDisplay[UNI 7b8 ETH]:	%GOLD%   %NAME% %GRAY%>> %DGREEN%Lacerator   		// Winged Axe (eth & auto-replenish)
 ItemDisplay[UNI 7b8]:		%GOLD%  %NAME% %DGREEN%Lacerator  			// Winged Axe
 
 /⃓̲ Bows			(always non-eth & indestructible - hidden affix)
@@ -2226,7 +2226,7 @@ ItemDisplay[UNI 9tw ETH]:	%GOLD%%NAME% %DGREEN%Bartuc's Cut-Throat
 ItemDisplay[UNI 9tw]:		%GOLD% %NAME% %DGREEN%Bartuc's Cut-Throat 		// Greater Talons
 ItemDisplay[UNI 7wb ETH]:	%GOLD%%NAME% %DGREEN%Jade Talon
 ItemDisplay[UNI 7wb]:		%GOLD% %NAME% %DGREEN%Jade Talon 			// Wrist Sword
-ItemDisplay[UNI 7cs]:		%GOLD% %NAME% %PURPLE%>> %DGREEN%Shadow Killer 		// Battle Cestus (always eth & indestructible)
+ItemDisplay[UNI 7cs]:		%GOLD% %NAME% %GRAY%>> %DGREEN%Shadow Killer 		// Battle Cestus (always eth & indestructible)
 ItemDisplay[UNI 7lw ETH]:	%GOLD%%NAME% %DGREEN%Firelizard's Talons
 ItemDisplay[UNI 7lw]:		%GOLD% %NAME% %DGREEN%Firelizard's Talons 		// Feral Claws  (not Talons)
 
