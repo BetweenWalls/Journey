@@ -19,9 +19,9 @@ Most items are shown at level 1; junk items are gradually hidden as your charact
 * useful bases for runewords are shown
 * useful magic items such as +3 Warcries 'BO sticks' or those with 4+ to any skill are shown
 * identified relics show their tier
+* individual names for unidentified unique/set items (enabled)
 
 ### Examples of optional features:
-* individual names for unidentified unique/set items
 * all individual skills shown
 * unwanted merchant items hidden to assist with 'shopping'
 * all crafting ingredients with more descriptive recipes
@@ -32,9 +32,7 @@ Most items are shown at level 1; junk items are gradually hidden as your charact
 * textless gems
 
 ## Installation
-Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL: https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
-
-Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu. Any changes made to the filter can be seen by refreshing the same option. See the wiki for a [list of item codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes).
+Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL: https://raw.githubusercontent.com/BetweenWalls/Journey/individual-names/item.filter
 
 ## Images
 ![_](/images/miscellaneous_items.png)
