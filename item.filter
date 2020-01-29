@@ -1480,11 +1480,11 @@ ItemDisplay[amu UNI ILVL<20]:	%GOLD% %NAME% %DGREEN%Nokozan Relic 			// Amulet  
 ItemDisplay[rin UNI ILVL<20]:	%GOLD% %NAME% %DGREEN%Nagelring 			// Ring  -  Nagelring
 /ItemDisplay[rin UNI]:		%GOLD% %NAME% %DGREEN%					// Ring
 /⃓̲    Charms
-/ItemDisplay[cm1 UNI]:		%GOLD%         %NAME% %DGREEN%Annihilus         	// Small Charm
-/ItemDisplay[cm2 UNI]:		%GOLD%         %NAME% %DGREEN%Hellfire Torch         	// Large Charm
-/ItemDisplay[cm3 UNI]:		%GOLD%     %NAME% %DGREEN%Gheed's Fortune     		// Grand Charm
+ItemDisplay[cm1 UNI]:		%GOLD%         %NAME% %DGREEN%Annihilus         	// Small Charm
+ItemDisplay[cm2 UNI]:		%GOLD%         %NAME% %DGREEN%Hellfire Torch         	// Large Charm
+ItemDisplay[cm3 UNI]:		%GOLD%     %NAME% %DGREEN%Gheed's Fortune     		// Grand Charm
 /⃓̲    Other
-/ItemDisplay[jew UNI]:		%GOLD%         %NAME% %DGREEN%Rainbow Facet         	// Jewel
+ItemDisplay[jew UNI]:		%GOLD%         %NAME% %DGREEN%Rainbow Facet         	// Jewel
 /ItemDisplay[aq2 UNI]:		%GOLD%%NAME%%DGREEN%					// Arrows  -  Hailstorm, Dragonbreath, Moonfire, Ice Shards
 /ItemDisplay[cq2 UNI]:		%GOLD%%NAME%%DGREEN%					// Bolts   -  Hailstorm, Dragonbreath, Moonfire, Ice Shards
 
