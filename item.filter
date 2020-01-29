@@ -1,10 +1,9 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-/	"Journey" Item Filter for Diablo II: Path of Diablo
+/	"Journey" Item Filter for Diablo II: Path of Diablo  (unique/set item names enabled)
 /		Date Updated:	26 JAN 2019
-/		Info:		https://github.com/BetweenWalls/Journey#Journey
+/		Info:		https://github.com/BetweenWalls/Journey/tree/individual-names#Journey
 /
-/		Download:	https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9
-/		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
+/		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/individual-names/item.filter
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 / Notes:
 /	All hidden items are preceded by "hidden" and a short description
@@ -2408,22 +2407,22 @@ ItemDisplay[SET mbl]:	%GREEN%%NAME% %DGREEN%Hsarus' Iron Stay %WHITE%<%GREEN%][%
 /ItemDisplay[SET 7wd]:	%GREEN%%NAME% %DGREEN%Bul-Kathos' Tribal Guardian		// Mythical Sword	Bul-Kathos' Tribal Guardian
 
 /⃓̲ Heaven's Brethren
-/ItemDisplay[SET xrs]:	%GREEN%%NAME% %DGREEN%Haemosu's Adamant				// Cuirass		Haemosu's Adamant
-/ItemDisplay[SET 7ma]:	%GREEN%%NAME% %DGREEN%Dangoon's Teaching			// Reinforced Mace	Dangoon's Teaching
-/ItemDisplay[SET uts]:	%GREEN%%NAME% %DGREEN%Taebaek's Glory				// Ward			Taebaek's Glory
-/ItemDisplay[SET uhm]:	%GREEN%  %NAME% %DGREEN%Ondal's Almighty  			// Spired Helm		Ondal's Almighty
+ItemDisplay[SET xrs]:	%GREEN%%NAME% %DGREEN%Haemosu's Adamant				// Cuirass		Haemosu's Adamant
+ItemDisplay[SET 7ma]:	%GREEN%%NAME% %DGREEN%Dangoon's Teaching			// Reinforced Mace	Dangoon's Teaching
+ItemDisplay[SET uts]:	%GREEN%%NAME% %DGREEN%Taebaek's Glory				// Ward			Taebaek's Glory
+ItemDisplay[SET uhm]:	%GREEN%  %NAME% %DGREEN%Ondal's Almighty  			// Spired Helm		Ondal's Almighty
 
 /⃓̲ Orphan's Call
-/ItemDisplay[SET xhm]:	%GREEN%    %NAME% %DGREEN%Guillaume's Face    			// Winged Helm		Guillaume's Face
-/ItemDisplay[SET xml]:	%GREEN%%NAME% %DGREEN%Whitstan's Guard				// Round Shield		Whitstan's Guard
-/ItemDisplay[SET xvg]:	%GREEN%%NAME% %DGREEN%Magnus' Skin				// Sharkskin Gloves	Magnus' Skin
-/ItemDisplay[SET ztb]:	%GREEN%%NAME% %DGREEN%Wilhelm's Pride				// Battle Belt		Wilhelm's Pride
+ItemDisplay[SET xhm]:	%GREEN%    %NAME% %DGREEN%Guillaume's Face    			// Winged Helm		Guillaume's Face
+ItemDisplay[SET xml]:	%GREEN%%NAME% %DGREEN%Whitstan's Guard				// Round Shield		Whitstan's Guard
+ItemDisplay[SET xvg]:	%GREEN%%NAME% %DGREEN%Magnus' Skin				// Sharkskin Gloves	Magnus' Skin
+ItemDisplay[SET ztb]:	%GREEN%%NAME% %DGREEN%Wilhelm's Pride				// Battle Belt		Wilhelm's Pride
 
 /⃓̲ The Disciple
-/ItemDisplay[SET ulg]:	%GREEN%     %NAME% %DGREEN%Laying of Hands     			// Bramble Mitts	Laying of Hands
-/ItemDisplay[SET uui]:	%GREEN%%NAME% %DGREEN%Dark Adherent				// Dusk Shroud		Dark Adherent
-/ItemDisplay[SET xlb]:	%GREEN%%NAME% %DGREEN%Rite of Passage				// Demonhide Boots	Rite of Passage
-/ItemDisplay[SET umc]:	%GREEN%%NAME% %DGREEN%Credendum					// Mithril Coil		Credendum
+ItemDisplay[SET ulg]:	%GREEN%     %NAME% %DGREEN%Laying of Hands     			// Bramble Mitts	Laying of Hands
+ItemDisplay[SET uui]:	%GREEN%%NAME% %DGREEN%Dark Adherent				// Dusk Shroud		Dark Adherent
+ItemDisplay[SET xlb]:	%GREEN%%NAME% %DGREEN%Rite of Passage				// Demonhide Boots	Rite of Passage
+ItemDisplay[SET umc]:	%GREEN%%NAME% %DGREEN%Credendum					// Mithril Coil		Credendum
 /⃓̲	amulet:				      Telling of Beads
 
 
@@ -2561,9 +2560,9 @@ ItemDisplay[SET (xrn OR 9vo OR xcl)]:				%DGREEN%Hwanin's %GREEN%%NAME%%CONTINUE
 ItemDisplay[SET (xhl OR 7ls OR upl)]:				%DGREEN%Sazabi's %GREEN%%NAME%%CONTINUE%
 ItemDisplay[SET (ci0 OR ult OR 6cs)]:				%DGREEN%Naj's %GREEN%%NAME%%CONTINUE%
 ItemDisplay[SET (7gd OR 7wd)]:					%DGREEN%Bul-Kathos' %GREEN%%NAME%%CONTINUE%
-ItemDisplay[SET (xrs OR 7ma OR uts OR uhm)]:			%DGREEN%Heaven's Brethren: %GREEN%%NAME%%CONTINUE%
-ItemDisplay[SET (ulg OR uui OR xlb OR umc)]:			%DGREEN%The Disciple: %GREEN%%NAME%%CONTINUE%
-ItemDisplay[SET (xhm OR xml OR xvg OR ztb)]:			%DGREEN%Orphan's Call: %GREEN%%NAME%%CONTINUE%
+/ItemDisplay[SET (xrs OR 7ma OR uts OR uhm)]:			%DGREEN%Heaven's Brethren: %GREEN%%NAME%%CONTINUE%
+/ItemDisplay[SET (ulg OR uui OR xlb OR umc)]:			%DGREEN%The Disciple: %GREEN%%NAME%%CONTINUE%
+/ItemDisplay[SET (xhm OR xml OR xvg OR ztb)]:			%DGREEN%Orphan's Call: %GREEN%%NAME%%CONTINUE%
 /⃓̲    Class Sets
 ItemDisplay[SET (dr8 OR xtb OR uul OR 9mt)]:			%DGREEN%Aldur's %GREEN%%NAME%%CONTINUE%
 ItemDisplay[SET (xar OR urn OR 7ws OR paf)]:			%DGREEN%Griswold's %GREEN%%NAME%%CONTINUE%
