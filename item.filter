@@ -2379,7 +2379,7 @@ ItemDisplay[SET crn]:	%GREEN%%NAME% %DGREEN%Iratha's Coil %WHITE%<%GREEN%][%WHIT
 /ItemDisplay[SET cap]:	%GREEN%%NAME% %DGREEN%Sander's Paragon %WHITE%<%GREEN%][%WHITE%> %DGREEN%Infernal Cranium		// Cap		Sander's Paragon  (shared base)
 /ItemDisplay[SET bwn]:	%GREEN%%NAME% %DGREEN%Sander's Superstition			// Bone Wand		Sander's Superstition
 /ItemDisplay[SET vgl]:	%GREEN%%NAME% %DGREEN%Sander's Taboo				// Heavy Gloves		Sander's Taboo
-ItemDisplay[SET (vbt !((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%GREEN% %NAME% %DGREEN%Sander's Riprap 	// Heavy Boots	Sander's Riprap
+/ItemDisplay[SET (vbt !((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85)))]:	%GREEN% %NAME% %DGREEN%Sander's Riprap 	// Heavy Boots	Sander's Riprap
 
 /⃓̲ Cow King's Leathers  (only drops from Cow Levels)
 /ItemDisplay[SET xap]:	%GREEN% %NAME% %DGREEN%Cow King's Horns 			// War Hat		Cow King's Horns
