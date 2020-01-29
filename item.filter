@@ -1438,9 +1438,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲ ┌─────────────────────────────────────────────────┐
 /⃓̲═╡ Unique Items  (unidentified - individual rules) ╞═══════════════════════════════════════════════════════════════════
 /⃓̲ └─────────────────────────────────────────────────┘
-/⃓̲ Notes:
-/⃓̲    None of these rules are enabled by default - this category may be removed without affecting functionality
-/⃓̲    Enabling both individual rules for any unique is redundant unless their output differs  (use the rule without 'ETH' condition)
+/⃓̲ Note:  Enabling both individual rules for any unique is redundant unless their output differs  (use the rule without 'ETH' condition)
 
 /⃓̲ Reference - jewelry
 /⃓̲    Amulets  (ilvl 85+)	chance	   minimum ilvl (qlvl)
@@ -2244,7 +2242,6 @@ ItemDisplay[UNI obf]:		%GOLD%         %NAME% %DGREEN%Death's Fathom         	// 
 /⃓̲ ┌─────────────────────────────────────────────┐
 /⃓̲═╡ Set Items  (unidentified; individual rules) ╞═══════════════════════════════════════════════════════════════════════
 /⃓̲ └─────────────────────────────────────────────┘
-/⃓̲ Note:  None of these rules are enabled by default - this category may be removed without affecting functionality
 
 /⃓̲ Reference - jewelry probability
 /⃓̲    Amulets  (ilvl 39+)	chance	   minimum ilvl (qlvl)
@@ -2531,7 +2528,7 @@ ItemDisplay[SET umc]:	%GREEN%%NAME% %DGREEN%Credendum					// Mithril Coil		Crede
 /ItemDisplay[SET lrg]:	%DGREEN%Civerb's %GREEN%%NAME%%CONTINUE%	// Large Shield		(not Ward)
 /ItemDisplay[SET sml]:	%DGREEN%Cleglaw's %GREEN%%NAME%%CONTINUE%	// Small Shield		(not a claw)
 /ItemDisplay[SET kit]:	%DGREEN%Milabrega's %GREEN%%NAME%%CONTINUE%	// Kite Shield		(not an orb)
-ItemDisplay[SET ult]:	%DGREEN%Naj's %GREEN%%NAME%%CONTINUE%		// Hellforge Plate	(not Light Plate)
+/ItemDisplay[SET ult]:	%DGREEN%Naj's %GREEN%%NAME%%CONTINUE%		// Hellforge Plate	(not Light Plate)
 /ItemDisplay[SET xh9]:	%DGREEN%Natalya's %GREEN%%NAME%%CONTINUE%	// Grim Helm		(not a totem)
 /ItemDisplay[SET xmg]:	%DGREEN%Trang-Oul's %GREEN%%NAME%%CONTINUE%	// Heavy Bracers	(not Claws)
 
