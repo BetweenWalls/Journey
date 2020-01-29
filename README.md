@@ -32,7 +32,9 @@ Most items are shown at level 1; junk items are gradually hidden as your charact
 * textless gems
 
 ## Installation
-Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL: https://raw.githubusercontent.com/BetweenWalls/Journey/individual-names/item.filter
+Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL:
+
+https://raw.githubusercontent.com/BetweenWalls/Journey/individual-names/item.filter
 
 ## Images
 ![_](/images/miscellaneous_items.png)
