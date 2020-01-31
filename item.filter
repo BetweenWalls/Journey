@@ -1,5 +1,5 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-/	"Journey" Item Filter for Diablo II: Path of Diablo
+/	"Journey" Item Filter for Diablo II: Path of Diablo  (all skills for regular items enabled)
 /		Date Updated:	26 JAN 2019
 /		Info:		https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills
 /
@@ -503,7 +503,7 @@ ItemDisplay[RW]: %NAME%%DGREEN%
 /⃓̲═╡ Crafted Equipment ╞═════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └───────────────────┘
 /⃓̲ show ilvl (if below max affix range)
-ItemDisplay[ID !(NMAG OR MAG OR RARE) (ILVL<71 OR (amu ILVL<90) OR (rin ILVL<78) OR (WEAPON ILVL<77) OR (EQ2 ILVL<74))]: %NAME% %GRAY%[L%ILVL%]%DGREEN%
+ItemDisplay[ID !(NMAG OR MAG OR RARE) (ILVL<71 OR (amu ILVL<90) OR (rin (ILVL<78 OR ITEMSTAT62>5)) OR (WEAPON ILVL<77) OR (EQ2 ILVL<74))]: %NAME% %GRAY%[L%ILVL%]%DGREEN%
 ItemDisplay[ID !(NMAG OR MAG OR RARE)]: %NAME%%DGREEN%
 
 
@@ -583,7 +583,7 @@ ItemDisplay[MAG !ID ILVL>47 (vgl OR xvg OR uvg OR tbt OR xtb OR utb OR zmb OR um
 /⃓̲    Boots:	best affixes available at 37-45, but 71+ guarantees 4 affixes  (decent for gambling at character level 40-41)
 /⃓̲    Belts:	best result = 71+
 /⃓̲    Amulets:	best result = 90+  (+2 skills)
-/⃓̲    Rings:	most affixes available at 56-58, best result = 78-85  (86+ can give up to +9% mana leech instead of +7%, but will require character level 96 to use)
+/⃓̲    Rings:	most affixes available at 56-58, best result = 78-85  (86+ can give up to +6% mana leech instead of +5%, but will require character level 95 to use)
 
 /⃓̲ Reference: Other Recipes
 /⃓̲    Reroll Magic		= 3 Gems 			(ilvl unchanged, best with grand charms)
