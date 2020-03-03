@@ -1,12 +1,12 @@
-# Journey
+# Journey (streamlined)
 Lootfilter for Diablo II: Path of Diablo
 
+This branch removes extra descriptions and optional rules.
+
 ## Overview
-This filter provides sane default settings in a classic style, and includes many customization options.
+This filter provides sane default settings in a classic style.
 
-Most items are shown at level 1; junk items are gradually hidden as your character levels up. These display changes occur until level 90, afterwhich no additional changes are made. The filter file includes descriptions for what is hidden at which levels, and other descriptions are included throughout to assist with tailoring the filter to your needs.
-
-If the extra descriptions/options are too much, the [streamlined version](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) has the same defaults at less than half the size.
+Most items are shown at level 1; junk items are gradually hidden as your character levels up. These display changes occur until level 90, afterwhich no additional changes are made. The filter file includes descriptions for what is hidden at which levels.
 
 ## Features
 * Mostly follows classic style (it still looks like D2)
@@ -22,23 +22,14 @@ If the extra descriptions/options are too much, the [streamlined version](https:
 * useful magic items such as +3 Warcries 'BO sticks' or those with 4+ to any skill are shown
 * identified relics show their tier
 
-### Examples of optional features:
-* [individual names for unidentified unique/set items](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names)
-* [all individual skills shown](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills)
-* unwanted merchant items hidden to assist with 'shopping'
-* all crafting ingredients with more descriptive recipes
-* item quality (normal, exceptional, elite) for uniques/rares
-* rules for leveling items
-* quantity for keys/tomes
-* highlighting for unique/set items changed in Path of Diablo
-* textless gems
-
 ## Installation
-Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL: https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
+Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL:
 
-Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu. Any changes made to the filter can be seen by refreshing the same option. See the wiki for a [list of item codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes).
+https://raw.githubusercontent.com/BetweenWalls/Journey/streamlined/item.filter
 
 ## Images
+Images are copied from the master branch, and may not reflect changes made for this branch.
+
 ![_](/images/miscellaneous_items.png)
 ![_](/images/unidentified_items.png)
 ![_](/images/uniques_special_properties.png)
