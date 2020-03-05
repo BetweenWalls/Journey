@@ -6,7 +6,7 @@ This filter provides sane default settings in a classic style, and includes many
 
 Most items are shown at level 1; junk items are gradually hidden as your character levels up. These display changes occur until level 90, afterwhich no additional changes are made. The filter file includes descriptions for what is hidden at which levels, and other descriptions are included throughout to assist with tailoring the filter to your needs.
 
-If the extra descriptions/options are too much, the [streamlined version](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) has the same defaults at less than half the size.
+If the in-file descriptions/options are unwanted, the [streamlined version](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) has the same defaults at less than half the size.
 
 ## Features
 * Mostly follows classic style (it still looks like D2)
