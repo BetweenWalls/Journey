@@ -1,10 +1,9 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-/	"Journey" Item Filter for Diablo II: Path of Diablo
+/	"Journey" Item Filter for Diablo II: Path of Diablo  (streamlined)
 /		Date Updated:	26 JAN 2019
-/		Info:		https://github.com/BetweenWalls/Journey#Journey
+/		Info:		https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined
 /
-/		Download:	https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9
-/		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
+/		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/streamlined/item.filter
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 / Notes:
 /	All hidden items are preceded by "hidden" and a short description
@@ -25,8 +24,6 @@
 /	9.  Leading spaces (those which precede all other output) are ignored in-game, as are trailing spaces if they follow data keywords such as "%DGREEN%" or "%ILVL%"
 /	10. Leading/trailing tabs are always ignored in-game
 /
-/ Valid Output Characters:
-/	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ÁÀÂÄÃÅáàâäãåÆæÉÈÊËéèêëÍÌÎÏíìîïÓÒÔÖÕóòôöõÚÙÛÜúùûüÝýÿÐÇçÑñ~!?@#$%^&*=-+_"',.:;<>\|()[]{}µ¶ß¢£¥®©ØøÞþ§ð¿¡¯¨¬­¦«»÷×±ªº´`¤°¹²³¼½¾ (and "space")
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 / Index:
 /
