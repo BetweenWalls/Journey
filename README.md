@@ -1,7 +1,7 @@
 # Journey (all skills)
 Lootfilter for Diablo II: Path of Diablo
 
-This branch enables rules for showing all skills on regular items.
+This branch enables rules for showing all skills on regular items.  [(click to **return** to the main branch)](https://github.com/BetweenWalls/Journey#Journey)
 
 ## Overview
 This filter provides sane default settings in a classic style, and includes many customization options.
