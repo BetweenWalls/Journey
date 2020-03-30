@@ -1,7 +1,7 @@
 # Journey (streamlined)
 Lootfilter for Diablo II: Path of Diablo
 
-This branch removes extra descriptions and optional rules.
+This branch removes extra descriptions and optional rules.  [(click to **return** to the main branch)](https://github.com/BetweenWalls/Journey#Journey)
 
 ## Overview
 This filter provides sane default settings in a classic style.
