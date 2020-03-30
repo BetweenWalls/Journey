@@ -1,7 +1,7 @@
 # Journey (individual names)
 Lootfilter for Diablo II: Path of Diablo
 
-This branch enables rules for individual unique/set item names.
+This branch enables rules for individual unique/set item names.  [(click to **return** to the main branch)](https://github.com/BetweenWalls/Journey#Journey)
 
 ## Overview
 This filter provides sane default settings in a classic style, and includes many customization options.
