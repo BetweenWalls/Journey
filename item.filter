@@ -1,6 +1,6 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo
-/		Date Updated:	26 JAN 2019
+/		Date Updated:	30 MAR 2020
 /		Info:		https://github.com/BetweenWalls/Journey#Journey
 /
 /		Download:	https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9
@@ -198,10 +198,10 @@ ItemDisplay[cx7]: %ORANGE%   Key of Chaos   			// Key of Chaos		(drops in maps)
 /ItemDisplay[cx6]: %NAME%					// Diablo's Soulstone	(drops in Uber Tristram)
 /ItemDisplay[maz]: %TAN%%NAME%%RED%				// Infernal Trial	("DClone")
 /⃓̲ Relics (maps)
-ItemDisplay[ma4 ID]: %TAN%%NAME% %GRAY%[T1]%RED%		// Desecrated Temple	(drops from Hephasto in Hell)
-ItemDisplay[ma5 ID]: %TAN%%NAME% %GRAY%[T2]%RED%		// Frigid Plateau
-ItemDisplay[ma6 ID]: %TAN%%NAME% %GRAY%[T3]%RED%		// Ruined Citadel
-ItemDisplay[ma2 ID]: %TAN%%NAME% %GRAY%[T4]%RED%		// Forgotten Desert
+ItemDisplay[ma4 ID]: %TAN%Desecrated Temple %GRAY%[T1 Relic]%RED%	// T1 (drops from Hephasto in Hell)
+ItemDisplay[ma5 ID]: %TAN%Frigid Plateau %GRAY%[T2 Relic]%RED%		// T2
+ItemDisplay[ma6 ID]: %TAN%Ruined Citadel %GRAY%[T3 Relic]%RED%		// T3
+ItemDisplay[ma2 ID]: %TAN%Forgotten Desert %GRAY%[T4 Relic]%RED%	// T4
 ItemDisplay[ma4 OR ma5 OR ma6 OR ma2 OR maz]: %TAN%%NAME%%RED%
 /⃓̲ Legacy Items
 /ItemDisplay[cm4]:	  Horadrim Sigil  			// Horadrim Sigil
@@ -361,11 +361,11 @@ ItemDisplay[r25]:	     %NAME%     				// Gul	 always worth 1/2 of Vex, typically
 ItemDisplay[r26]:	       %NAME%       				// Vex	 worth about the same or slightly less than Ohm, typically 0.5 "HR"
 ItemDisplay[	r32]:	        %NAME%        				// Cham	 always worth 1/2 of Zod
 ItemDisplay[r27]:	         %NAME%         			// Ohm	 always worth 1/2 of Lo
-ItemDisplay[	r29]:	           %NAME%           			// Sur	 the benchmark rune, worth 1 "HR"
-ItemDisplay[	r33]:	            %NAME%            			// Zod	 typically worth about the same or slightly more than Sur, up to 1.2 "HR"
-ItemDisplay[r28]:	              %NAME%              		// Lo	 valued between Sur and Ber, but not more than 1.5 "HR"
-ItemDisplay[r30]:	                 %NAME%                 	// Ber	 always worth 2x Sur, or 2 "HR"
-ItemDisplay[r31]:	                    %NAME%                    	// Jah	 typically worth about the same or slightly more than Ber, up to 2.5 "HR"
+ItemDisplay[	r29]:	          %NAME%          			// Sur	 the benchmark rune, worth 1 "HR"
+ItemDisplay[	r33]:	           %NAME%           			// Zod	 typically worth about the same or slightly more than Sur, up to 1.2 "HR"
+ItemDisplay[r28]:	            %NAME%            			// Lo	 valued between Sur and Ber, but not more than 1.5 "HR"
+ItemDisplay[r30]:	              %NAME%              		// Ber	 always worth 2x Sur, or 2 "HR"
+ItemDisplay[r31]:	                %NAME%                		// Jah	 typically worth about the same or slightly more than Ber, up to 2.5 "HR"
 
 /⃓̲ Collective Rules
 ItemDisplay[RUNE>0 RUNE<15]:	%NAME%
@@ -740,7 +740,7 @@ ItemDisplay[CLVL<15 NMAG (WP5 NORM !CL7 !bal)]: %NAME%%DGREEN%
 ItemDisplay[NMAG INF (utp OR 7cr OR amb OR amc)]: %NAME% %DGREEN%*
 
 /⃓̲ 0-socket swords (4-sockets via Larzuk's quest, ilvl shown - until level 60) - Spirit RW
-ItemDisplay[NMAG CLVL<60 ((ILVL>25 ((crs ILVL<41) OR ((bsd OR lsd) ILVL<60))) SOCK=0 !ETH)]: %NAME% %GRAY%[L%ILVL%]%DGREEN%
+ItemDisplay[NMAG CLVL<60 ((ILVL>25 ((crs ILVL<41) OR ((bsd OR lsd) ILVL<60))) SOCK=0)]: %NAME% %GRAY%[L%ILVL%]%DGREEN%
 
 /⃓̲ Obscured/Hidden: Regular Non-Class Merchant Items - levels 7, 15
 ItemDisplay[(NMAG !(CL5 OR WP11 OR WP12 OR WP13) ((ILVL=12 CLVL>6) OR (ILVL=20 CLVL>14)))]:%GRAY%
@@ -842,11 +842,11 @@ ItemDisplay[!CL7 NMAG WP9 CLVL>29 !((SOCK>2 SOCK<5) OR ELT OR ED>0)]:
 /⃓̲    eth		   0	Legend Sword, Colossus Sword, Colossus Blade, Berserker Axe, Glorious Axe, Thunder Maul, any elite*
 /⃓̲    eth		   3	any elite sword, Dimensional Blade
 /⃓̲    eth		   3+	any elite 2-handed sword, any elite*
-/⃓̲    eth		   4+	4-5s Crystal Sword, Flail, 5s Double Axe, Scourge, Berserker Axe, Ettin Axe, Glorious Axe, Champion Axe, 5s Silver-Edged Axe, 6s Thunder Maul
+/⃓̲    eth		   4+	4-5s Crystal Sword, Broad Sword, Long Sword, Flail, 5s Double Axe, Scourge, Berserker Axe, Ettin Axe, Glorious Axe, Champion Axe, 5s Silver-Edged Axe, 6s Thunder Maul
 /⃓̲    non-eth		   0	any elite*
 /⃓̲    non-eth		   3+	Phase Blade, Berserker Axe, Scourge, Colossus Blade, any elite*
 /⃓̲    non-eth		   4+	4-5s Crystal Sword, Broad Sword, Flail, 5s Double Axe;  until level 70: any normal 4-6s sword, any normal one-handed 5s axe
-ItemDisplay[NMAG ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK=0 (72h OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm)) OR ((9cr OR (WP3 ELT)) SOCK=3) OR (WP3 ELT SOCK>2 !7bs !7ls) OR ((fla OR (crs SOCK<6) OR 7fl OR 7wa OR 72a OR 7gi OR 7ga) SOCK>3) OR ((2ax OR 7ba) SOCK>4) OR (7gm SOCK>5)))]:
+ItemDisplay[NMAG ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK=0 (72h OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm)) OR ((9cr OR (WP3 ELT)) SOCK=3) OR (WP3 ELT SOCK>2 !7bs !7ls) OR ((fla OR (crs SOCK<6) OR bsd OR lsd OR 7fl OR 7wa OR 72a OR 7gi OR 7ga) SOCK>3) OR ((2ax OR 7ba) SOCK>4) OR (7gm SOCK>5)))]:
 ItemDisplay[NMAG !ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK>2 (7cr OR 7wa OR 7fl OR 7gd)) OR (SOCK>3 (((bsd OR crs) SOCK<6) OR fla OR (((WP3 NORM) OR ((mpi OR wax) SOCK=5)) CLVL<70))) OR (2ax SOCK=5)))]:
 
 /⃓̲ Modification: Emphasize nearly-superior elite socketable armor - level 40 until 90
