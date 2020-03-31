@@ -2650,22 +2650,22 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[SET 7wd]:	%GREEN%%NAME% %DGREEN%Bul-Kathos' Tribal Guardian		// Mythical Sword	Bul-Kathos' Tribal Guardian
 
 /⃓̲ Heaven's Brethren
-ItemDisplay[SET xrs]:	%GREEN%%NAME% %DGREEN%Haemosu's Adamant				// Cuirass		Haemosu's Adamant
-ItemDisplay[SET 7ma]:	%GREEN%%NAME% %DGREEN%Dangoon's Teaching			// Reinforced Mace	Dangoon's Teaching
-ItemDisplay[SET uts]:	%GREEN%%NAME% %DGREEN%Taebaek's Glory				// Ward			Taebaek's Glory
-ItemDisplay[SET uhm]:	%GREEN%  %NAME% %DGREEN%Ondal's Almighty  			// Spired Helm		Ondal's Almighty
+/ItemDisplay[SET xrs]:	%GREEN%%NAME% %DGREEN%Haemosu's Adamant				// Cuirass		Haemosu's Adamant
+/ItemDisplay[SET 7ma]:	%GREEN%%NAME% %DGREEN%Dangoon's Teaching			// Reinforced Mace	Dangoon's Teaching
+/ItemDisplay[SET uts]:	%GREEN%%NAME% %DGREEN%Taebaek's Glory				// Ward			Taebaek's Glory
+/ItemDisplay[SET uhm]:	%GREEN%  %NAME% %DGREEN%Ondal's Almighty  			// Spired Helm		Ondal's Almighty
 
 /⃓̲ Orphan's Call
-ItemDisplay[SET xhm]:	%GREEN%    %NAME% %DGREEN%Guillaume's Face    			// Winged Helm		Guillaume's Face
-ItemDisplay[SET xml]:	%GREEN%%NAME% %DGREEN%Whitstan's Guard				// Round Shield		Whitstan's Guard
-ItemDisplay[SET xvg]:	%GREEN%%NAME% %DGREEN%Magnus' Skin				// Sharkskin Gloves	Magnus' Skin
-ItemDisplay[SET ztb]:	%GREEN%%NAME% %DGREEN%Wilhelm's Pride				// Battle Belt		Wilhelm's Pride
+/ItemDisplay[SET xhm]:	%GREEN%    %NAME% %DGREEN%Guillaume's Face    			// Winged Helm		Guillaume's Face
+/ItemDisplay[SET xml]:	%GREEN%%NAME% %DGREEN%Whitstan's Guard				// Round Shield		Whitstan's Guard
+/ItemDisplay[SET xvg]:	%GREEN%%NAME% %DGREEN%Magnus' Skin				// Sharkskin Gloves	Magnus' Skin
+/ItemDisplay[SET ztb]:	%GREEN%%NAME% %DGREEN%Wilhelm's Pride				// Battle Belt		Wilhelm's Pride
 
 /⃓̲ The Disciple
-ItemDisplay[SET ulg]:	%GREEN%     %NAME% %DGREEN%Laying of Hands     			// Bramble Mitts	Laying of Hands
-ItemDisplay[SET uui]:	%GREEN%%NAME% %DGREEN%Dark Adherent				// Dusk Shroud		Dark Adherent
-ItemDisplay[SET xlb]:	%GREEN%%NAME% %DGREEN%Rite of Passage				// Demonhide Boots	Rite of Passage
-ItemDisplay[SET umc]:	%GREEN%%NAME% %DGREEN%Credendum					// Mithril Coil		Credendum
+/ItemDisplay[SET ulg]:	%GREEN%     %NAME% %DGREEN%Laying of Hands     			// Bramble Mitts	Laying of Hands
+/ItemDisplay[SET uui]:	%GREEN%%NAME% %DGREEN%Dark Adherent				// Dusk Shroud		Dark Adherent
+/ItemDisplay[SET xlb]:	%GREEN%%NAME% %DGREEN%Rite of Passage				// Demonhide Boots	Rite of Passage
+/ItemDisplay[SET umc]:	%GREEN%%NAME% %DGREEN%Credendum					// Mithril Coil		Credendum
 /⃓̲	amulet:				      Telling of Beads
 
 
