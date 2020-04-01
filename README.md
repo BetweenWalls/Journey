@@ -6,21 +6,19 @@ This branch removes extra descriptions and optional rules.  [(click to **return*
 ## Overview
 This filter provides sane default settings in a classic style.
 
-Most items are shown at level 1; junk items are gradually hidden as your character levels up. These display changes occur until level 90, afterwhich no additional changes are made. The filter file includes descriptions for what is hidden at which levels.
+Most items are shown at level 1; the filter gradually becomes more strict as your character levels up to 90+. The filter file includes descriptions for what is hidden at which levels.
 
 ## Features
-* Mostly follows classic style (it still looks like D2)
-* Non-Equipment more clearly distinguished from Equipment (gems, jewels, charms)
-* unique/set highlighting based on individual item value
-* amount of individual skills shown
-* value of highest individual skill shown
-* rules for unique/set items with shared bases or natural sockets
-* self-repairing eth uniques are distinguished from other eth uniques
-* dynamic display for high-price sellable items
-* popular crafting ingredients shown with codified recipes
-* useful bases for runewords are shown
-* useful magic items such as +3 Warcries 'BO sticks' or those with 4+ to any skill are shown
+* mostly follows classic style (it still looks like D2)
+* non-equipment more clearly distinguished from equipment (gems, jewels, charms)
+* unique/set/other items highlighted based on their usefulness
+* regular items displayed with amount of skills and highest skill value
+* dynamic display for high-price sellable items (more prices are shown the poorer you are)
+* popular crafting ingredients marked with codified recipes
+* natural sockets shown for unidentified unique/set items
+* enhanced damage/defense shown for superior items
 * identified relics show their tier
+* shopping for valuable items from merchants made easier
 
 ## Installation
 Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL:
