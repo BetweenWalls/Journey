@@ -6,32 +6,29 @@ This branch enables rules for individual unique/set item names.  [(click to **re
 ## Overview
 This filter provides sane default settings in a classic style, and includes many customization options.
 
-Most items are shown at level 1; junk items are gradually hidden as your character levels up. These display changes occur until level 90, afterwhich no additional changes are made. The filter file includes descriptions for what is hidden at which levels, and other descriptions are included throughout to assist with tailoring the filter to your needs.
+Most items are shown at level 1; the filter gradually becomes more strict as your character levels up to 90+. The filter file includes descriptions for what is hidden at which levels, and other descriptions are included throughout to assist with tailoring the filter to your needs.
 
 ## Features
-* Mostly follows classic style (it still looks like D2)
-* Non-Equipment more clearly distinguished from Equipment (gems, jewels, charms)
-* unique/set highlighting based on individual item value
-* amount of individual skills shown
-* value of highest individual skill shown
-* rules for unique/set items with shared bases or natural sockets
-* self-repairing eth uniques are distinguished from other eth uniques
-* dynamic display for high-price sellable items
-* popular crafting ingredients shown with codified recipes
-* useful bases for runewords are shown
-* useful magic items such as +3 Warcries 'BO sticks' or those with 4+ to any skill are shown
+* mostly follows classic style (it still looks like D2)
+* non-equipment more clearly distinguished from equipment (gems, jewels, charms)
+* unique/set/other items highlighted based on their usefulness
+* regular items displayed with amount of skills and highest skill value
+* dynamic display for high-price sellable items (more prices are shown the poorer you are)
+* popular crafting ingredients marked with codified recipes
+* natural sockets shown for unidentified unique/set items
+* enhanced damage/defense shown for superior items
 * identified relics show their tier
-* individual names for unidentified unique/set items (enabled)
+* shopping for valuable items from merchants made easier
+* individual names for unidentified unique/set items (enabled in this branch)
 
 ### Examples of optional features:
 * all individual skills shown
-* unwanted merchant items hidden to assist with 'shopping'
 * all crafting ingredients with more descriptive recipes
 * item quality (normal, exceptional, elite) for uniques/rares
-* rules for leveling items
 * quantity for keys/tomes
-* highlighting for unique/set items changed in Path of Diablo
+* extra highlighting for unique/set items changed in Path of Diablo
 * textless gems
+* various highlighting options for regular/magic/rare items
 
 ## Installation
 Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL:
