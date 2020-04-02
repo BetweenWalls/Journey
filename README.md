@@ -23,7 +23,7 @@ If the in-file descriptions/options are unwanted, the [streamlined version](http
 ### Examples of optional features:
 * [individual names for unidentified unique/set items](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names)
 * [all individual skills shown](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills)
-* all crafting ingredients with more descriptive recipes
+* all crafting ingredients with codified recipes
 * item quality (normal, exceptional, elite) for uniques/rares
 * quantity for keys/tomes
 * extra highlighting for unique/set items changed in Path of Diablo
@@ -43,3 +43,4 @@ Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-M
 ![_](/images/regular_items.png)
 ![_](/images/regular_class_items.png)
 ![_](/images/gems.png)
+![_](/images/unidentified_highlighting.png)
