@@ -1,6 +1,6 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo  (all skills for regular items enabled)
-/		Date Updated:	31 MAR 2020
+/		Date Updated:	8 APR 2020
 /		Info:		https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills
 /
 /		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/all-skills/item.filter
@@ -82,8 +82,8 @@
 /⃓̲═╡ Gold ╞══════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └──────┘
 /⃓̲ Hidden: smaller gold piles - levels 10, 20, 30, 50, 70, 90
-/⃓̲    Less Gold Shown
-/⃓̲    Medium
+/⃓̲    Less Gold Shown	(exceptions if stash gold is below 300,000)
+/⃓̲    Medium		(exceptions if stash gold is below 200,000)
 /⃓̲    More Gold Shown
 /ItemDisplay[((GOLD<9999 CLVL>89 CHARSTAT15>300000) OR (GOLD<3000 CLVL>69 CHARSTAT15>100000) OR (GOLD<2000 CLVL>49) OR (GOLD<1000 CLVL>29) OR (GOLD<500 CLVL>19) OR (GOLD<200 CLVL>9) OR GOLD<50)]:
 ItemDisplay[((GOLD<3000 CLVL>89 CHARSTAT15>200000) OR (GOLD<1800 CLVL>69 CHARSTAT15>100000) OR (GOLD<1200 CLVL>49) OR (GOLD<600 CLVL>29) OR (GOLD<300 CLVL>19) OR (GOLD<100 CLVL>9) OR GOLD<30)]:
@@ -169,8 +169,8 @@ ItemDisplay[opm OR ops OR gpm OR gps]:
 /ItemDisplay[tr2]: %NAME%					// Scroll of Resistance
 
 /⃓̲ Collective Rules
-ItemDisplay[(hdm OR msf OR vip OR hst OR g33 OR qf1 OR qf2 OR hfh) SOCK=0]: %NAME%
-/ItemDisplay[(bks OR bkd OR box OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2)]: %NAME%
+ItemDisplay[(hdm OR msf OR vip OR hst OR g33 OR qf1 OR qf2 OR hfh) SOCK=0]: %NAME%						// equipment
+/ItemDisplay[(bks OR bkd OR box OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2)]: %NAME%	// non-equipment
 
 
 /⃓̲ ┌─────────┐
@@ -205,8 +205,6 @@ ItemDisplay[ma4 OR ma5 OR ma6 OR ma2 OR maz]: %TAN%%NAME%%RED%
 /⃓̲ Legacy Items
 /ItemDisplay[cm4]:	  Horadrim Sigil  %RED%			// Horadrim Sigil
 /ItemDisplay[cx8]:	  %DGREEN%%NAME%  %RED%			// Orb of Enchantment
-
-/ItemDisplay[(toa OR dhn OR bey OR mbr OR cx6 OR cm4 OR cx8)]: %NAME%
 
 
 /⃓̲ ┌───────────────┐
@@ -263,8 +261,6 @@ ItemDisplay[ear]: %GRAY%%NAME%%RED%				// Player Ear
 /ItemDisplay[(tbk OR ibk) ITEMSTAT70=19]: %NAME% %GRAY%(19)%DGREEN%
 /ItemDisplay[(tbk OR ibk) ITEMSTAT70=20]: %NAME% %GRAY%(20)%DGREEN%
 
-/ItemDisplay[(tbk OR ibk OR std)]: %NAME%%DGREEN%
-
 
 /⃓̲ ┌──────┐
 /⃓̲═╡ Gems ╞══════════════════════════════════════════════════════════════════════════════════════════════════════════════
@@ -282,7 +278,7 @@ ItemDisplay[((GEMLEVEL=2 CLVL>39) OR (GEMLEVEL=3 CLVL>59))]:						// don't hide 
 /ItemDisplay[gpv]:	%ORANGE% [%PURPLE%@%ORANGE%] %WHITE%P%GRAY%.%WHITE%Amethyst %ORANGE* %DGREEN%8a 11r	// Caster Amulet/Ring
 
 /⃓̲ Collective Rules
-/⃓̲    Default Names  (with gem icon)
+/⃓̲    Default Names  (includes gem icon)
 /ItemDisplay[GEMLEVEL>0]:	%DGREEN%[%ORANGE%@%DGREEN%] %WHITE%%NAME%%DGREEN%
 /⃓̲    Default Names with gem colors
 /ItemDisplay[gcb OR gfb OR gsb OR glb OR gpb]:	%ORANGE%[%BLUE%@%ORANGE%] %WHITE%%NAME%%DGREEN%
@@ -350,7 +346,7 @@ ItemDisplay[r11]:	 %NAME% 					// Amn  (used for amulet & ring crafting)
 /ItemDisplay[r18]:	 %NAME% 					// Ko
 /ItemDisplay[r19]:	 %NAME% 					// Fal
 /⃓̲    Mid Runes
-/ItemDisplay[r20]:	  %NAME%  					// Lem	 worth about the same or slightly less than Pul  (Lems are used for upgrading exceptional armor, which is a prerequisite for some 4-socket corruptions)
+/ItemDisplay[r20]:	  %NAME%  					// Lem	 worth about the same as Pul	(Lems are used for upgrading exceptional armor, which is a prerequisite for some valuable 4-socket corruptions in PoD)
 /ItemDisplay[r21]:	  %NAME%  					// Pul	 worth atleast 0.015625 - 0.02778 "HR" (1/2 Um - 1/3 Mal)  -  potential trade value: 0.04 "HR" (Sur = 25 Pul)
 /ItemDisplay[r22]:	   %NAME%   					// Um	 worth atleast 0.03125 - 0.0556 "HR" (1/2 Mal - 1/3 Ist)  -  potential trade value: 0.0625 "HR" (Vex = 8 Um)
 /ItemDisplay[r23]:	   %NAME%   					// Mal	 worth atleast 0.0625 - 0.083 "HR" (1/2 Ist - 1/3 Gul)  -  potential trade value: 0.1 "HR" (Vex = 5 Mal)
@@ -361,10 +357,10 @@ ItemDisplay[r26]:	       %NAME%       				// Vex	 worth about the same or slight
 ItemDisplay[	r32]:	        %NAME%        				// Cham	 always worth 1/2 of Zod
 ItemDisplay[r27]:	         %NAME%         			// Ohm	 always worth 1/2 of Lo
 ItemDisplay[r29]:	          %NAME%          			// Sur	 the benchmark rune, worth 1 "HR"
-ItemDisplay[	r33]:	           %NAME%           			// Zod	 typically worth about the same or slightly more than Sur, up to 1.2 "HR"
+ItemDisplay[	r33]:	           %NAME%           			// Zod	 typically worth about the same or slightly more than Sur, up to 1.25 "HR"
 ItemDisplay[	r28]:	            %NAME%            			// Lo	 valued between Sur and Ber, but not more than 1.5 "HR"
 ItemDisplay[r30]:	              %NAME%              		// Ber	 always worth 2x Sur, or 2 "HR"
-ItemDisplay[r31]:	                %NAME%                		// Jah	 typically worth about the same or slightly more than Ber, up to 2.5 "HR"
+ItemDisplay[r31]:	                %NAME%                		// Jah	 typically worth slightly more than Ber, up to 2.5 "HR"
 
 /⃓̲ Collective Rules
 ItemDisplay[RUNE>0 RUNE<15]:	%NAME%
@@ -464,7 +460,7 @@ ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) !UNI]: %NAME%%DGREEN%
 /⃓̲═╡ Jewelry ╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └─────────┘
 /⃓̲ Hidden: lower level unid magic amulets/rings - level 90
-ItemDisplay[CLVL>89 (amu OR rin) ILVL<60 MAG !ID]:
+/ItemDisplay[CLVL>89 (amu OR rin) ILVL<60 MAG !ID]:
 
 /⃓̲ Highlighting for rares
 ItemDisplay[(amu OR rin) RARE !ID]:	  %NAME%  %DGREEN%
@@ -676,12 +672,12 @@ ItemDisplay[MAG !ID]: %NAME%%DGREEN%
 /⃓̲═╡ Rare Items  (unidentified) ╞════════════════════════════════════════════════════════════════════════════════════════
 /⃓̲ └────────────────────────────┘
 /⃓̲ Hidden: Rare armor
-/⃓̲    body armor & non-class shields: normal, exceptional, some elite - levels 40, 60, 80
+/⃓̲    body armor & non-class shields: normal, exceptional, some elite (medium/heavy non-eth armor, 2x2 shields) - levels 40, 60, 80
 /⃓̲    helms incapable of 3 sockets: normal, exceptional - levels 40, 60
 /⃓̲    belts without 16 potion slots (unless ilvl 71+) - level 40
 ItemDisplay[RARE !ID (EQ2 OR EQ3) ((NORM CLVL>39) OR (EXC CLVL>59) OR (ELT CLVL>79 !((ITEMSTAT67=0 OR ETH OR uar) !(uuc OR uml))))]:
 ItemDisplay[RARE !ID (EQ1 (((cap OR skp OR hlm OR fhl) CLVL>39) OR ((xap OR xkp OR xlm OR xhl) CLVL>59)))]:
-ItemDisplay[RARE !ID (EQ6 ILVL<71 (lbl OR vbl OR mbl OR tbl) CLVL>39)]:
+/ItemDisplay[RARE !ID (EQ6 ILVL<71 (lbl OR vbl OR mbl OR tbl) CLVL>39)]:
 
 /⃓̲ Hidden: Rare weapons
 /⃓̲    katars incapable of pointmods: normal, exceptional - levels 30, 50
@@ -766,7 +762,7 @@ ItemDisplay[(NMAG !(CL5 OR WP11 OR WP12 OR WP13) ((ILVL=12 CLVL>6) OR (ILVL=20 C
 /⃓̲    2-socket			light armor							70
 /⃓̲    0/2-socket non-elite	Grim Helm, Mage Plate, Grim Shield, Tiara, eth Ornate Armor	60
 /⃓̲    1-socket											15
-/⃓̲    0-socket armor		Tiara, Ornate, Mage Plate, elite/+ED: socket-capable armor	15
+/⃓̲    0-socket armor		Tiara, Ornate, Mage Plate, socket-capable elite/+ED		15
 /⃓̲    1-socket max items, 5-socket bows								15
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>89)]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>79) !(ELT EQ2 ITEMSTAT67=0 (ED>0 OR ((uui DEF>458) OR (uea DEF>461) OR (ula DEF>465) OR (utu DEF>471) OR (urs DEF>490) OR (utp DEF>511))))]:
@@ -778,14 +774,14 @@ ItemDisplay[NMAG CLVL>14 ((WP4 (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di)) OR buc 
 
 /⃓̲ Hidden: Regular body armor
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
-/⃓̲    body armor			elite, eth Ornate Armor, 2+ socket Mage Plate			70
+/⃓̲    body armor			elite, eth Ornate Armor, high def Mage Plate			70
 /⃓̲    2+ socket (light)		elite & Mage Plate: within 2% of max defense or higher		90
 /⃓̲    0-socket elite		light within 1% of max defense or higher			90
 /⃓̲    elite			450+ defense							85
 /⃓̲    elite			non-inferior: light, medium/heavy within 1% max def or higher	80
 /⃓̲    eth			0-socket 700+ defense, socketed 650+ defense			90
 /⃓̲    eth			0-socket 650+ defense, socketed 600+ defense			80
-ItemDisplay[EQ2 NMAG CLVL>69 (NORM OR (EXC !((xtp SOCK>1 !ETH) OR (xar ETH))))]:
+ItemDisplay[EQ2 NMAG CLVL>69 (NORM OR (EXC !((xtp (SOCK>1 OR DEF>256) !ETH) OR (xar ETH))))]:
 ItemDisplay[EQ2 NMAG CLVL>89 SOCK>1 ((uui DEF<459) OR (uea DEF<462) OR (ula DEF<466) OR (utu DEF<472) OR (urs DEF<491) OR (utp DEF<512) OR (xtp DEF<257))]:
 ItemDisplay[EQ2 NMAG CLVL>89 SOCK=0 ((ITEMSTAT67>999 !ETH) OR (uui DEF<464) OR (uea DEF<467) OR (ula DEF<471) OR (utu DEF<477) OR (urs DEF<497) OR (utp DEF<519))]:
 ItemDisplay[EQ2 NMAG CLVL>84 (ELT DEF<450)]:
@@ -846,9 +842,9 @@ ItemDisplay[!CL7 NMAG WP9 CLVL>29 !((SOCK>2 SOCK<5) OR ELT OR ED>0)]:
 /⃓̲    eth		   4+	4-5s Crystal Sword, Broad Sword, Long Sword, Flail, 5s Double Axe, Scourge, Berserker Axe, Ettin Axe, Glorious Axe, Champion Axe, 5s Silver-Edged Axe, 6s Thunder Maul
 /⃓̲    non-eth		   0	any elite*
 /⃓̲    non-eth		   3+	Phase Blade, Berserker Axe, Scourge, Colossus Blade, any elite*
-/⃓̲    non-eth		   4+	4-5s Crystal Sword, Broad Sword, Flail, 5s Double Axe;  until level 70: any normal 4-6s sword, any normal one-handed 5s axe
+/⃓̲    non-eth		   4+	4-5s Crystal Sword, Broad Sword, Long Sword, Flail, 5s Double Axe;  until level 70: any normal one-handed 5s axe
 ItemDisplay[NMAG ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK=0 (72h OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm)) OR ((9cr OR (WP3 ELT)) SOCK=3) OR (WP3 ELT SOCK>2 !7bs !7ls) OR ((fla OR (crs SOCK<6) OR bsd OR lsd OR 7fl OR 7wa OR 72a OR 7gi OR 7ga) SOCK>3) OR ((2ax OR 7ba) SOCK>4) OR (7gm SOCK>5)))]:
-ItemDisplay[NMAG !ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK>2 (7cr OR 7wa OR 7fl OR 7gd)) OR (SOCK>3 (((bsd OR crs) SOCK<6) OR fla OR (((WP3 NORM) OR ((mpi OR wax) SOCK=5)) CLVL<70))) OR (2ax SOCK=5)))]:
+ItemDisplay[NMAG !ETH CLVL>39 ((WP1 OR WP2 OR WP3) !((ED>0 ELT) OR (SOCK>2 (7cr OR 7wa OR 7fl OR 7gd)) OR (SOCK>3 (((crs OR bsd OR lsd) SOCK<6) OR fla)) OR (2ax SOCK=5) OR (((mpi OR wax) SOCK=5) CLVL<70)))]:
 
 /⃓̲ Modification: Emphasize nearly-superior elite socketable armor - level 40 until 90
 ItemDisplay[NMAG (CLVL>39 CLVL<90) (ELT (EQ1 OR EQ2 OR EQ3) !(SUP OR ETH)) ((uap DEF>139) OR (uhm DEF>151) OR (urn DEF>154) OR (usk DEF>156) OR (uh9 DEF>162) OR (uit DEF>146) OR (ush DEF>171) OR (urg DEF>133) OR (upk DEF>161) OR (uow DEF>159) OR (uts DEF>168) OR (uui DEF>458) OR (uea DEF>461) OR (ula DEF>465) OR (utu DEF>471) OR (urs DEF>490) OR (utp DEF>511) OR (ung DEF>484) OR (ucl DEF>491) OR (uhn DEF>500) OR (upl DEF>512) OR (uld DEF>518) OR (ult DEF>525) OR (uth DEF>536) OR (uul DEF>552) OR (uar DEF>594))]: %NAME% +%CONTINUE%
@@ -880,8 +876,8 @@ ItemDisplay[(NMAG ILVL>9) (ETH (CL1 OR CL2 OR CL4))]:
 /⃓̲ Hidden: Amazon weapons
 /⃓̲    1-2 sockets, +1 skill, non-elite +2 skill, any +2 skill (except 4-socket bows), any non-elite - levels 20, 40, 60, 80, 90
 /⃓̲    Spears/Bows: normal, exceptional - levels 40, 70
-ItemDisplay[NMAG CL7 (((SOCK>0 SOCK<3) CLVL>19) OR ((TABSK0<2 TABSK2<2) CLVL>39) OR ((TABSK0<3 TABSK2<3) !ELT CLVL>59) OR ((TABSK0<3 TABSK2<3) CLVL>79 !(TABSK0>1 SOCK=4)) OR (CLVL>89 !ELT))]:
-ItemDisplay[NMAG (CL7 !WP6) ((NORM CLVL>39) OR (EXC CLVL>69))]:
+ItemDisplay[NMAG CL7 (((SOCK>0 SOCK<3) CLVL>19) OR ((TABSK0<2 TABSK2<2) CLVL>39) OR ((TABSK0<3 TABSK2<3) !ELT CLVL>59) OR ((TABSK0<3 TABSK2<3) CLVL>79 !(TABSK0>1 SOCK=4)) OR (CLVL>89 !(ELT OR ((SOCK=0 OR SOCK>3) TABSK0>2))))]:
+ItemDisplay[NMAG (CL7 !WP6) ((NORM CLVL>39) OR (EXC CLVL>69 !((SOCK=0 OR SOCK>3) TABSK0>2)))]:
 
 /⃓̲ Hidden: Paladin shields
 /⃓̲    1-3 socket eth, 1-socket, 2-socket non-elite - levels 1, 15, 80
