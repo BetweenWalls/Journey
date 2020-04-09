@@ -33,7 +33,9 @@ If the in-file descriptions/options are unwanted, the [streamlined version](http
 ## Installation
 Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL: https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
 
-Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu. Any changes made to the filter can be seen by refreshing the same option. See the wiki for a [list of item codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes).
+Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu. Any modifications made to the filter can be seen by refreshing the same option.
+
+Modifications can be made with any text editor - the wiki has an introduction to [loot filtration](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration) and a list of item [codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes). Additionally, the Path of Diablo discord has a channel dedicated to lootfilter discussion.
 
 ## Images
 ![_](/images/miscellaneous_items.png)
@@ -44,3 +46,12 @@ Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-M
 ![_](/images/regular_class_items.png)
 ![_](/images/gems.png)
 ![_](/images/unidentified_highlighting.png)
+
+## Performance
+Filter rules for Journey (and Feather) have been written and organized in ways to optimize computer performance. One factor in that performance is the effective length of the filter file - the number of lines with active rules. Following is a list of these filter lengths:
+
+* [Feather](https://github.com/BetweenWalls/Feather#Feather) - 283
+* Journey - 505
+* [Journey (streamlined)](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) - 505
+* [Journey (all skills)](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills) - 516
+* [Journey (individual names)](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names) - 1040
