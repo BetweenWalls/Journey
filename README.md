@@ -6,7 +6,7 @@ This filter provides sane default settings in a classic style, and includes many
 
 Most items are shown at level 1; the filter gradually becomes more strict as your character levels up to 90+. The filter file includes descriptions for what is hidden at which levels, and other descriptions are included throughout to assist with tailoring the filter to your needs.
 
-If the in-file descriptions/options are unwanted, the [streamlined version](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) has the same defaults at less than half the filesize. Journey shouldn't be too strict, but for a more vanilla-like experience, [Feather](https://github.com/BetweenWalls/Feather#Feather) is a minimally-strict alternative.
+If the in-file descriptions/options are unwanted, the [streamlined version](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) has the same defaults at half the filesize. Journey shouldn't be too strict, but for a more vanilla-like experience, [Feather](https://github.com/BetweenWalls/Feather#Feather) is a minimally-strict alternative.
 
 ## Features
 * mostly follows classic style (it still looks like D2)
@@ -55,4 +55,8 @@ Filter rules for Journey (and Feather) have been written and organized in ways t
 * [Journey (individual names)](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names) - 1040
 
 ## Modifications
-Any modifications made to the filter can be seen by disabling and then re-enabling custom loot filters in-game. Modifications can be made with any text editor - the wiki has an introduction to [loot filtration](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration) and a list of item [codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes) for anyone interested in learning about filter customization. Journey also includes a brief explanation of filter rules at the top of the file, and there are many comments throughout that describe what the filter's rules are doing. Additionally, the Path of Diablo discord has a channel dedicated to lootfilter discussion.
+Modifications made to the filter can be seen by disabling and then re-enabling custom loot filters in-game. They can be made with any text editor - just ensure the launcher's **auto update** checkbox is not selected, or they will be overwritten.
+
+The wiki has an introduction to [loot filtration](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration) and a list of item [codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes) for anyone interested in learning about filter customization. Additionally, the Path of Diablo discord has a channel dedicated to lootfilter discussion.
+
+Journey includes a brief explanation of filtration at the top of the file. There are also many comments throughout that describe what the filter's rules are doing, but some rules have more details than can be fully explained in a brief comment. If you know of a better way to explain something, feel free to mention it on the discord @*BetweenWalls#2390*. Other feedback is welcome too.
