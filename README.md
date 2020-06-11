@@ -48,7 +48,7 @@ Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-M
 ## Performance
 Filter rules for Journey (and Feather) have been written and organized in ways to optimize computer performance. One factor in that performance is the effective length of the filter file - the number of lines with active rules. Following is a list of these filter lengths:
 
-* [Feather](https://github.com/BetweenWalls/Feather#Feather) - 283
+* [Feather](https://github.com/BetweenWalls/Feather#Feather) - 282
 * Journey - 505
 * [Journey (streamlined)](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) - 505
 * [Journey (all skills)](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills) - 516
