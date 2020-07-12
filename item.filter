@@ -1,6 +1,6 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo  (all skills for regular items enabled)
-/		Date Updated:	8 APR 2020
+/		Date Updated:	11 JULY 2020
 /		Info:		https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills
 /
 /		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/all-skills/item.filter
@@ -213,7 +213,7 @@ ItemDisplay[ma4 OR ma5 OR ma6 OR ma2 OR maz]: %TAN%%NAME%%RED%
 /⃓̲ Show Keys:
 /⃓̲    from Cow Levels & Arcane Sanctuary (Hell difficulty)
 /⃓̲    from merchants  (Normal difficulty & character level 90+)
-ItemDisplay[key (ILVL=28 OR ILVL=64 OR ILVL=81 OR ILVL=79))]: %GRAY%%NAME%%DGREEN%
+ItemDisplay[key (ILVL=28 OR ILVL=64 OR ILVL=81 OR ILVL=79)]: %GRAY%%NAME%%DGREEN%
 /ItemDisplay[key (ILVL=12 OR ILVL=20 OR ILVL=28 OR ILVL=36 OR ILVL=45 OR ILVL>94)]: %GRAY%%NAME%%DGREEN%
 
 /⃓̲ Hidden: Scrolls and Keys - level 20
@@ -1385,15 +1385,15 @@ ItemDisplay[NMAG (CL3 RES>4)]: %NAME% %BLUE%5+ Res%DGREEN%
 /⃓̲    Thunder Storm and Freezing Pulse don't appear on orbs/staves
 
 /⃓̲ Orbs  (3-socket-capable only)
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK46>2)]: %NAME% %ORANGE%Immolate%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK48>2)]: %NAME% %ORANGE%Nova%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK44>2)]: %NAME% %ORANGE%Frost Nova%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK64>2)]: %NAME% %ORANGE%Frozen Orb%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK54>2)]: %NAME% %ORANGE%Chain Lightning%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK62>2)]: %NAME% %ORANGE%Hydra%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK38>2)]: %NAME% %ORANGE%Charged Bolt%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK50>2)]: %NAME% %TAN%Shiver Armor%DGREEN%
-/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) (SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK45>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK49>1 OR SK50>1 OR SK51>1 OR SK52>1 OR SK54>1 OR SK55>1 OR SK56>1 OR SK57>1 OR SK58>1 OR SK59>1 OR SK60>1 OR SK62>1 OR SK64>1)] %NAME%%DGREEN%	// Plague Base
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK46>2]: %NAME% %ORANGE%Immolate%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK48>2]: %NAME% %ORANGE%Nova%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK44>2]: %NAME% %ORANGE%Frost Nova%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK64>2]: %NAME% %ORANGE%Frozen Orb%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK54>2]: %NAME% %ORANGE%Chain Lightning%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK62>2]: %NAME% %ORANGE%Hydra%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK38>2]: %NAME% %ORANGE%Charged Bolt%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) SK50>2]: %NAME% %TAN%Shiver Armor%DGREEN%
+/ItemDisplay[NMAG (ob5 OR oba OR obf) (SOCK>2 OR SOCK=0) (SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK45>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK49>1 OR SK50>1 OR SK51>1 OR SK52>1 OR SK54>1 OR SK55>1 OR SK56>1 OR SK57>1 OR SK58>1 OR SK59>1 OR SK60>1 OR SK62>1 OR SK64>1)]: %NAME%%DGREEN%	// Plague Base
 
 /⃓̲ Staves
 /⃓̲    0/4 socket staves (Energy Shield or Lightning Surge) - Memory RW
