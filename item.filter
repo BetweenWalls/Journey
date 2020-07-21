@@ -1,7 +1,7 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo  (all skills for regular items enabled)
-/		Date Updated:	15 JULY 2020
-/		Info:		https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills
+/		Date Updated:	21 JULY 2020
+/		Info:		https://github.com/BetweenWalls/Journey/tree/all-skills
 /
 /		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/all-skills/item.filter
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
@@ -769,8 +769,8 @@ ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>69) (WEAPON OR ITEMSTAT67>999)]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((NMAG (SOCK=2 OR SOCK=0) CLVL>59) (NORM OR (EXC !(xh9 OR xtp OR xsh OR ci2 OR (xar ETH)))))]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=1 NMAG) CLVL>14)]:
-ItemDisplay[NMAG CLVL>14 (ARMOR SOCK=0 !(CL1 OR CL2 OR ((EQ1 OR EQ2 OR EQ3) (ELT OR ED>0)) OR ci2 OR xar OR xtp))]:
-ItemDisplay[NMAG CLVL>14 ((WP4 (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di)) OR buc OR xuc OR (WP9 (SOCK=5 OR (SOCK=0 SUP (lbw OR 8lb OR 6lb OR sbb OR 8s8 OR 6s7 OR swb OR 8sw OR 6sw OR rxb OR 8rx OR 6rx)))))]:
+ItemDisplay[NMAG CLVL>14 (ARMOR SOCK=0 !(CL1 OR CL2 OR CL3 OR CL4 OR ((EQ1 OR EQ2 OR EQ3) (ELT OR ED>0)) OR ci2 OR xar OR xtp))]:
+ItemDisplay[NMAG CLVL>14 ((WP4 (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di)) OR buc OR xuc OR (WP9 (SOCK=5 OR (SOCK=0 ILVL>40 SUP (CL7 OR lbw OR 8lb OR 6lb OR sbb OR 8s8 OR 6s7 OR swb OR 8sw OR 6sw OR rxb OR 8rx OR 6rx)))))]:
 
 /⃓̲ Hidden: Regular body armor
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
@@ -1733,8 +1733,8 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 7wh ILVL<83]:		  %NAME% %DGREEN%Stone Crusher  		// Legendary Mallet
 /ItemDisplay[UNI 7gm ETH]:		  %NAME% %DGREEN%Earth Shifter  		// Thunder Maul
 /ItemDisplay[UNI 7gm ILVL<85]:		    %NAME% %DGREEN%Earth Shifter    		// Thunder Maul
-/ItemDisplay[UNI 7sc ILVL<80 ETH]:	  %NAME% %DGREEN%Heaven's Light %GRAY%[1-2]  		// Mighty Scepter
-/ItemDisplay[UNI 7sc ILVL<80]:		    %NAME% %DGREEN%Heaven's Light %GRAY%[1-2]    	// Mighty Scepter
+/ItemDisplay[UNI 7sc ILVL<80 ETH]:	  %NAME% %DGREEN%Heaven's Light  		// Mighty Scepter
+/ItemDisplay[UNI 7sc ILVL<80]:		    %NAME% %DGREEN%Heaven's Light    		// Mighty Scepter
 /ItemDisplay[UNI 7cr ILVL<87]:		         %NAME% %DGREEN%Lightsabre         	// Phase Blade
 
 /⃓̲ Headgear
@@ -1758,54 +1758,54 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲	Exceptional
 /ItemDisplay[UNI xap ETH]:	%GOLD%%NAME% %DGREEN%Peasant Crown
 /ItemDisplay[UNI xap]:		%GOLD% %NAME% %DGREEN%Peasant Crown 			// War Hat
-/ItemDisplay[UNI xkp ETH]:	%GOLD% %NAME% %DGREEN%Rockstopper 
+/ItemDisplay[UNI xkp ETH]:	%GOLD% %NAME% %DGREEN%Rockstopper 	
 /ItemDisplay[UNI xkp]:		%GOLD% %NAME% %DGREEN%Rockstopper 			// Sallet
-/ItemDisplay[UNI xlm ETH]:	%GOLD% %NAME% %DGREEN%Stealskull 
+/ItemDisplay[UNI xlm ETH]:	%GOLD% %NAME% %DGREEN%Stealskull 	
 /ItemDisplay[UNI xlm]:		%GOLD% %NAME% %DGREEN%Stealskull 			// Casque
 /ItemDisplay[UNI xhl ETH]:	%GOLD%%NAME% %DGREEN%Darksight Helm
 /ItemDisplay[UNI xhl]:		%GOLD%%NAME% %DGREEN%Darksight Helm			// Basinet
 /ItemDisplay[UNI xsk ETH]:	%GOLD%%NAME% %DGREEN%Blackhorn's Face
 /ItemDisplay[UNI xsk]:		%GOLD% %NAME% %DGREEN%Blackhorn's Face 			// Death Mask
-/ItemDisplay[UNI xh9 ETH]:	%GOLD%         %NAME% %DGREEN%Vampire Gaze         
+/ItemDisplay[UNI xh9 ETH]:	%GOLD%         %NAME% %DGREEN%Vampire Gaze         	
 /ItemDisplay[UNI xh9]:		%GOLD%         %NAME% %DGREEN%Vampire Gaze         	// Grim Helm
-/ItemDisplay[UNI xhm ETH]:	%GOLD% %NAME% %DGREEN%Valkyrie Wing 
+/ItemDisplay[UNI xhm ETH]:	%GOLD% %NAME% %DGREEN%Valkyrie Wing 	
 /ItemDisplay[UNI xhm]:		%GOLD%   %NAME% %DGREEN%Valkyrie Wing   		// Winged Helm
-/ItemDisplay[UNI xrn ETH]:	%GOLD% %NAME% %DGREEN%Crown of Thieves 
+/ItemDisplay[UNI xrn ETH]:	%GOLD% %NAME% %DGREEN%Crown of Thieves 	
 /ItemDisplay[UNI xrn]:		%GOLD% %NAME% %DGREEN%Crown of Thieves 			// Grand Crown
 /⃓̲	Elite
-/ItemDisplay[UNI uap ETH]:	%GOLD%  %NAME% %DGREEN%Harlequin Crest  
+/ItemDisplay[UNI uap ETH]:	%GOLD%  %NAME% %DGREEN%Harlequin Crest  	
 /ItemDisplay[UNI uap]:		%GOLD%         %NAME% %DGREEN%Harlequin Crest         	// Shako
-/ItemDisplay[UNI ulm ETH]:	%GOLD%         %NAME% %DGREEN%Steel Shade         
+/ItemDisplay[UNI ulm ETH]:	%GOLD%         %NAME% %DGREEN%Steel Shade         	
 /ItemDisplay[UNI ulm]:		%GOLD%         %NAME% %DGREEN%Steel Shade         	// Armet
-/ItemDisplay[UNI usk ETH]:	%GOLD%         %NAME% %DGREEN%Andariel's Visage         
+/ItemDisplay[UNI usk ETH]:	%GOLD%         %NAME% %DGREEN%Andariel's Visage         	
 /ItemDisplay[UNI usk]:		%GOLD%         %NAME% %DGREEN%Andariel's Visage         	// Demonhead
 /ItemDisplay[UNI uh9 ETH]:	%GOLD%%NAME% %DGREEN%Giant Skull %GRAY%[1-2]%DGREEN%
 /ItemDisplay[UNI uh9]:		%GOLD% %NAME% %DGREEN%Giant Skull %GRAY%[1-2] %DGREEN%	// Bone Visage
-/ItemDisplay[UNI uhm ETH]:	%GOLD%  %NAME% %DGREEN%Veil of Steel %GRAY%<%GOLD%][%GRAY%> %DGREEN%Nightwing's Veil  
+/ItemDisplay[UNI uhm ETH]:	%GOLD%  %NAME% %DGREEN%Veil of Steel %GRAY%<%GOLD%][%GRAY%> %DGREEN%Nightwing's Veil  	
 /ItemDisplay[UNI uhm]:		%GOLD%         %NAME% %DGREEN%Veil of Steel %WHITE%<%GOLD%][%WHITE%> %DGREEN%Nightwing's Veil         	// Spired Helm
 /ItemDisplay[UNI urn]:		%GOLD%    %NAME% %DGREEN%Crown of Ages %GRAY%[1-2]    %DGREEN%			// Corona  (not Crown; always non-eth)
 /⃓̲	Circlets
 /ItemDisplay[UNI ci2 ETH]:	%GOLD%%NAME% %DGREEN%Kira's Guardian
 /ItemDisplay[UNI ci2]:		%GOLD%    %NAME% %DGREEN%Kira's Guardian    		// Tiara
-/ItemDisplay[UNI ci3 ETH]:	%GOLD%  %NAME% %DGREEN%Griffon's Eye  
+/ItemDisplay[UNI ci3 ETH]:	%GOLD%  %NAME% %DGREEN%Griffon's Eye  	
 /ItemDisplay[UNI ci3]:		%GOLD%         %NAME% %DGREEN%Griffon's Eye         	// Diadem
 /⃓̲	Barbarian Primal Helms
-/ItemDisplay[UNI baa ETH]:	%GOLD%  %NAME% %DGREEN%Arreat's Face  
+/ItemDisplay[UNI baa ETH]:	%GOLD%  %NAME% %DGREEN%Arreat's Face  	
 /ItemDisplay[UNI baa]:		%GOLD%         %NAME% %DGREEN%Arreat's Face         	// Slayer Guard
-/ItemDisplay[UNI bac ETH]:	%GOLD% %NAME% %DGREEN%Wolfhowl 
+/ItemDisplay[UNI bac ETH]:	%GOLD% %NAME% %DGREEN%Wolfhowl 	
 /ItemDisplay[UNI bac]:		%GOLD%    %NAME% %DGREEN%Wolfhowl    			// Fury Visor
 /ItemDisplay[UNI bad ETH]:	%GOLD%%NAME% %DGREEN%Demonhorn's Edge
 /ItemDisplay[UNI bad]:		%GOLD% %NAME% %DGREEN%Demonhorn's Edge 			// Destroyer Helm
-/ItemDisplay[UNI bae ETH]:	%GOLD%%NAME% %DGREEN%Halaberd's Reign %GRAY%[2]%DGREEN%
-/ItemDisplay[UNI bae]:		%GOLD% %NAME% %DGREEN%Halaberd's Reign %GRAY%[2] %DGREEN%	// Conquerer Crown
+/ItemDisplay[UNI bae ETH]:	%GOLD%%NAME% %DGREEN%Halaberd's Reign
+/ItemDisplay[UNI bae]:		%GOLD% %NAME% %DGREEN%Halaberd's Reign 			// Conquerer Crown
 /⃓̲	Druid Pelts
-/ItemDisplay[UNI dra ETH]:	%GOLD%  %NAME% %DGREEN%Jalal's Mane  
+/ItemDisplay[UNI dra ETH]:	%GOLD%  %NAME% %DGREEN%Jalal's Mane  	
 /ItemDisplay[UNI dra]:		%GOLD%         %NAME% %DGREEN%Jalal's Mane         	// Totemic Mask
 /ItemDisplay[UNI drb ETH]:	%GOLD%%NAME% %DGREEN%Cerebus' Bite
 /ItemDisplay[UNI drb]:		%GOLD%  %NAME% %DGREEN%Cerebus' Bite  			// Blood Spirit
 /ItemDisplay[UNI drd ETH]:	%GOLD%%NAME% %DGREEN%Spirit Keeper
 /ItemDisplay[UNI drd]:		%GOLD% %NAME% %DGREEN%Spirit Keeper 			// Earth Spirit
-/ItemDisplay[UNI dre ETH]:	%GOLD% %NAME% %DGREEN%Ravenlore 
+/ItemDisplay[UNI dre ETH]:	%GOLD% %NAME% %DGREEN%Ravenlore 	
 /ItemDisplay[UNI dre]:		%GOLD%     %NAME% %DGREEN%Ravenlore     		// Sky Spirit
 
 /⃓̲ Chest Armor
@@ -1843,7 +1843,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲	Exceptional
 /ItemDisplay[UNI xui ETH]:	%GOLD%%NAME% %DGREEN%The Spirit Shroud
 /ItemDisplay[UNI xui]:		%GOLD% %NAME% %DGREEN%The Spirit Shroud 		// Ghost Armor
-/ItemDisplay[UNI xea ETH]:	%GOLD% %NAME% %DGREEN%Skin of the Vipermagi 
+/ItemDisplay[UNI xea ETH]:	%GOLD% %NAME% %DGREEN%Skin of the Vipermagi 	
 /ItemDisplay[UNI xea]:		%GOLD%         %NAME% %DGREEN%Skin of the Vipermagi         	// Serpentskin Armor
 /ItemDisplay[UNI xla ETH]:	%GOLD%%NAME% %GRAY%>> %DGREEN%Skin of the Flayed One	// Demonhide Armor (eth & auto-repair)
 /ItemDisplay[UNI xla]:		%GOLD%%NAME% %DGREEN%Skin of the Flayed One		// Demonhide Armor
@@ -1853,13 +1853,13 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI xng]:		%GOLD%%NAME% %DGREEN%Spirit Forge %GRAY%[2]%DGREEN%	// Linked Mail
 /ItemDisplay[UNI xcl ETH]:	%GOLD%%NAME% %DGREEN%Crow Caw
 /ItemDisplay[UNI xcl]:		%GOLD%%NAME% %DGREEN%Crow Caw				// Tigulated Mail
-/ItemDisplay[UNI xhn ETH]:	%GOLD%    %NAME% %DGREEN%Shaftstop    
+/ItemDisplay[UNI xhn ETH]:	%GOLD%    %NAME% %DGREEN%Shaftstop    	
 /ItemDisplay[UNI xhn]:		%GOLD%         %NAME% %DGREEN%Shaftstop         	// Mesh Armor
-/ItemDisplay[UNI xrs ETH]:	%GOLD%   %NAME% %DGREEN%Duriel's Shell   
+/ItemDisplay[UNI xrs ETH]:	%GOLD%   %NAME% %DGREEN%Duriel's Shell   	
 /ItemDisplay[UNI xrs]:		%GOLD%    %NAME% %DGREEN%Duriel's Shell    		// Cuirass
 /ItemDisplay[UNI xpl ETH]:	%GOLD%  %NAME% %GRAY%>> %DGREEN%Skullder's Ire  	// Russet Armor (eth & auto-repair)
 /ItemDisplay[UNI xpl]:		%GOLD%   %NAME% %DGREEN%Skullder's Ire   		// Russet Armor
-/ItemDisplay[UNI xlt ETH]:	%GOLD%    %NAME% %DGREEN%Guardian Angel    
+/ItemDisplay[UNI xlt ETH]:	%GOLD%    %NAME% %DGREEN%Guardian Angel    	
 /ItemDisplay[UNI xlt]:		%GOLD%     %NAME% %DGREEN%Guardian Angel     		// Templar Coat
 /ItemDisplay[UNI xld ETH]:	%GOLD%%NAME% %DGREEN%Toothrow
 /ItemDisplay[UNI xld]:		%GOLD%%NAME% %DGREEN%Toothrow				// Sharktooth Armor
@@ -1872,11 +1872,11 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI xtp ETH]:	%GOLD%%NAME% %DGREEN%Que-Hegan's Wisdom
 /ItemDisplay[UNI xtp]:		%GOLD%   %NAME% %DGREEN%Que-Hegan's Wisdom   		// Mage Plate
 /⃓̲	Elite
-/ItemDisplay[UNI uui ETH]:	%GOLD%  %NAME% %DGREEN%Ormus' Robes  
+/ItemDisplay[UNI uui ETH]:	%GOLD%  %NAME% %DGREEN%Ormus' Robes  	
 /ItemDisplay[UNI uui]:		%GOLD%         %NAME% %DGREEN%Ormus' Robes         	// Dusk Shroud
-/ItemDisplay[UNI utu ETH]:	%GOLD%  %NAME% %DGREEN%The Gladiator's Bane  
+/ItemDisplay[UNI utu ETH]:	%GOLD%  %NAME% %DGREEN%The Gladiator's Bane  	
 /ItemDisplay[UNI utu]:		%GOLD%   %NAME% %DGREEN%The Gladiator's Bane   		// Wire Fleece
-/ItemDisplay[UNI upl ETH]:	%GOLD% %NAME% %DGREEN%Arkaine's Valor 
+/ItemDisplay[UNI upl ETH]:	%GOLD% %NAME% %DGREEN%Arkaine's Valor 	
 /ItemDisplay[UNI upl]:		%GOLD%    %NAME% %DGREEN%Arkaine's Valor    		// Balrog Skin
 /ItemDisplay[UNI uld]:		%GOLD%     %NAME% %DGREEN%Leviathan     		// Kraken Shell (always non-eth)
 /ItemDisplay[UNI uul ETH]:	%GOLD%%NAME% %GRAY%>> %DGREEN%Steel Carapace		// Shadow Plate (eth & auto-repair)
@@ -1916,7 +1916,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI xsh]:		%GOLD%  %NAME% %DGREEN%Lidless Wall  			// Grim Shield
 /ItemDisplay[UNI xow ETH]:	%GOLD%%NAME% %DGREEN%Gerke's Sanctuary
 /ItemDisplay[UNI xow]:		%GOLD% %NAME% %DGREEN%Gerke's Sanctuary 		// Pavise
-/ItemDisplay[UNI xts ETH]:	%GOLD% %NAME% %DGREEN%Radament's Sphere 
+/ItemDisplay[UNI xts ETH]:	%GOLD% %NAME% %DGREEN%Radament's Sphere 	
 /ItemDisplay[UNI xts]:		%GOLD% %NAME% %DGREEN%Radament's Sphere 		// Ancient Shield
 /⃓̲	Elite
 /ItemDisplay[UNI uml ETH]:	%GOLD%%NAME% %DGREEN%Blackoak Shield
@@ -1926,23 +1926,23 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI uit]:		%GOLD%         %NAME% %DGREEN%Stormshield         	// Monarch (always non-eth)
 /ItemDisplay[UNI ush ETH]:	%GOLD%%NAME% %DGREEN%Head Hunter's Glory %GRAY%[3]%DGREEN%
 /ItemDisplay[UNI ush]:		%GOLD%%NAME% %DGREEN%Head Hunter's Glory %GRAY%[3]%DGREEN%	// Troll Nest
-/ItemDisplay[UNI uow ETH]:	%GOLD% %NAME% %DGREEN%Medusa's Gaze 
+/ItemDisplay[UNI uow ETH]:	%GOLD% %NAME% %DGREEN%Medusa's Gaze 	
 /ItemDisplay[UNI uow]:		%GOLD%   %NAME% %DGREEN%Medusa's Gaze   		// Aegis
 /ItemDisplay[UNI uts ETH]:	%GOLD%%NAME% %DGREEN%Spirit Ward
 /ItemDisplay[UNI uts]:		%GOLD% %NAME% %DGREEN%Spirit Ward 			// Ward
 /⃓̲	Paladin Shields
-/ItemDisplay[UNI pa9 ETH]:	%GOLD% %NAME% %DGREEN%Herald of Zakarum 
+/ItemDisplay[UNI pa9 ETH]:	%GOLD% %NAME% %DGREEN%Herald of Zakarum 	
 /ItemDisplay[UNI pa9]:		%GOLD%       %NAME% %DGREEN%Herald of Zakarum       	// Gilded Shield
 /ItemDisplay[UNI pac ETH]:	%GOLD%%NAME% %DGREEN%Alma Negra
 /ItemDisplay[UNI pac]:		%GOLD%    %NAME% %DGREEN%Alma Negra    			// Sacred Rondache  -  unique translation: "Black Soul" (Spanish)
 /ItemDisplay[UNI pae ETH]:	%GOLD%%NAME% %DGREEN%Dragonscale
 /ItemDisplay[UNI pae]:		%GOLD%  %NAME% %DGREEN%Dragonscale  			// Zakarum Shield
 /⃓̲	Totems
-/ItemDisplay[UNI nea ETH]:	%GOLD% %NAME% %DGREEN%Homunculus 
+/ItemDisplay[UNI nea ETH]:	%GOLD% %NAME% %DGREEN%Homunculus 	
 /ItemDisplay[UNI nea]:		%GOLD%       %NAME% %DGREEN%Homunculus       		// Heirophant Trophy
 /ItemDisplay[UNI nee ETH]:	%GOLD%%NAME% %DGREEN%Boneflame
 /ItemDisplay[UNI nee]:		%GOLD%  %NAME% %DGREEN%Boneflame  			// Succubae Skull
-/ItemDisplay[UNI nef ETH]:	%GOLD% %NAME% %DGREEN%Darkforce Spawn 
+/ItemDisplay[UNI nef ETH]:	%GOLD% %NAME% %DGREEN%Darkforce Spawn 	
 /ItemDisplay[UNI nef]:		%GOLD%   %NAME% %DGREEN%Darkforce Spawn   		// Bloodlord Skull
 
 /⃓̲ Gloves
@@ -1969,7 +1969,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI xhg ETH]:	%GOLD%%NAME% %DGREEN%Hellmouth
 /ItemDisplay[UNI xhg]:		%GOLD%%NAME% %DGREEN%Hellmouth				// War Gauntlets
 /⃓̲	Elite
-/ItemDisplay[UNI uvg ETH]:	%GOLD% %NAME% %DGREEN%Dracul's Grasp 
+/ItemDisplay[UNI uvg ETH]:	%GOLD% %NAME% %DGREEN%Dracul's Grasp 	
 /ItemDisplay[UNI uvg]:		%GOLD%       %NAME% %DGREEN%Dracul's Grasp       	// Vampirebone Gloves
 /ItemDisplay[UNI umg ETH]:	%GOLD%%NAME% %DGREEN%Soul Drainer
 /ItemDisplay[UNI umg]:		%GOLD%  %NAME% %DGREEN%Soul Drainer  			// Vambraces
@@ -1993,18 +1993,18 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI xlb]:		%GOLD% %NAME% %DGREEN%Infernostride 			// Demonhide Boots
 /ItemDisplay[UNI xvb ETH]:	%GOLD%%NAME% %DGREEN%Waterwalk
 /ItemDisplay[UNI xvb]:		%GOLD%    %NAME% %DGREEN%Waterwalk    			// Sharkskin Boots
-/ItemDisplay[UNI xmb ETH]:	%GOLD% %NAME% %DGREEN%Silkweave 
+/ItemDisplay[UNI xmb ETH]:	%GOLD% %NAME% %DGREEN%Silkweave 	
 /ItemDisplay[UNI xmb]:		%GOLD%    %NAME% %DGREEN%Silkweave    			// Mesh Boots
-/ItemDisplay[UNI xtb ETH]:	%GOLD% %NAME% %DGREEN%War Traveler 
+/ItemDisplay[UNI xtb ETH]:	%GOLD% %NAME% %DGREEN%War Traveler 	
 /ItemDisplay[UNI xtb]:		%GOLD%       %NAME% %DGREEN%War Traveler       		// Battle Boots
-/ItemDisplay[UNI xhb ETH]:	%GOLD% %NAME% %DGREEN%Gore Rider 
+/ItemDisplay[UNI xhb ETH]:	%GOLD% %NAME% %DGREEN%Gore Rider 	
 /ItemDisplay[UNI xhb]:		%GOLD%       %NAME% %DGREEN%Gore Rider       		// War Boots
 /⃓̲	Elite
 /ItemDisplay[UNI uvb ETH]:	%GOLD%   %NAME% %GRAY%>> %DGREEN%Sandstorm Trek   	// Scarabshell Boots (eth & auto-repair)
 /ItemDisplay[UNI uvb]:		%GOLD%   %NAME% %DGREEN%Sandstorm Trek   		// Scarabshell Boots
-/ItemDisplay[UNI umb ETH]:	%GOLD% %NAME% %DGREEN%Marrowwalk 
+/ItemDisplay[UNI umb ETH]:	%GOLD% %NAME% %DGREEN%Marrowwalk 	
 /ItemDisplay[UNI umb]:		%GOLD%  %NAME% %DGREEN%Marrowwalk  			// Boneweave Boots
-/ItemDisplay[UNI uhb ETH]:	%GOLD% %NAME% %DGREEN%Shadow Dancer 
+/ItemDisplay[UNI uhb ETH]:	%GOLD% %NAME% %DGREEN%Shadow Dancer 	
 /ItemDisplay[UNI uhb]:		%GOLD%   %NAME% %DGREEN%Shadow Dancer   		// Myrmidon Greaves
 
 /⃓̲ Belts
@@ -2022,16 +2022,16 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲	Exceptional
 /ItemDisplay[UNI zlb ETH]:	%GOLD%%NAME% %DGREEN%String of Ears
 /ItemDisplay[UNI zlb]:		%GOLD%    %NAME% %DGREEN%String of Ears    		// Demonhide Sash
-/ItemDisplay[UNI zvb ETH]:	%GOLD% %NAME% %DGREEN%Razortail 
+/ItemDisplay[UNI zvb ETH]:	%GOLD% %NAME% %DGREEN%Razortail 	
 /ItemDisplay[UNI zvb]:		%GOLD%    %NAME% %DGREEN%Razortail    			// Sharkskin Belt
 /ItemDisplay[UNI zmb ETH]:	%GOLD%%NAME% %DGREEN%Gloom's Trap
 /ItemDisplay[UNI zmb]:		%GOLD%%NAME% %DGREEN%Gloom's Trap			// Mesh Belt
-/ItemDisplay[UNI ztb ETH]:	%GOLD% %NAME% %DGREEN%Snowclash 
+/ItemDisplay[UNI ztb ETH]:	%GOLD% %NAME% %DGREEN%Snowclash 	
 /ItemDisplay[UNI ztb]:		%GOLD%   %NAME% %DGREEN%Snowclash   			// Battle Belt
-/ItemDisplay[UNI zhb ETH]:	%GOLD% %NAME% %DGREEN%Thundergod's Vigor 
+/ItemDisplay[UNI zhb ETH]:	%GOLD% %NAME% %DGREEN%Thundergod's Vigor 	
 /ItemDisplay[UNI zhb]:		%GOLD%       %NAME% %DGREEN%Thundergod's Vigor       	// War Belt
 /⃓̲	Elite
-/ItemDisplay[UNI ulc ETH]:	%GOLD%   %NAME% %DGREEN%Arachnid Mesh   
+/ItemDisplay[UNI ulc ETH]:	%GOLD%   %NAME% %DGREEN%Arachnid Mesh   	
 /ItemDisplay[UNI ulc]:		%GOLD%         %NAME% %DGREEN%Arachnid Mesh         	// Spiderweb Sash  (not Mesh Belt)
 /ItemDisplay[UNI uvc ETH]:	%GOLD%%NAME% %DGREEN%Nosferatu's Coil
 /ItemDisplay[UNI uvc]:		%GOLD%  %NAME% %DGREEN%Nosferatu's Coil  		// Vampirefang Belt
@@ -2087,14 +2087,14 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 72a]:		%GOLD% %NAME% %DGREEN%Rune Master %GRAY%[3-5] %DGREEN%	// Ettin Axe
 /ItemDisplay[UNI 7mp ETH]:	%GOLD%%NAME% %DGREEN%Cranebeak
 /ItemDisplay[UNI 7mp]:		%GOLD% %NAME% %DGREEN%Cranebeak 			// War Spike
-/ItemDisplay[UNI 7wa ETH]:	%GOLD%  %NAME% %DGREEN%Death Cleaver  
+/ItemDisplay[UNI 7wa ETH]:	%GOLD%  %NAME% %DGREEN%Death Cleaver  	
 /ItemDisplay[UNI 7wa]:		%GOLD%       %NAME% %DGREEN%Death Cleaver       	// Berserker Axe
 /ItemDisplay[UNI 7ba]:		%GOLD%%NAME% %GRAY%>> %DGREEN%Ethereal Edge		// Silver-Edged Axe  (always eth & indestructible)
 /ItemDisplay[UNI 7bt ETH]:	%GOLD%%NAME% %DGREEN%Hellslayer
 /ItemDisplay[UNI 7bt]:		%GOLD% %NAME% %DGREEN%Hellslayer 			// Decapitator
 /ItemDisplay[UNI 7ga ETH]:	%GOLD%%NAME% %DGREEN%Messerschmidt's Reaver
 /ItemDisplay[UNI 7ga]:		%GOLD% %NAME% %DGREEN%Messerschmidt's Reaver 		// Champion Axe
-/ItemDisplay[UNI 7gi ETH]:	%GOLD% %NAME% %DGREEN%Executioner's Justice 
+/ItemDisplay[UNI 7gi ETH]:	%GOLD% %NAME% %DGREEN%Executioner's Justice 	
 /ItemDisplay[UNI 7gi]:		%GOLD%   %NAME% %DGREEN%Executioner's Justice   	// Glorious Axe
 
 /⃓̲ Maces
@@ -2138,10 +2138,10 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 7sp]:		%GOLD% %NAME% %DGREEN%Demon Limb 			// Tyrant Club
 /ItemDisplay[UNI 7mt ETH]:	%GOLD%%NAME% %DGREEN%Baranar's Star
 /ItemDisplay[UNI 7mt]:		%GOLD%%NAME% %DGREEN%Baranar's Star			// Devil Star
-/ItemDisplay[UNI 7fl ETH]:	%GOLD% %NAME% %DGREEN%Horizon's Tornado %GRAY%<%GOLD%][%GRAY%> %DGREEN%Stormlash 
+/ItemDisplay[UNI 7fl ETH]:	%GOLD% %NAME% %DGREEN%Horizon's Tornado %GRAY%<%GOLD%][%GRAY%> %DGREEN%Stormlash 	
 /ItemDisplay[UNI 7fl]:		%GOLD%    %NAME% %DGREEN%Horizon's Tornado %WHITE%<%GOLD%][%WHITE%> %DGREEN%Stormlash    	// Scourge
 /ItemDisplay[UNI 7wh]:		%GOLD%     %NAME% %DGREEN%Stone Crusher %WHITE%<%GOLD%][%WHITE%> %DGREEN%Schaefer's Hammer     		// Legendary Mallet (Schaefer's Hammer: always non-eth)
-/ItemDisplay[UNI 7m7 ETH]:	%GOLD% %NAME% %DGREEN%Windhammer 
+/ItemDisplay[UNI 7m7 ETH]:	%GOLD% %NAME% %DGREEN%Windhammer 	
 /ItemDisplay[UNI 7m7]:		%GOLD%   %NAME% %DGREEN%Windhammer   			// Ogre Maul
 /ItemDisplay[UNI 7gm]:		%GOLD%         %NAME% %DGREEN%Earth Shifter %WHITE%<%GOLD%][%WHITE%> %DGREEN%The Cranium Basher         	// Thunder Maul (The Cranium Basher: always non-eth)
 
@@ -2158,12 +2158,12 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 9sc]:		%GOLD%%NAME% %DGREEN%Zakarum's Hand			// Rune Scepter
 /ItemDisplay[UNI 9qs ETH]:	%GOLD%%NAME% %DGREEN%The Fetid Sprinkler
 /ItemDisplay[UNI 9qs]:		%GOLD% %NAME% %DGREEN%The Fetid Sprinkler 		// Holy Water Sprinkler
-/ItemDisplay[UNI 9ws ETH]:	%GOLD%  %NAME% %DGREEN%Hand of Blessed Light  
+/ItemDisplay[UNI 9ws ETH]:	%GOLD%  %NAME% %DGREEN%Hand of Blessed Light  	
 /ItemDisplay[UNI 9ws]:		%GOLD%   %NAME% %DGREEN%Hand of Blessed Light   	// Divine Scepter
 /⃓̲	Elite
-/ItemDisplay[UNI 7sc ETH]:	%GOLD%  %NAME% %DGREEN%Heaven's Light %GRAY%[1-2] <%GOLD%][%GRAY%> %DGREEN%The Redeemer  
-/ItemDisplay[UNI 7sc]:		%GOLD%     %NAME% %DGREEN%Heaven's Light %GRAY%[1-2] %WHITE%<%GOLD%][%WHITE%> %DGREEN%The Redeemer     		// Mighty Scepter
-/ItemDisplay[UNI 7ws ETH]:	%GOLD%  %NAME% %DGREEN%Astreon's Iron Ward  
+/ItemDisplay[UNI 7sc ETH]:	%GOLD%  %NAME% %DGREEN%Heaven's Light <%GOLD%][%GRAY%> %DGREEN%The Redeemer  	
+/ItemDisplay[UNI 7sc]:		%GOLD%     %NAME% %DGREEN%Heaven's Light %WHITE%<%GOLD%][%WHITE%> %DGREEN%The Redeemer     		// Mighty Scepter
+/ItemDisplay[UNI 7ws ETH]:	%GOLD%  %NAME% %DGREEN%Astreon's Iron Ward  	
 /ItemDisplay[UNI 7ws]:		%GOLD%   %NAME% %DGREEN%Astreon's Iron Ward   		// Caduceus  (not Ward)
 
 /⃓̲ Swords
@@ -2205,7 +2205,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 9fc]:		%GOLD%  %NAME% %DGREEN%Blade of Ali Baba %GRAY%[2]  %DGREEN%	// Tulwar
 /ItemDisplay[UNI 9cr ETH]:	%GOLD% %NAME% %GRAY%>> %DGREEN%Ginther's Rift 		// Dimensional Blade (eth & auto-repair)
 /ItemDisplay[UNI 9cr]:		%GOLD%  %NAME% %DGREEN%Ginther's Rift  			// Dimensional Blade
-/ItemDisplay[UNI 9bs ETH]:	%GOLD% %NAME% %DGREEN%Headstriker 
+/ItemDisplay[UNI 9bs ETH]:	%GOLD% %NAME% %DGREEN%Headstriker 	
 /ItemDisplay[UNI 9bs]:		%GOLD%  %NAME% %DGREEN%Headstriker  			// Battle Sword
 /ItemDisplay[UNI 9ls ETH]:	%GOLD%%NAME% %DGREEN%Plague Bearer
 /ItemDisplay[UNI 9ls]:		%GOLD%   %NAME% %DGREEN%Plague Bearer   		// Rune Sword
@@ -2238,7 +2238,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 
 /⃓̲ Daggers
 /⃓̲	Normal
-/ItemDisplay[UNI dgr ETH]:	%GOLD%  %NAME% %DGREEN%Gull  
+/ItemDisplay[UNI dgr ETH]:	%GOLD%  %NAME% %DGREEN%Gull  	
 /ItemDisplay[UNI dgr]:		%GOLD%  %NAME% %DGREEN%Gull  				// Dagger
 /ItemDisplay[UNI dir ETH]:	%GOLD%%NAME% %DGREEN%The Diggler
 /ItemDisplay[UNI dir]:		%GOLD%%NAME% %DGREEN%The Diggler			// Dirk
@@ -2257,7 +2257,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 9bl]:		%GOLD%%NAME% %DGREEN%Stormspike				// Stilleto
 /⃓̲	Elite
 /ItemDisplay[UNI 7dg]:		%GOLD% %NAME% %DGREEN%Wizardspike 			// Bone Knife (always non-eth)
-/ItemDisplay[UNI 7kr ETH]:	%GOLD% %NAME% %DGREEN%Fleshripper 
+/ItemDisplay[UNI 7kr ETH]:	%GOLD% %NAME% %DGREEN%Fleshripper 	
 /ItemDisplay[UNI 7kr]:		%GOLD%    %NAME% %DGREEN%Fleshripper    		// Fanged Knife
 /ItemDisplay[UNI 7bl]:		%GOLD%%NAME% %GRAY%>> %DGREEN%Ghostflame		// Legend Spike (always eth & indestructible)
 
@@ -2291,7 +2291,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲	Elite
 /ItemDisplay[UNI 7o7 ETH]:	%GOLD%  %NAME% %DGREEN%Bonehew %GRAY%[2-3]  %DGREEN%
 /ItemDisplay[UNI 7o7]:		%GOLD% %NAME% %DGREEN%Bonehew %GRAY%[2-3] %DGREEN%	// Ogre Axe
-/ItemDisplay[UNI 7s8 ETH]:	%GOLD%   %NAME% %DGREEN%The Reaper's Toll   
+/ItemDisplay[UNI 7s8 ETH]:	%GOLD%   %NAME% %DGREEN%The Reaper's Toll   	
 /ItemDisplay[UNI 7s8]:		%GOLD%    %NAME% %DGREEN%The Reaper's Toll    		// Thresher
 /ItemDisplay[UNI 7pa ETH]:	%GOLD%  %NAME% %DGREEN%Tomb Reaver %GRAY%[1-3]  %DGREEN%
 /ItemDisplay[UNI 7pa]:		%GOLD%  %NAME% %DGREEN%Tomb Reaver %GRAY%[1-3]  %DGREEN%	// Cryptic Axe
@@ -2323,7 +2323,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲	Elite
 /ItemDisplay[UNI 7sr ETH]:	%GOLD%%NAME% %DGREEN%Arioc's Needle
 /ItemDisplay[UNI 7sr]:		%GOLD% %NAME% %DGREEN%Arioc's Needle 			// Hyperion Spear
-/ItemDisplay[UNI 7br ETH]:	%GOLD% %NAME% %DGREEN%Viperfork 
+/ItemDisplay[UNI 7br ETH]:	%GOLD% %NAME% %DGREEN%Viperfork 	
 /ItemDisplay[UNI 7br]:		%GOLD% %NAME% %DGREEN%Viperfork 			// Mancatcher
 /ItemDisplay[UNI 7p7]:		%GOLD% %NAME% %DGREEN%Steel Pillar 			// War Pike (always non-eth)
 /⃓̲	Amazon Spears
@@ -2425,9 +2425,9 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 8ws ETH]:	%GOLD%%NAME% %DGREEN%Skull Collector
 /ItemDisplay[UNI 8ws]:		%GOLD% %NAME% %DGREEN%Skull Collector 			// Rune Staff
 /⃓̲	Elite
-/ItemDisplay[UNI 6cs ETH]:	%GOLD%   %NAME% %DGREEN%Ondal's Wisdom   
+/ItemDisplay[UNI 6cs ETH]:	%GOLD%   %NAME% %DGREEN%Ondal's Wisdom   	
 /ItemDisplay[UNI 6cs]:		%GOLD%     %NAME% %DGREEN%Ondal's Wisdom     		// Elder Staff
-/ItemDisplay[UNI 6ws ETH]:	%GOLD%   %NAME% %DGREEN%Mang Song's Lesson   
+/ItemDisplay[UNI 6ws ETH]:	%GOLD%   %NAME% %DGREEN%Mang Song's Lesson   	
 /ItemDisplay[UNI 6ws]:		%GOLD%     %NAME% %DGREEN%Mang Song's Lesson     	// Archon Staff
 
 /⃓̲ Wands
@@ -2441,18 +2441,18 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI gwn ETH]:	%GOLD%%NAME% %DGREEN%Ume's Lament
 /ItemDisplay[UNI gwn]:		%GOLD%%NAME% %DGREEN%Ume's Lament			// Grim Wand
 /⃓̲	Exceptional
-/ItemDisplay[UNI 9wn ETH]:	%GOLD% %NAME% %DGREEN%Suicide Branch 
+/ItemDisplay[UNI 9wn ETH]:	%GOLD% %NAME% %DGREEN%Suicide Branch 	
 /ItemDisplay[UNI 9wn]:		%GOLD% %NAME% %DGREEN%Suicide Branch 			// Burnt Wand
 /ItemDisplay[UNI 9yw ETH]:	%GOLD%%NAME% %DGREEN%Carin Shard
 /ItemDisplay[UNI 9yw]:		%GOLD%%NAME% %DGREEN%Carin Shard			// Petrified Wand
-/ItemDisplay[UNI 9bw ETH]:	%GOLD% %NAME% %DGREEN%Arm of King Leoric 
+/ItemDisplay[UNI 9bw ETH]:	%GOLD% %NAME% %DGREEN%Arm of King Leoric 	
 /ItemDisplay[UNI 9bw]:		%GOLD% %NAME% %DGREEN%Arm of King Leoric 		// Tomb Wand
 /ItemDisplay[UNI 9gw ETH]:	%GOLD%%NAME% %DGREEN%Blackhand Key
 /ItemDisplay[UNI 9gw]:		%GOLD% %NAME% %DGREEN%Blackhand Key 			// Grave Wand
 /⃓̲	Elite
-/ItemDisplay[UNI 7bw ETH]:	%GOLD% %NAME% %DGREEN%Boneshade 
+/ItemDisplay[UNI 7bw ETH]:	%GOLD% %NAME% %DGREEN%Boneshade 	
 /ItemDisplay[UNI 7bw]:		%GOLD% %NAME% %DGREEN%Boneshade 			// Lich Wand
-/ItemDisplay[UNI 7gw ETH]:	%GOLD%       %NAME% %DGREEN%Death's Web       
+/ItemDisplay[UNI 7gw ETH]:	%GOLD%       %NAME% %DGREEN%Death's Web       	
 /ItemDisplay[UNI 7gw]:		%GOLD%         %NAME% %DGREEN%Death's Web         	// Unearthed Wand
 
 /⃓̲ Assassin Katars
@@ -2465,11 +2465,11 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /ItemDisplay[UNI 7lw]:		%GOLD% %NAME% %DGREEN%Firelizard's Talons 		// Feral Claws  (not Talons)
 
 /⃓̲ Sorceress Orbs
-/ItemDisplay[UNI oba ETH]:	%GOLD%   %NAME% %DGREEN%The Oculus   
+/ItemDisplay[UNI oba ETH]:	%GOLD%   %NAME% %DGREEN%The Oculus   	
 /ItemDisplay[UNI oba]:		%GOLD%     %NAME% %DGREEN%The Oculus     		// Swirling Crystal
-/ItemDisplay[UNI obc ETH]:	%GOLD%       %NAME% %DGREEN%Eschuta's Temper       
+/ItemDisplay[UNI obc ETH]:	%GOLD%       %NAME% %DGREEN%Eschuta's Temper       	
 /ItemDisplay[UNI obc]:		%GOLD%         %NAME% %DGREEN%Eschuta's Temper         	// Eldritch Orb
-/ItemDisplay[UNI obf ETH]:	%GOLD%       %NAME% %DGREEN%Death's Fathom       
+/ItemDisplay[UNI obf ETH]:	%GOLD%       %NAME% %DGREEN%Death's Fathom       	
 /ItemDisplay[UNI obf]:		%GOLD%         %NAME% %DGREEN%Death's Fathom         	// Dimensional Shard
 
 
@@ -2747,7 +2747,7 @@ ItemDisplay[MAG]: %NAME%%DGREEN%
 /⃓̲	   1		Blade Barrier
 /⃓̲	   2		Spirit Forge, Moser's Blessed Circle, Blade of Ali Baba, Witchwild String, Hellrack; Aldur's Stony Gaze, Griswold's Valor, Immortal King's Will, Immortal King's Stone Crusher
 /⃓̲	   3		Black Hades, Head Hunter's Glory, Hone Sundan; Griswold's Heart, Griswold's Honor
-/⃓̲	  1-2		Crown of Ages, Giant Skull, Djinn Slayer, Heaven's Light
+/⃓̲	  1-2		Crown of Ages, Giant Skull, Djinn Slayer
 /⃓̲	  1-3		Tomb Reaver; Natalya's Shadow
 /⃓̲	  2-3		Bonehew; Aldur's Rhythm
 /⃓̲	  3-4		Griswold's Redemption
@@ -2826,7 +2826,7 @@ ItemDisplay[SET (xap OR stu)]:					%DGREEN%Cow King's %GREEN%%NAME%%CONTINUE%
 /⃓̲		Blackoak Shield		+1 Inner Sight instead of 4% chance to cast level 4 Weaken when struck
 /⃓̲		Boneflesh		+3 Summon Dire Wolf
 /⃓̲		Bonehew			20% Increased Energy, Bone Spear Fires 2 Additional Projectiles, 2-3 Sockets (was 2), NONE of: (50% chance to cast Level 16 Bone Spear on Striking, 30 Charges of Level 14 Corpse Explosion)
-/⃓̲		Corpsemourn		Corpse Explosion Deals +5% of Maximum Life, +1 Summon Mastery, 50 charges of Level 5 Desecrate (was 40 charges of Corpse Explosion), NONE of: (6% chance to cast Level 2 Iron Maiden when struck)
+/⃓̲		Corpsemourn		Corpse Explosion Deals +5-7% of Maximum Life, +1 Summon Mastery, 50 charges of Level 5 Desecrate (was 40 charges of Corpse Explosion), NONE of: (6% chance to cast Level 2 Iron Maiden when struck)
 /⃓̲		Doomslinger		+1 Multiple Shot (was Amazon Skills), no ias (was 30%)
 /⃓̲		Flamebellow		+12-18 Flame Dash (was Inferno)
 /⃓̲		Firelizard's Talons	+1-2 Fire Skills (was Wake of Inferno\Wake of Fire), +1-2 Fists of Ember, +1 to All Skills while 5 Ember Charges are Active
@@ -2836,8 +2836,10 @@ ItemDisplay[SET (xap OR stu)]:					%DGREEN%Cow King's %GREEN%%NAME%%CONTINUE%
 /⃓̲		Grandfather		+3 Two Handed Weapon Mastery, 2% of Life Regenerated per second
 /⃓̲		Guardian Angel		+2.5 Attack Rating per Character Level (was only vs Demons), +7% Maximum Resists (was 15%), +10-15% All Resist
 /⃓̲		Head Hunter's Glory	+150 Attack Rating per Socketed Rune\Gem, 3 Sockets (was 1-3)
+/⃓̲		Heaven's Light		+50% Increased Sanctuary Area Damage Rate, no sockets (was 1-2)
 /⃓̲		Hellfire Torch		No chance to cast level 10 Firestorm on Attack (was 5%)
 /⃓̲		Hexfire			Can Summon One Additional Hydra
+/⃓̲		Lava Gout		+10 to Enflame (was 2% chance to cast level 10 Enchant)
 /⃓̲		Lightsabre		Lightning Absorb 15% (was 25%)
 /⃓̲		Magewrath		+3 to Magic Arrow (was Guided Arrow), Magic Arrow Fires 2 Additional Arrows
 /⃓̲		Marrowwalk		+1 Flesh\Bone Offering, no charges of Level 33 Bone Prison Charges (was 13)
@@ -2885,7 +2887,7 @@ ItemDisplay[SET (xap OR stu)]:					%DGREEN%Cow King's %GREEN%%NAME%%CONTINUE%
 /⃓̲			Credendum
 /⃓̲			Telling of Beads
 /⃓̲	Any of the above  (excluding Wisp Projector & "The Disciple": Dark Adherent, Rite of Passage, Credendum, Telling of Beads)
-/ItemDisplay[UNI (aq2 OR cq2 OR pac OR 9cm OR plt OR 7o7 OR xar OR rxb OR 7gs OR 7lw OR hgl OR uh9 OR 7gd OR xlt OR ush OR cm2 OR 9sb OR 8sw OR umb OR uow OR 6cs OR 9mp OR 8mx OR xts OR 72a OR 7cs OR ztb OR umg OR ulm OR uit OR 9bl OR 7wc OR 9fb OR 7br OR 7bk OR 6sw OR 8s8 OR hbw OR lbb OR 7cr OR 7wh OR uar OR 7ls OR uml)]: %PURPLE%{%GOLD%%NAME%%PURPLE%}%CONTINUE%
+/ItemDisplay[UNI (aq2 OR cq2 OR pac OR 9cm OR plt OR 7o7 OR xar OR rxb OR 7gs OR 7lw OR hgl OR uh9 OR 7gd OR xlt OR ush OR cm2 OR 9sb OR 8sw OR umb OR uow OR 6cs OR 9mp OR 8mx OR xts OR 72a OR 7cs OR ztb OR umg OR ulm OR uit OR 9bl OR 7wc OR 9fb OR 7br OR 7bk OR 6sw OR 8s8 OR hbw OR lbb OR 7cr OR 7wh OR uar OR 7ls OR uml OR xtg OR 7sc)]: %PURPLE%{%GOLD%%NAME%%PURPLE%}%CONTINUE%
 /ItemDisplay[SET (sbr OR swb OR 7ma OR ulg OR wsp OR uld OR ci0 OR uhm OR tbt)]: %PURPLE%{%GREEN%%NAME%%PURPLE%}%CONTINUE%
 
 /⃓̲ Special Properties
@@ -2898,7 +2900,7 @@ ItemDisplay[UNI ETH (xla OR xpl OR uul OR uvb OR 9la OR 7ba OR 7sp OR 9cr OR 7bl
 ItemDisplay[UNI upk]: %NAME% %GRAY%[1]%CONTINUE%
 ItemDisplay[((UNI (9fc OR xml OR 8s8 OR xng OR 6hx)) OR (SET (ba5 OR dr8 OR urn OR 7m7)))]: %NAME% %GRAY%[2]%CONTINUE%
 ItemDisplay[((UNI (ush OR 9st OR xul)) OR (SET (xar OR paf)))]: %NAME% %GRAY%[3]%CONTINUE%
-ItemDisplay[UNI (urn OR uh9 OR 7sm OR 7sc)]: %NAME% %GRAY%[1-2]%CONTINUE%
+ItemDisplay[UNI (urn OR uh9 OR 7sm)]: %NAME% %GRAY%[1-2]%CONTINUE%
 ItemDisplay[((UNI 7pa) OR (SET ucl))]: %NAME% %GRAY%[1-3]%CONTINUE%
 ItemDisplay[((UNI 7o7) OR (SET 9mt))]: %NAME% %GRAY%[2-3]%CONTINUE%
 ItemDisplay[SET 7ws]: %NAME% %GRAY%[3-4]%CONTINUE%
@@ -2910,7 +2912,7 @@ ItemDisplay[UNI ((ETH (7gw OR obc OR obf)) OR (!ETH ((amu ILVL>84) OR (rin ILVL>
 ItemDisplay[((UNI ((ETH ama) OR (!ETH ((amu ILVL>72) OR (rin ILVL>65) OR cm3 OR dre OR xlt OR uld OR ama OR (7wh ILVL>82) OR (7sc ILVL>79) OR 6cs OR oba OR 6ws)))) OR (SET ulg))]:	     %NAME%%DGREEN%     	
 ItemDisplay[((UNI ((ETH (xhn OR xlt)) OR (!ETH ((rin ILVL>38) OR ci2 OR bac OR tgl OR hgl OR xvb OR xmb OR zlb OR zvb OR umc OR 7kr OR 7s8 OR rxb OR urn OR (7fl ILVL>85) OR 7gd OR 7gm OR 7sc OR pac OR xrs OR upl)))) OR (SET ((amu ILVL>25) OR xhm OR xtb OR xmg)))]:	    %NAME%%DGREEN%    	
 ItemDisplay[((UNI ((ETH (6cs OR oba OR uvb OR 7s8 OR 6ws OR 7bk OR 7b8 OR ulc OR xrs)) OR (!ETH ((amu ILVL>57) OR xhm OR utu OR uvb OR uhb OR ztb OR 9ws OR 7ws OR amf OR 6l7 OR 8hx OR 7gi OR 9ls OR am7 OR xtp OR uar OR 7fl OR 8lw OR 7bk OR 7m7 OR nef OR uow OR xpl)))) OR (SET 7qr))]:	   %NAME%%DGREEN%   	
-ItemDisplay[((UNI ((ETH (uar OR uap OR baa OR dra OR ci3 OR uui OR 7wa OR (7sc ILVL>79) OR 7sc OR 7o7 OR 7pa OR dgr OR (uhm ILVL>76) OR uhm OR 9fc OR utu OR 7gm OR xpl OR 9ws OR 7ws)) OR (!ETH (xsh OR nee OR umg OR uvc OR 7b8 OR 8lb OR 8sw OR 9fc OR 7pa OR drb OR pae OR dgr OR 9bs OR umb OR 9mp OR 7wh OR tbl OR mgl)))) OR (SET (ult OR xhb OR ci3 OR zvb OR xmb OR ne9 OR utc OR oba OR xsk OR uhm OR uld OR amc OR (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85))))))]:	  %NAME%%DGREEN%  	
+ItemDisplay[((UNI ((ETH (uar OR uap OR baa OR dra OR ci3 OR uui OR 7wa OR 7sc OR 7o7 OR 7pa OR dgr OR (uhm ILVL>76) OR uhm OR 9fc OR utu OR 7gm OR xpl OR 9ws OR 7ws)) OR (!ETH (xsh OR nee OR umg OR uvc OR 7b8 OR 8lb OR 8sw OR 9fc OR 7pa OR drb OR pae OR dgr OR 9bs OR umb OR 9mp OR 7wh OR tbl OR mgl)))) OR (SET (ult OR xhb OR ci3 OR zvb OR xmb OR ne9 OR utc OR oba OR xsk OR uhm OR uld OR amc OR (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85))))))]:	  %NAME%%DGREEN%  	
 ItemDisplay[((UNI ETH (9cr OR 7cs OR 7dg OR 9tk OR xkp OR xlm OR xrn OR bac OR xts OR xhb OR ztb OR 7sp OR 9ta OR 9wn OR 9bw OR 7bw OR 7br OR 9bs OR 7kr OR 72a OR 7gi OR dre OR (7fl ILVL>85) OR 7fl OR 7m7 OR umb OR xhm OR 7wh OR 7s7 OR 9st OR zvb OR zhb OR uhb OR xmb OR xtb OR uvg OR nea OR nef OR pa9 OR uow OR upk OR upl OR xea)) OR (SET ((amu ILVL>16) OR xap OR stu OR xhl OR 6cs OR 7gd OR uul OR zhb OR xhg OR xtg OR xh9 OR uh9 OR xul OR vbt OR xar OR urn OR 7ws OR paf OR 7m7 OR ucl OR ba5 OR zmb)))]:	 %NAME%%DGREEN% 	
 ItemDisplay[UNI !ETH (amu OR rin OR skp OR xap OR xkp OR xlm OR xsk OR xrn OR bad OR stu OR aar OR xui OR xar OR xts OR vgl OR xlg OR xmg OR xtg OR uhg OR xlb OR lbl OR 9gi OR 7mp OR mau OR 9sp OR 9m9 OR 7sp OR 9sb OR 9cm OR 7gs OR 7dg OR 7wc OR 7sr OR am9 OR 6sw OR amb OR 8rx OR 8ls OR 8ws OR 9wn OR 9bw OR 7bw OR 7wb OR 7lw OR uh9 OR bae OR upk OR 72a OR uts OR 8s8 OR 9fb OR 9gs OR 7ls OR 7b7 OR gma OR 9fl OR 9qs OR 9cr OR 9kr OR 9s8 OR 7bt OR 7ga OR 9pa OR 92h OR drd OR lbt OR 9gm OR plt OR xow OR gsd OR 9gw OR 9tw OR 7p7 OR 7br OR 7o7 OR uml OR cap)]:	 %NAME%%DGREEN% 	
 
