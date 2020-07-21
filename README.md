@@ -48,15 +48,15 @@ Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-M
 ## Performance
 Filter rules for Journey (and Feather) have been written and organized in ways to optimize computer performance. One factor in that performance is the effective length of the filter file - the number of lines with active rules. Following is a list of these filter lengths:
 
-* [Feather](https://github.com/BetweenWalls/Feather#Feather) - 282
-* Journey - 505
-* [Journey (streamlined)](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) - 505
-* [Journey (all skills)](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills) - 516
-* [Journey (individual names)](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names) - 1040
+* [Feather](https://github.com/BetweenWalls/Feather#Feather) - 288
+* Journey - 488
+* [Journey (streamlined)](https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined) - 488
+* [Journey (all skills)](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills) - 499
+* [Journey (individual names)](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names) - 1023
 
 ## Modifications
 Modifications made to the filter can be seen by disabling and then re-enabling custom loot filters in-game. They can be made with any text editor - just ensure the launcher's **auto update** checkbox is not selected, or they will be overwritten.
 
 The wiki has an introduction to [loot filtration](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration) and a list of item [codes](https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes) for anyone interested in learning about filter customization. Additionally, the Path of Diablo discord has a channel dedicated to lootfilter discussion.
 
-Journey includes a brief explanation of filtration at the top of the file. There are also many comments throughout that describe what the filter's rules are doing, but some rules have more details than can be fully explained in a brief comment. If you know of a better way to explain something, feel free to mention it on the discord @*BetweenWalls#2390*. Other feedback is welcome too.
+Journey includes a brief explanation of filtration at the top of the file. There are also many comments throughout that describe what the filter's rules are doing. If something isn't clear, feel free to mention it on discord *@BetweenWalls#2390*. All feedback will be considered.
