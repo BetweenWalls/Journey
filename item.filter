@@ -1,7 +1,7 @@
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 /	"Journey" Item Filter for Diablo II: Path of Diablo  (streamlined)
-/		Date Updated:	15 JULY 2020
-/		Info:		https://github.com/BetweenWalls/Journey/tree/streamlined#Journey-streamlined
+/		Date Updated:	21 JULY 2020
+/		Info:		https://github.com/BetweenWalls/Journey/tree/streamlined
 /
 /		Direct URL:	https://raw.githubusercontent.com/BetweenWalls/Journey/streamlined/item.filter
 /⃓═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
@@ -517,8 +517,8 @@ ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=2 NMAG) CLVL>69) (WEAPON OR ITEMSTAT67>999)]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((NMAG (SOCK=2 OR SOCK=0) CLVL>59) (NORM OR (EXC !(xh9 OR xtp OR xsh OR ci2 OR (xar ETH)))))]:
 ItemDisplay[!(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) ((SOCK=1 NMAG) CLVL>14)]:
-ItemDisplay[NMAG CLVL>14 (ARMOR SOCK=0 !(CL1 OR CL2 OR ((EQ1 OR EQ2 OR EQ3) (ELT OR ED>0)) OR ci2 OR xar OR xtp))]:
-ItemDisplay[NMAG CLVL>14 ((WP4 (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di)) OR buc OR xuc OR (WP9 (SOCK=5 OR (SOCK=0 SUP (lbw OR 8lb OR 6lb OR sbb OR 8s8 OR 6s7 OR swb OR 8sw OR 6sw OR rxb OR 8rx OR 6rx)))))]:
+ItemDisplay[NMAG CLVL>14 (ARMOR SOCK=0 !(CL1 OR CL2 OR CL3 OR CL4 OR ((EQ1 OR EQ2 OR EQ3) (ELT OR ED>0)) OR ci2 OR xar OR xtp))]:
+ItemDisplay[NMAG CLVL>14 ((WP4 (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di)) OR buc OR xuc OR (WP9 (SOCK=5 OR (SOCK=0 ILVL>40 SUP (CL7 OR lbw OR 8lb OR 6lb OR sbb OR 8s8 OR 6s7 OR swb OR 8sw OR 6sw OR rxb OR 8rx OR 6rx)))))]:
 
 /⃓̲ Hidden: Regular body armor
 /⃓̲    GROUP			EXCEPTIONS							LEVEL
@@ -1128,7 +1128,7 @@ ItemDisplay[UNI ETH (xla OR xpl OR uul OR uvb OR 9la OR 7ba OR 7sp OR 9cr OR 7bl
 ItemDisplay[UNI upk]: %NAME% %GRAY%[1]%CONTINUE%
 ItemDisplay[((UNI (9fc OR xml OR 8s8 OR xng OR 6hx)) OR (SET (ba5 OR dr8 OR urn OR 7m7)))]: %NAME% %GRAY%[2]%CONTINUE%
 ItemDisplay[((UNI (ush OR 9st OR xul)) OR (SET (xar OR paf)))]: %NAME% %GRAY%[3]%CONTINUE%
-ItemDisplay[UNI (urn OR uh9 OR 7sm OR 7sc)]: %NAME% %GRAY%[1-2]%CONTINUE%
+ItemDisplay[UNI (urn OR uh9 OR 7sm)]: %NAME% %GRAY%[1-2]%CONTINUE%
 ItemDisplay[((UNI 7pa) OR (SET ucl))]: %NAME% %GRAY%[1-3]%CONTINUE%
 ItemDisplay[((UNI 7o7) OR (SET 9mt))]: %NAME% %GRAY%[2-3]%CONTINUE%
 ItemDisplay[SET 7ws]: %NAME% %GRAY%[3-4]%CONTINUE%
@@ -1140,7 +1140,7 @@ ItemDisplay[UNI ((ETH (7gw OR obc OR obf)) OR (!ETH ((amu ILVL>84) OR (rin ILVL>
 ItemDisplay[((UNI ((ETH ama) OR (!ETH ((amu ILVL>72) OR (rin ILVL>65) OR cm3 OR dre OR xlt OR uld OR ama OR (7wh ILVL>82) OR (7sc ILVL>79) OR 6cs OR oba OR 6ws)))) OR (SET ulg))]:	     %NAME%%DGREEN%     	
 ItemDisplay[((UNI ((ETH (xhn OR xlt)) OR (!ETH ((rin ILVL>38) OR ci2 OR bac OR tgl OR hgl OR xvb OR xmb OR zlb OR zvb OR umc OR 7kr OR 7s8 OR rxb OR urn OR (7fl ILVL>85) OR 7gd OR 7gm OR 7sc OR pac OR xrs OR upl)))) OR (SET ((amu ILVL>25) OR xhm OR xtb OR xmg)))]:	    %NAME%%DGREEN%    	
 ItemDisplay[((UNI ((ETH (6cs OR oba OR uvb OR 7s8 OR 6ws OR 7bk OR 7b8 OR ulc OR xrs)) OR (!ETH ((amu ILVL>57) OR xhm OR utu OR uvb OR uhb OR ztb OR 9ws OR 7ws OR amf OR 6l7 OR 8hx OR 7gi OR 9ls OR am7 OR xtp OR uar OR 7fl OR 8lw OR 7bk OR 7m7 OR nef OR uow OR xpl)))) OR (SET 7qr))]:	   %NAME%%DGREEN%   	
-ItemDisplay[((UNI ((ETH (uar OR uap OR baa OR dra OR ci3 OR uui OR 7wa OR (7sc ILVL>79) OR 7sc OR 7o7 OR 7pa OR dgr OR (uhm ILVL>76) OR uhm OR 9fc OR utu OR 7gm OR xpl OR 9ws OR 7ws)) OR (!ETH (xsh OR nee OR umg OR uvc OR 7b8 OR 8lb OR 8sw OR 9fc OR 7pa OR drb OR pae OR dgr OR 9bs OR umb OR 9mp OR 7wh OR tbl OR mgl)))) OR (SET (ult OR xhb OR ci3 OR zvb OR xmb OR ne9 OR utc OR oba OR xsk OR uhm OR uld OR amc OR (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85))))))]:	  %NAME%%DGREEN%  	
+ItemDisplay[((UNI ((ETH (uar OR uap OR baa OR dra OR ci3 OR uui OR 7wa OR 7sc OR 7o7 OR 7pa OR dgr OR (uhm ILVL>76) OR uhm OR 9fc OR utu OR 7gm OR xpl OR 9ws OR 7ws)) OR (!ETH (xsh OR nee OR umg OR uvc OR 7b8 OR 8lb OR 8sw OR 9fc OR 7pa OR drb OR pae OR dgr OR 9bs OR umb OR 9mp OR 7wh OR tbl OR mgl)))) OR (SET (ult OR xhb OR ci3 OR zvb OR xmb OR ne9 OR utc OR oba OR xsk OR uhm OR uld OR amc OR (vbt ((ILVL>27 ILVL<32) OR (ILVL>63 ILVL<68) OR (ILVL>80 ILVL<85))))))]:	  %NAME%%DGREEN%  	
 ItemDisplay[((UNI ETH (9cr OR 7cs OR 7dg OR 9tk OR xkp OR xlm OR xrn OR bac OR xts OR xhb OR ztb OR 7sp OR 9ta OR 9wn OR 9bw OR 7bw OR 7br OR 9bs OR 7kr OR 72a OR 7gi OR dre OR (7fl ILVL>85) OR 7fl OR 7m7 OR umb OR xhm OR 7wh OR 7s7 OR 9st OR zvb OR zhb OR uhb OR xmb OR xtb OR uvg OR nea OR nef OR pa9 OR uow OR upk OR upl OR xea)) OR (SET ((amu ILVL>16) OR xap OR stu OR xhl OR 6cs OR 7gd OR uul OR zhb OR xhg OR xtg OR xh9 OR uh9 OR xul OR vbt OR xar OR urn OR 7ws OR paf OR 7m7 OR ucl OR ba5 OR zmb)))]:	 %NAME%%DGREEN% 	
 ItemDisplay[UNI !ETH (amu OR rin OR skp OR xap OR xkp OR xlm OR xsk OR xrn OR bad OR stu OR aar OR xui OR xar OR xts OR vgl OR xlg OR xmg OR xtg OR uhg OR xlb OR lbl OR 9gi OR 7mp OR mau OR 9sp OR 9m9 OR 7sp OR 9sb OR 9cm OR 7gs OR 7dg OR 7wc OR 7sr OR am9 OR 6sw OR amb OR 8rx OR 8ls OR 8ws OR 9wn OR 9bw OR 7bw OR 7wb OR 7lw OR uh9 OR bae OR upk OR 72a OR uts OR 8s8 OR 9fb OR 9gs OR 7ls OR 7b7 OR gma OR 9fl OR 9qs OR 9cr OR 9kr OR 9s8 OR 7bt OR 7ga OR 9pa OR 92h OR drd OR lbt OR 9gm OR plt OR xow OR gsd OR 9gw OR 9tw OR 7p7 OR 7br OR 7o7 OR uml OR cap)]:	 %NAME%%DGREEN% 	
 
