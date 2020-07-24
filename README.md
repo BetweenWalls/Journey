@@ -35,3 +35,5 @@ Images are copied from the master branch, and may not reflect changes made for t
 ![_](/images/regular_items.png)
 ![_](/images/regular_class_items.png)
 ![_](/images/gems.png)
+![_](/images/unidentified_highlighting.png)
+
