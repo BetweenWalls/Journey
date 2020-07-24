@@ -40,7 +40,6 @@ Images are copied from the master branch, and may not reflect changes made for t
 
 ![_](/images/miscellaneous_items.png)
 ![_](/images/unidentified_items.png)
-![_](/images/uniques_special_properties.png)
 ![_](/images/runes.png)
 ![_](/images/regular_items.png)
 ![_](/images/regular_class_items.png)
