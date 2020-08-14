@@ -54,6 +54,9 @@ Filter rules for Journey (and Feather) have been written and organized in ways t
 * [Journey (all skills)](https://github.com/BetweenWalls/Journey/tree/all-skills#Journey-all-skills) - 499
 * [Journey (individual names)](https://github.com/BetweenWalls/Journey/tree/individual-names#Journey-individual-names) - 1023
 
+## History
+This filter's predecessor used to be shared on the wiki, but was removed because it modified how items were displayed in a way that was deemed unacceptable. The Journey filter was created afterward as a new version without such modifications. I haven't added it to the wiki due to my previous experience, but to be clear: there's nothing wrong with Journey and there's no reason it shouldn't be shared.
+
 ## Modifications
 Modifications made to the filter can be seen by disabling and then re-enabling custom loot filters in-game. They can be made with any text editor - just ensure the launcher's **auto update** checkbox is not selected, or they will be overwritten.
 
