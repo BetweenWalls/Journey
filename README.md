@@ -16,8 +16,7 @@ If the in-file descriptions/options are unwanted, the [streamlined version](http
 * dynamic display for high-price sellable items (more prices are shown the poorer you are)
 * popular crafting ingredients marked with codified recipes
 * natural sockets shown for unidentified unique/set items
-* enhanced damage/defense shown for superior items
-* identified relics show their tier
+* enhanced damage/defense and reduced requirements shown for superior items
 * shopping for valuable items from merchants made easier
 
 ### Examples of optional features:
@@ -26,14 +25,12 @@ If the in-file descriptions/options are unwanted, the [streamlined version](http
 * all crafting ingredients with codified recipes
 * item quality (normal, exceptional, elite) for uniques/rares
 * quantity for keys/tomes
-* extra highlighting for unique/set items changed in Path of Diablo
-* textless gems
 * various highlighting options for regular/magic/rare items
 
 ## Installation
 Follow the [wiki instructions](https://pathofdiablo.com/wiki/index.php?title=List_of_Loot_Filters#How_to_Use) and use the direct URL: https://raw.githubusercontent.com/BetweenWalls/Journey/master/item.filter
 
-Alternatively, [download **item.filter**](https://drive.google.com/uc?id=1jAXM-MkmWBtPZBJ40SqAmBrWv4xLKAD9) and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu.
+Alternatively, download **item.filter** and manually copy it to your *Path of Diablo* folder. Once in-game, enable the **custom loot filter** option from the *Settings* menu.
 
 ## Images
 ![_](/images/miscellaneous_items.png)
